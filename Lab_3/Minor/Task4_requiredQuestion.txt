@@ -1,0 +1,3 @@
+turtlebot_server.py broadcasts movement information for a simulated turtle, and receives updates to the turtle state
+turtlebot_client.py generates a window and renders the turtle
+
