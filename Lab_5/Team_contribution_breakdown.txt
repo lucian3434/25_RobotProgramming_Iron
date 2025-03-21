@@ -1,0 +1,5 @@
+Pierce: Task1: Connecting the robot using MakerControl and VNC viewer
+Alex: Task2: Estimation of the robot's state using odometery
+Keegan: Task3: Using the LiDAR sensor to have the robot follow an object
+
+All Team members: Testing the robot's movement functionality and fixing any errors that occur.
