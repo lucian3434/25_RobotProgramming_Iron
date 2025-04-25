@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yahboomcar_msgs/msg/ColorData.msg
+// generated code does not contain a copyright notice
+
+
+module yahboomcar_msgs {
+  module msg {
+    struct ColorData {
+      uint8 hue;
+
+      uint8 saturation;
+
+      uint8 value;
+    };
+  };
+};

@@ -1,0 +1,69 @@
+[0.119s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/robot_pose_publisher_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake /root/yahboomcar_ros2_ws/yahboomcar_ws/src/robot_pose_publisher_ros2 -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2
+[1.537s] -- The C compiler identification is GNU 9.4.0
+[2.400s] -- The CXX compiler identification is GNU 9.4.0
+[2.448s] -- Check for working C compiler: /usr/bin/cc
+[2.936s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.942s] -- Detecting C compiler ABI info
+[3.398s] -- Detecting C compiler ABI info - done
+[3.444s] -- Detecting C compile features
+[3.446s] -- Detecting C compile features - done
+[3.463s] -- Check for working CXX compiler: /usr/bin/c++
+[3.944s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.949s] -- Detecting CXX compiler ABI info
+[4.466s] -- Detecting CXX compiler ABI info - done
+[4.509s] -- Detecting CXX compile features
+[4.511s] -- Detecting CXX compile features - done
+[4.612s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.924s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.925s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.082s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[8.107s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.349s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[9.601s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.998s] -- Found FastRTPS: /opt/ros/foxy/include  
+[11.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.926s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[11.944s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.952s] -- Looking for pthread.h
+[12.438s] -- Looking for pthread.h - found
+[12.440s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.903s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[12.904s] -- Looking for pthread_create in pthreads
+[13.304s] -- Looking for pthread_create in pthreads - not found
+[13.304s] -- Looking for pthread_create in pthread
+[13.750s] -- Looking for pthread_create in pthread - found
+[13.755s] -- Found Threads: TRUE  
+[15.034s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[15.268s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[18.045s] -- Configuring done
+[18.096s] -- Generating done
+[18.104s] -- Build files have been written to: /root/yahboomcar_ros2_ws/yahboomcar_ws/build/robot_pose_publisher_ros2
+[18.139s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/robot_pose_publisher_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake /root/yahboomcar_ros2_ws/yahboomcar_ws/src/robot_pose_publisher_ros2 -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2
+[18.151s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/robot_pose_publisher_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --build /root/yahboomcar_ros2_ws/yahboomcar_ws/build/robot_pose_publisher_ros2 -- -j4 -l4
+[18.455s] [35m[1mScanning dependencies of target robot_pose_publisher[0m
+[18.969s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_pose_publisher.dir/src/robot_pose_publisher.cpp.o[0m
+[34.663s] [100%] [32m[1mLinking CXX executable robot_pose_publisher[0m
+[35.995s] [100%] Built target robot_pose_publisher
+[36.065s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/robot_pose_publisher_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --build /root/yahboomcar_ros2_ws/yahboomcar_ws/build/robot_pose_publisher_ros2 -- -j4 -l4
+[36.361s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/robot_pose_publisher_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --install /root/yahboomcar_ros2_ws/yahboomcar_ws/build/robot_pose_publisher_ros2
+[36.424s] -- Install configuration: ""
+[36.425s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2/lib/robot_pose_publisher_ros2/robot_pose_publisher
+[36.435s] -- Set runtime path of "/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2/lib/robot_pose_publisher_ros2/robot_pose_publisher" to ""
+[36.435s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/launch
+[36.436s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/launch/robot_pose_publisher_launch.py
+[36.438s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2/share/ament_index/resource_index/package_run_dependencies/robot_pose_publisher_ros2
+[36.440s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2/share/ament_index/resource_index/parent_prefix_path/robot_pose_publisher_ros2
+[36.442s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/ament_prefix_path.sh
+[36.443s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/ament_prefix_path.dsv
+[36.444s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/path.sh
+[36.446s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/environment/path.dsv
+[36.447s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.bash
+[36.449s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.sh
+[36.450s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.zsh
+[36.451s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/local_setup.dsv
+[36.453s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/package.dsv
+[36.454s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2/share/ament_index/resource_index/packages/robot_pose_publisher_ros2
+[36.456s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/cmake/robot_pose_publisher_ros2Config.cmake
+[36.457s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/cmake/robot_pose_publisher_ros2Config-version.cmake
+[36.459s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2/share/robot_pose_publisher_ros2/package.xml
+[36.467s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/robot_pose_publisher_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --install /root/yahboomcar_ros2_ws/yahboomcar_ws/build/robot_pose_publisher_ros2

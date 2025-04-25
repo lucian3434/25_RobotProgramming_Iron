@@ -1,0 +1,22 @@
+[8.125s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_ctrl': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_ctrl build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/install.log --install-scripts $base/lib/yahboomcar_ctrl --single-version-externally-managed
+[10.244s] running egg_info
+[10.246s] writing ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/PKG-INFO
+[10.251s] writing dependency_links to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/dependency_links.txt
+[10.253s] writing entry points to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/entry_points.txt
+[10.255s] writing requirements to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/requires.txt
+[10.257s] writing top-level names to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/top_level.txt
+[10.442s] reading manifest file '../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/SOURCES.txt'
+[10.454s] writing manifest file '../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/SOURCES.txt'
+[10.454s] running build
+[10.455s] running build_py
+[10.459s] running install
+[10.470s] running install_lib
+[10.494s] running install_data
+[10.505s] running install_egg_info
+[10.540s] removing '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages/yahboomcar_ctrl-0.0.0-py3.8.egg-info' (and everything under it)
+[10.552s] Copying ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages/yahboomcar_ctrl-0.0.0-py3.8.egg-info
+[10.578s] running install_scripts
+[10.766s] Installing yahboom_joy_X3 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/yahboomcar_ctrl
+[10.779s] Installing yahboom_keyboard script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/yahboomcar_ctrl
+[10.782s] writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/install.log'
+[11.217s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_ctrl' returned '0': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_ctrl build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/install.log --install-scripts $base/lib/yahboomcar_ctrl --single-version-externally-managed

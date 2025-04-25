@@ -1,0 +1,21 @@
+[6.289s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/robot_pose_publisher': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/robot_pose_publisher/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_pose_publisher build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/robot_pose_publisher/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/robot_pose_publisher/install.log --install-scripts $base/lib/robot_pose_publisher --single-version-externally-managed
+[7.672s] running egg_info
+[7.676s] writing ../../build/robot_pose_publisher/robot_pose_publisher.egg-info/PKG-INFO
+[7.677s] writing dependency_links to ../../build/robot_pose_publisher/robot_pose_publisher.egg-info/dependency_links.txt
+[7.678s] writing entry points to ../../build/robot_pose_publisher/robot_pose_publisher.egg-info/entry_points.txt
+[7.679s] writing requirements to ../../build/robot_pose_publisher/robot_pose_publisher.egg-info/requires.txt
+[7.679s] writing top-level names to ../../build/robot_pose_publisher/robot_pose_publisher.egg-info/top_level.txt
+[7.869s] reading manifest file '../../build/robot_pose_publisher/robot_pose_publisher.egg-info/SOURCES.txt'
+[7.877s] writing manifest file '../../build/robot_pose_publisher/robot_pose_publisher.egg-info/SOURCES.txt'
+[7.878s] running build
+[7.879s] running build_py
+[7.879s] running install
+[7.888s] running install_lib
+[7.899s] running install_data
+[7.904s] running install_egg_info
+[7.916s] removing '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher/lib/python3.8/site-packages/robot_pose_publisher-0.0.0-py3.8.egg-info' (and everything under it)
+[7.919s] Copying ../../build/robot_pose_publisher/robot_pose_publisher.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher/lib/python3.8/site-packages/robot_pose_publisher-0.0.0-py3.8.egg-info
+[7.932s] running install_scripts
+[8.069s] Installing robot_pose_publisher script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher/lib/robot_pose_publisher
+[8.071s] writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/robot_pose_publisher/install.log'
+[8.406s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/robot_pose_publisher' returned '0': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/robot_pose_publisher/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_pose_publisher build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/robot_pose_publisher/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/robot_pose_publisher/install.log --install-scripts $base/lib/robot_pose_publisher --single-version-externally-managed

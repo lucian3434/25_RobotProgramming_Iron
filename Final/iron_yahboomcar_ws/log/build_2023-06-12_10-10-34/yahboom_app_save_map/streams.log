@@ -1,0 +1,22 @@
+[7.284s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboom_app_save_map': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboom_app_save_map build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/install.log --install-scripts $base/lib/yahboom_app_save_map --single-version-externally-managed
+[8.699s] running egg_info
+[8.703s] writing ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/PKG-INFO
+[8.715s] writing dependency_links to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/dependency_links.txt
+[8.717s] writing entry points to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/entry_points.txt
+[8.718s] writing requirements to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/requires.txt
+[8.718s] writing top-level names to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/top_level.txt
+[8.933s] reading manifest file '../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/SOURCES.txt'
+[8.940s] writing manifest file '../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/SOURCES.txt'
+[8.940s] running build
+[8.941s] running build_py
+[8.942s] running install
+[8.947s] running install_lib
+[8.967s] running install_data
+[8.978s] running install_egg_info
+[8.983s] removing '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map-0.0.0-py3.8.egg-info' (and everything under it)
+[8.987s] Copying ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map-0.0.0-py3.8.egg-info
+[9.003s] running install_scripts
+[9.088s] Installing client script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/yahboom_app_save_map
+[9.095s] Installing server script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/yahboom_app_save_map
+[9.096s] writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/install.log'
+[9.459s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboom_app_save_map' returned '0': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboom_app_save_map build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/install.log --install-scripts $base/lib/yahboom_app_save_map --single-version-externally-managed

@@ -1,0 +1,21 @@
+[4.659s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_linefollow': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_linefollow/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_linefollow build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_linefollow/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_linefollow/install.log --install-scripts $base/lib/yahboomcar_linefollow --single-version-externally-managed
+[5.972s] running egg_info
+[5.974s] writing ../../build/yahboomcar_linefollow/yahboomcar_linefollow.egg-info/PKG-INFO
+[5.977s] writing dependency_links to ../../build/yahboomcar_linefollow/yahboomcar_linefollow.egg-info/dependency_links.txt
+[5.978s] writing entry points to ../../build/yahboomcar_linefollow/yahboomcar_linefollow.egg-info/entry_points.txt
+[5.979s] writing requirements to ../../build/yahboomcar_linefollow/yahboomcar_linefollow.egg-info/requires.txt
+[5.980s] writing top-level names to ../../build/yahboomcar_linefollow/yahboomcar_linefollow.egg-info/top_level.txt
+[6.148s] reading manifest file '../../build/yahboomcar_linefollow/yahboomcar_linefollow.egg-info/SOURCES.txt'
+[6.154s] writing manifest file '../../build/yahboomcar_linefollow/yahboomcar_linefollow.egg-info/SOURCES.txt'
+[6.154s] running build
+[6.155s] running build_py
+[6.167s] running install
+[6.168s] running install_lib
+[6.172s] running install_data
+[6.176s] running install_egg_info
+[6.188s] removing '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages/yahboomcar_linefollow-0.0.0-py3.8.egg-info' (and everything under it)
+[6.190s] Copying ../../build/yahboomcar_linefollow/yahboomcar_linefollow.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages/yahboomcar_linefollow-0.0.0-py3.8.egg-info
+[6.198s] running install_scripts
+[6.283s] Installing follow_line_a1_X3 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/yahboomcar_linefollow
+[6.286s] writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_linefollow/install.log'
+[6.407s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_linefollow' returned '0': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_linefollow/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_linefollow build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_linefollow/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_linefollow/install.log --install-scripts $base/lib/yahboomcar_linefollow --single-version-externally-managed

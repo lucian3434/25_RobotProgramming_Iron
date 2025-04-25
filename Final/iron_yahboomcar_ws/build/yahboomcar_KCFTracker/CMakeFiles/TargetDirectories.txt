@@ -1,0 +1,10 @@
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_KCFTracker/CMakeFiles/install/strip.dir
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_KCFTracker/CMakeFiles/install/local.dir
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_KCFTracker/CMakeFiles/install.dir
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_KCFTracker/CMakeFiles/list_install_components.dir
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_KCFTracker/CMakeFiles/rebuild_cache.dir
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_KCFTracker/CMakeFiles/edit_cache.dir
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_KCFTracker/CMakeFiles/test.dir
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_KCFTracker/CMakeFiles/KCF_Tracker_Node.dir
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_KCFTracker/CMakeFiles/yahboomcar_KCFTracker_uninstall.dir
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_KCFTracker/CMakeFiles/uninstall.dir

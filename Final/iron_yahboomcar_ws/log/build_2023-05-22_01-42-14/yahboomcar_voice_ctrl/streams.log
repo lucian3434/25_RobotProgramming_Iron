@@ -1,0 +1,25 @@
+[3.843s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_voice_ctrl': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_voice_ctrl build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/install.log --install-scripts $base/lib/yahboomcar_voice_ctrl --single-version-externally-managed
+[4.989s] running egg_info
+[4.992s] writing ../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/PKG-INFO
+[4.997s] writing dependency_links to ../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/dependency_links.txt
+[4.998s] writing entry points to ../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/entry_points.txt
+[4.999s] writing requirements to ../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/requires.txt
+[4.999s] writing top-level names to ../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/top_level.txt
+[5.164s] reading manifest file '../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/SOURCES.txt'
+[5.169s] writing manifest file '../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/SOURCES.txt'
+[5.170s] running build
+[5.170s] running build_py
+[5.176s] running install
+[5.180s] running install_lib
+[5.195s] running install_data
+[5.199s] running install_egg_info
+[5.207s] removing '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl-0.0.0-py3.8.egg-info' (and everything under it)
+[5.208s] Copying ../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl-0.0.0-py3.8.egg-info
+[5.215s] running install_scripts
+[5.288s] Installing Voice_Ctrl_Mcnamu_driver_X3 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+[5.292s] Installing Voice_Ctrl_colorHSV script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+[5.293s] Installing Voice_Ctrl_colorTracker script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+[5.293s] Installing Voice_Ctrl_follow_line_a1_X3 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+[5.294s] Installing voice_Ctrl_send_mark script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+[5.295s] writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/install.log'
+[5.402s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_voice_ctrl' returned '0': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_voice_ctrl build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/install.log --install-scripts $base/lib/yahboomcar_voice_ctrl --single-version-externally-managed

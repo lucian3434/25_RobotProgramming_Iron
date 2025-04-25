@@ -1,0 +1,26 @@
+[4.130s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_mediapipe': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_mediapipe/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_mediapipe build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_mediapipe/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_mediapipe/install.log --install-scripts $base/lib/yahboomcar_mediapipe --single-version-externally-managed
+[5.669s] running egg_info
+[5.669s] writing ../../build/yahboomcar_mediapipe/yahboomcar_mediapipe.egg-info/PKG-INFO
+[5.670s] writing dependency_links to ../../build/yahboomcar_mediapipe/yahboomcar_mediapipe.egg-info/dependency_links.txt
+[5.671s] writing entry points to ../../build/yahboomcar_mediapipe/yahboomcar_mediapipe.egg-info/entry_points.txt
+[5.672s] writing requirements to ../../build/yahboomcar_mediapipe/yahboomcar_mediapipe.egg-info/requires.txt
+[5.673s] writing top-level names to ../../build/yahboomcar_mediapipe/yahboomcar_mediapipe.egg-info/top_level.txt
+[5.853s] reading manifest file '../../build/yahboomcar_mediapipe/yahboomcar_mediapipe.egg-info/SOURCES.txt'
+[5.860s] writing manifest file '../../build/yahboomcar_mediapipe/yahboomcar_mediapipe.egg-info/SOURCES.txt'
+[5.860s] running build
+[5.861s] running build_py
+[5.866s] running install
+[5.870s] running install_lib
+[5.883s] running install_data
+[5.886s] running install_egg_info
+[5.895s] removing '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe-0.0.0-py3.8.egg-info' (and everything under it)
+[5.896s] Copying ../../build/yahboomcar_mediapipe/yahboomcar_mediapipe.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe-0.0.0-py3.8.egg-info
+[5.913s] running install_scripts
+[6.004s] Installing 01_HandDetector script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+[6.005s] Installing 02_PoseDetector script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+[6.007s] Installing 03_Holistic script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+[6.008s] Installing 04_FaceMesh script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+[6.008s] Installing 05_FaceEyeDetection script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+[6.011s] Installing test_msg script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+[6.012s] writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_mediapipe/install.log'
+[7.160s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_mediapipe' returned '0': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_mediapipe/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_mediapipe build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_mediapipe/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_mediapipe/install.log --install-scripts $base/lib/yahboomcar_mediapipe --single-version-externally-managed

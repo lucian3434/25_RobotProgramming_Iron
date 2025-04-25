@@ -1,0 +1,348 @@
+[9.046s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'yahboomcar_nav']
+[9.046s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa7ba0a60>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['yahboomcar_nav'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa7ba0a60>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fa7b2f070>)
+[9.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[9.214s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[9.217s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[9.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[9.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[9.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[9.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[9.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[9.219s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/yahboomcar_ros2_ws/yahboomcar_ws'
+[9.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[9.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[9.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[9.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[9.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[9.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[9.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[9.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[9.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[9.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[9.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[9.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[9.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[9.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[9.588s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[9.588s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[9.588s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[9.589s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[9.590s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[9.590s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[9.591s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[9.591s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[9.592s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[9.592s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[9.593s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[9.593s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[9.593s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[9.594s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[9.594s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[9.594s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[9.594s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[9.594s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[9.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[9.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[9.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[9.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[9.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[9.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/laserscan_to_point_pulisher) by extensions ['ignore', 'ignore_ament_install']
+[9.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/laserscan_to_point_pulisher) by extension 'ignore'
+[9.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/laserscan_to_point_pulisher) by extension 'ignore_ament_install'
+[9.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/laserscan_to_point_pulisher) by extensions ['colcon_pkg']
+[9.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/laserscan_to_point_pulisher) by extension 'colcon_pkg'
+[9.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/laserscan_to_point_pulisher) by extensions ['colcon_meta']
+[9.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/laserscan_to_point_pulisher) by extension 'colcon_meta'
+[9.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/laserscan_to_point_pulisher) by extensions ['ros']
+[9.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/laserscan_to_point_pulisher) by extension 'ros'
+[9.918s] DEBUG:colcon.colcon_core.package_identification:Package 'src/laserscan_to_point_pulisher' with type 'ros.ament_python' and name 'laserscan_to_point_pulisher'
+[9.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pose_publisher) by extensions ['ignore', 'ignore_ament_install']
+[9.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pose_publisher) by extension 'ignore'
+[9.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pose_publisher) by extension 'ignore_ament_install'
+[9.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pose_publisher) by extensions ['colcon_pkg']
+[9.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pose_publisher) by extension 'colcon_pkg'
+[9.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pose_publisher) by extensions ['colcon_meta']
+[9.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pose_publisher) by extension 'colcon_meta'
+[9.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pose_publisher) by extensions ['ros']
+[9.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pose_publisher) by extension 'ros'
+[9.989s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_pose_publisher' with type 'ros.ament_python' and name 'robot_pose_publisher'
+[9.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pose_publisher_ros2) by extensions ['ignore', 'ignore_ament_install']
+[9.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pose_publisher_ros2) by extension 'ignore'
+[9.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pose_publisher_ros2) by extension 'ignore_ament_install'
+[9.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pose_publisher_ros2) by extensions ['colcon_pkg']
+[9.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pose_publisher_ros2) by extension 'colcon_pkg'
+[9.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pose_publisher_ros2) by extensions ['colcon_meta']
+[9.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pose_publisher_ros2) by extension 'colcon_meta'
+[9.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pose_publisher_ros2) by extensions ['ros']
+[9.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pose_publisher_ros2) by extension 'ros'
+[10.057s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_pose_publisher_ros2' with type 'ros.ament_cmake' and name 'robot_pose_publisher_ros2'
+[10.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_app_save_map) by extensions ['ignore', 'ignore_ament_install']
+[10.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_app_save_map) by extension 'ignore'
+[10.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_app_save_map) by extension 'ignore_ament_install'
+[10.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_app_save_map) by extensions ['colcon_pkg']
+[10.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_app_save_map) by extension 'colcon_pkg'
+[10.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_app_save_map) by extensions ['colcon_meta']
+[10.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_app_save_map) by extension 'colcon_meta'
+[10.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_app_save_map) by extensions ['ros']
+[10.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_app_save_map) by extension 'ros'
+[10.064s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboom_app_save_map' with type 'ros.ament_python' and name 'yahboom_app_save_map'
+[10.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_web_savmap_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[10.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_web_savmap_interfaces) by extension 'ignore'
+[10.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_web_savmap_interfaces) by extension 'ignore_ament_install'
+[10.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_web_savmap_interfaces) by extensions ['colcon_pkg']
+[10.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_web_savmap_interfaces) by extension 'colcon_pkg'
+[10.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_web_savmap_interfaces) by extensions ['colcon_meta']
+[10.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_web_savmap_interfaces) by extension 'colcon_meta'
+[10.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_web_savmap_interfaces) by extensions ['ros']
+[10.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_web_savmap_interfaces) by extension 'ros'
+[10.071s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboom_web_savmap_interfaces' with type 'ros.ament_cmake' and name 'yahboom_web_savmap_interfaces'
+[10.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_KCFTracker) by extensions ['ignore', 'ignore_ament_install']
+[10.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_KCFTracker) by extension 'ignore'
+[10.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_KCFTracker) by extension 'ignore_ament_install'
+[10.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_KCFTracker) by extensions ['colcon_pkg']
+[10.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_KCFTracker) by extension 'colcon_pkg'
+[10.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_KCFTracker) by extensions ['colcon_meta']
+[10.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_KCFTracker) by extension 'colcon_meta'
+[10.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_KCFTracker) by extensions ['ros']
+[10.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_KCFTracker) by extension 'ros'
+[10.077s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboomcar_KCFTracker' with type 'ros.ament_cmake' and name 'yahboomcar_KCFTracker'
+[10.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_astra) by extensions ['ignore', 'ignore_ament_install']
+[10.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_astra) by extension 'ignore'
+[10.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_astra) by extension 'ignore_ament_install'
+[10.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_astra) by extensions ['colcon_pkg']
+[10.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_astra) by extension 'colcon_pkg'
+[10.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_astra) by extensions ['colcon_meta']
+[10.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_astra) by extension 'colcon_meta'
+[10.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_astra) by extensions ['ros']
+[10.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_astra) by extension 'ros'
+[10.084s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboomcar_astra' with type 'ros.ament_python' and name 'yahboomcar_astra'
+[10.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_base_node) by extensions ['ignore', 'ignore_ament_install']
+[10.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_base_node) by extension 'ignore'
+[10.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_base_node) by extension 'ignore_ament_install'
+[10.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_base_node) by extensions ['colcon_pkg']
+[10.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_base_node) by extension 'colcon_pkg'
+[10.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_base_node) by extensions ['colcon_meta']
+[10.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_base_node) by extension 'colcon_meta'
+[10.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_base_node) by extensions ['ros']
+[10.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_base_node) by extension 'ros'
+[10.092s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboomcar_base_node' with type 'ros.ament_cmake' and name 'yahboomcar_base_node'
+[10.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_bringup) by extensions ['ignore', 'ignore_ament_install']
+[10.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_bringup) by extension 'ignore'
+[10.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_bringup) by extension 'ignore_ament_install'
+[10.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_bringup) by extensions ['colcon_pkg']
+[10.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_bringup) by extension 'colcon_pkg'
+[10.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_bringup) by extensions ['colcon_meta']
+[10.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_bringup) by extension 'colcon_meta'
+[10.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_bringup) by extensions ['ros']
+[10.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_bringup) by extension 'ros'
+[10.100s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboomcar_bringup' with type 'ros.ament_python' and name 'yahboomcar_bringup'
+[10.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_ctrl) by extensions ['ignore', 'ignore_ament_install']
+[10.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_ctrl) by extension 'ignore'
+[10.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_ctrl) by extension 'ignore_ament_install'
+[10.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_ctrl) by extensions ['colcon_pkg']
+[10.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_ctrl) by extension 'colcon_pkg'
+[10.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_ctrl) by extensions ['colcon_meta']
+[10.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_ctrl) by extension 'colcon_meta'
+[10.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_ctrl) by extensions ['ros']
+[10.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_ctrl) by extension 'ros'
+[10.108s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboomcar_ctrl' with type 'ros.ament_python' and name 'yahboomcar_ctrl'
+[10.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_description) by extensions ['ignore', 'ignore_ament_install']
+[10.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_description) by extension 'ignore'
+[10.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_description) by extension 'ignore_ament_install'
+[10.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_description) by extensions ['colcon_pkg']
+[10.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_description) by extension 'colcon_pkg'
+[10.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_description) by extensions ['colcon_meta']
+[10.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_description) by extension 'colcon_meta'
+[10.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_description) by extensions ['ros']
+[10.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_description) by extension 'ros'
+[10.115s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboomcar_description' with type 'ros.ament_python' and name 'yahboomcar_description'
+[10.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_description_x1) by extensions ['ignore', 'ignore_ament_install']
+[10.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_description_x1) by extension 'ignore'
+[10.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_description_x1) by extension 'ignore_ament_install'
+[10.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_description_x1) by extensions ['colcon_pkg']
+[10.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_description_x1) by extension 'colcon_pkg'
+[10.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_description_x1) by extensions ['colcon_meta']
+[10.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_description_x1) by extension 'colcon_meta'
+[10.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_description_x1) by extensions ['ros']
+[10.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_description_x1) by extension 'ros'
+[10.122s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboomcar_description_x1' with type 'ros.ament_python' and name 'yahboomcar_description_x1'
+[10.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_laser) by extensions ['ignore', 'ignore_ament_install']
+[10.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_laser) by extension 'ignore'
+[10.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_laser) by extension 'ignore_ament_install'
+[10.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_laser) by extensions ['colcon_pkg']
+[10.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_laser) by extension 'colcon_pkg'
+[10.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_laser) by extensions ['colcon_meta']
+[10.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_laser) by extension 'colcon_meta'
+[10.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_laser) by extensions ['ros']
+[10.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_laser) by extension 'ros'
+[10.129s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboomcar_laser' with type 'ros.ament_python' and name 'yahboomcar_laser'
+[10.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_linefollow) by extensions ['ignore', 'ignore_ament_install']
+[10.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_linefollow) by extension 'ignore'
+[10.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_linefollow) by extension 'ignore_ament_install'
+[10.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_linefollow) by extensions ['colcon_pkg']
+[10.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_linefollow) by extension 'colcon_pkg'
+[10.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_linefollow) by extensions ['colcon_meta']
+[10.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_linefollow) by extension 'colcon_meta'
+[10.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_linefollow) by extensions ['ros']
+[10.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_linefollow) by extension 'ros'
+[10.136s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboomcar_linefollow' with type 'ros.ament_python' and name 'yahboomcar_linefollow'
+[10.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_mediapipe) by extensions ['ignore', 'ignore_ament_install']
+[10.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_mediapipe) by extension 'ignore'
+[10.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_mediapipe) by extension 'ignore_ament_install'
+[10.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_mediapipe) by extensions ['colcon_pkg']
+[10.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_mediapipe) by extension 'colcon_pkg'
+[10.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_mediapipe) by extensions ['colcon_meta']
+[10.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_mediapipe) by extension 'colcon_meta'
+[10.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_mediapipe) by extensions ['ros']
+[10.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_mediapipe) by extension 'ros'
+[10.144s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboomcar_mediapipe' with type 'ros.ament_python' and name 'yahboomcar_mediapipe'
+[10.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[10.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_msgs) by extension 'ignore'
+[10.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_msgs) by extension 'ignore_ament_install'
+[10.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_msgs) by extensions ['colcon_pkg']
+[10.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_msgs) by extension 'colcon_pkg'
+[10.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_msgs) by extensions ['colcon_meta']
+[10.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_msgs) by extension 'colcon_meta'
+[10.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_msgs) by extensions ['ros']
+[10.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_msgs) by extension 'ros'
+[10.152s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboomcar_msgs' with type 'ros.ament_cmake' and name 'yahboomcar_msgs'
+[10.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_nav) by extensions ['ignore', 'ignore_ament_install']
+[10.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_nav) by extension 'ignore'
+[10.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_nav) by extension 'ignore_ament_install'
+[10.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_nav) by extensions ['colcon_pkg']
+[10.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_nav) by extension 'colcon_pkg'
+[10.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_nav) by extensions ['colcon_meta']
+[10.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_nav) by extension 'colcon_meta'
+[10.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_nav) by extensions ['ros']
+[10.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_nav) by extension 'ros'
+[10.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboomcar_nav' with type 'ros.ament_python' and name 'yahboomcar_nav'
+[10.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_point) by extensions ['ignore', 'ignore_ament_install']
+[10.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_point) by extension 'ignore'
+[10.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_point) by extension 'ignore_ament_install'
+[10.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_point) by extensions ['colcon_pkg']
+[10.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_point) by extension 'colcon_pkg'
+[10.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_point) by extensions ['colcon_meta']
+[10.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_point) by extension 'colcon_meta'
+[10.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_point) by extensions ['ros']
+[10.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_point) by extension 'ros'
+[10.167s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboomcar_point' with type 'ros.ament_cmake' and name 'yahboomcar_point'
+[10.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_slam) by extensions ['ignore', 'ignore_ament_install']
+[10.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_slam) by extension 'ignore'
+[10.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_slam) by extension 'ignore_ament_install'
+[10.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_slam) by extensions ['colcon_pkg']
+[10.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_slam) by extension 'colcon_pkg'
+[10.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_slam) by extensions ['colcon_meta']
+[10.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_slam) by extension 'colcon_meta'
+[10.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_slam) by extensions ['ros']
+[10.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_slam) by extension 'ros'
+[10.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboomcar_slam' with type 'ros.ament_cmake' and name 'yahboomcar_slam'
+[10.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_visual) by extensions ['ignore', 'ignore_ament_install']
+[10.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_visual) by extension 'ignore'
+[10.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_visual) by extension 'ignore_ament_install'
+[10.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_visual) by extensions ['colcon_pkg']
+[10.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_visual) by extension 'colcon_pkg'
+[10.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_visual) by extensions ['colcon_meta']
+[10.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_visual) by extension 'colcon_meta'
+[10.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_visual) by extensions ['ros']
+[10.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_visual) by extension 'ros'
+[10.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboomcar_visual' with type 'ros.ament_python' and name 'yahboomcar_visual'
+[10.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_voice_ctrl) by extensions ['ignore', 'ignore_ament_install']
+[10.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_voice_ctrl) by extension 'ignore'
+[10.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_voice_ctrl) by extension 'ignore_ament_install'
+[10.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_voice_ctrl) by extensions ['colcon_pkg']
+[10.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_voice_ctrl) by extension 'colcon_pkg'
+[10.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_voice_ctrl) by extensions ['colcon_meta']
+[10.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_voice_ctrl) by extension 'colcon_meta'
+[10.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_voice_ctrl) by extensions ['ros']
+[10.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboomcar_voice_ctrl) by extension 'ros'
+[10.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboomcar_voice_ctrl' with type 'ros.ament_python' and name 'yahboomcar_voice_ctrl'
+[10.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[10.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[10.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[10.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[10.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[10.307s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'laserscan_to_point_pulisher' in 'src/laserscan_to_point_pulisher'
+[10.308s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_pose_publisher' in 'src/robot_pose_publisher'
+[10.308s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_pose_publisher_ros2' in 'src/robot_pose_publisher_ros2'
+[10.308s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yahboom_app_save_map' in 'src/yahboom_app_save_map'
+[10.308s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yahboom_web_savmap_interfaces' in 'src/yahboom_web_savmap_interfaces'
+[10.308s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yahboomcar_KCFTracker' in 'src/yahboomcar_KCFTracker'
+[10.308s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yahboomcar_astra' in 'src/yahboomcar_astra'
+[10.308s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yahboomcar_base_node' in 'src/yahboomcar_base_node'
+[10.309s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yahboomcar_bringup' in 'src/yahboomcar_bringup'
+[10.309s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yahboomcar_ctrl' in 'src/yahboomcar_ctrl'
+[10.309s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yahboomcar_description' in 'src/yahboomcar_description'
+[10.309s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yahboomcar_description_x1' in 'src/yahboomcar_description_x1'
+[10.309s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yahboomcar_laser' in 'src/yahboomcar_laser'
+[10.309s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yahboomcar_linefollow' in 'src/yahboomcar_linefollow'
+[10.309s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yahboomcar_mediapipe' in 'src/yahboomcar_mediapipe'
+[10.309s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yahboomcar_msgs' in 'src/yahboomcar_msgs'
+[10.309s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yahboomcar_slam' in 'src/yahboomcar_slam'
+[10.310s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yahboomcar_visual' in 'src/yahboomcar_visual'
+[10.310s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yahboomcar_voice_ctrl' in 'src/yahboomcar_voice_ctrl'
+[10.310s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yahboomcar_point' in 'src/yahboomcar_point'
+[10.316s] Level 5:colcon.colcon_core.verb:set package 'yahboomcar_nav' build argument 'cmake_args' from command line to 'None'
+[10.317s] Level 5:colcon.colcon_core.verb:set package 'yahboomcar_nav' build argument 'cmake_target' from command line to 'None'
+[10.317s] Level 5:colcon.colcon_core.verb:set package 'yahboomcar_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[10.317s] Level 5:colcon.colcon_core.verb:set package 'yahboomcar_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[10.317s] Level 5:colcon.colcon_core.verb:set package 'yahboomcar_nav' build argument 'cmake_clean_first' from command line to 'False'
+[10.317s] Level 5:colcon.colcon_core.verb:set package 'yahboomcar_nav' build argument 'cmake_force_configure' from command line to 'False'
+[10.317s] Level 5:colcon.colcon_core.verb:set package 'yahboomcar_nav' build argument 'ament_cmake_args' from command line to 'None'
+[10.317s] Level 5:colcon.colcon_core.verb:set package 'yahboomcar_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[10.318s] Level 5:colcon.colcon_core.verb:set package 'yahboomcar_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[10.318s] DEBUG:colcon.colcon_core.verb:Building package 'yahboomcar_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav', 'merge_install': False, 'path': '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_nav', 'symlink_install': False, 'test_result_base': None}
+[10.322s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[10.342s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[10.343s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_nav' with build type 'ament_python'
+[10.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboomcar_nav', 'ament_prefix_path')
+[10.380s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[10.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/share/yahboomcar_nav/hook/ament_prefix_path.ps1'
+[10.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/share/yahboomcar_nav/hook/ament_prefix_path.dsv'
+[10.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/share/yahboomcar_nav/hook/ament_prefix_path.sh'
+[10.398s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.399s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.842s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_nav'
+[11.851s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_nav': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_nav/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_nav build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_nav/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_nav/install.log --install-scripts $base/lib/yahboomcar_nav --single-version-externally-managed
+[16.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_nav' returned '0': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_nav/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_nav build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_nav/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_nav/install.log --install-scripts $base/lib/yahboomcar_nav --single-version-externally-managed
+[16.261s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav' for CMake module files
+[16.264s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav' for CMake config files
+[16.269s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib'
+[16.269s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/bin'
+[16.270s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/pkgconfig/yahboomcar_nav.pc'
+[16.271s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages'
+[16.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboomcar_nav', 'pythonpath')
+[16.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/share/yahboomcar_nav/hook/pythonpath.ps1'
+[16.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/share/yahboomcar_nav/hook/pythonpath.dsv'
+[16.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/share/yahboomcar_nav/hook/pythonpath.sh'
+[16.288s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/bin'
+[16.288s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yahboomcar_nav)
+[16.297s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/share/yahboomcar_nav/package.ps1'
+[16.302s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/share/yahboomcar_nav/package.dsv'
+[16.305s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/share/yahboomcar_nav/package.sh'
+[16.310s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/share/yahboomcar_nav/package.bash'
+[16.314s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/share/yahboomcar_nav/package.zsh'
+[16.318s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/share/colcon-core/packages/yahboomcar_nav)
+[16.320s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.322s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.323s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.439s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[16.440s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.440s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.440s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.488s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally with the following error: No protocol specified
+Autolaunch error: X11 initialization failed.
+
+[16.489s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.499s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/local_setup.ps1'
+[16.505s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/_local_setup_util_ps1.py'
+[16.512s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/setup.ps1'
+[16.529s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/local_setup.sh'
+[16.532s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/_local_setup_util_sh.py'
+[16.534s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/setup.sh'
+[16.551s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/local_setup.bash'
+[16.554s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/setup.bash'
+[16.571s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/local_setup.zsh'
+[16.574s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/setup.zsh'

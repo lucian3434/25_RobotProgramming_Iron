@@ -1,0 +1,27 @@
+[3.940s] Invoking command in '/root/codes/iron_yahboomcar_ws/src/yahboomcar_astra': PYTHONPATH=/root/codes/iron_yahboomcar_ws/build/yahboomcar_astra/prefix_override:/root/codes/iron_yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_astra build --build-base /root/codes/iron_yahboomcar_ws/build/yahboomcar_astra/build install --record /root/codes/iron_yahboomcar_ws/build/yahboomcar_astra/install.log --install-scripts $base/lib/yahboomcar_astra --single-version-externally-managed
+[5.266s] running egg_info
+[5.270s] writing ../../build/yahboomcar_astra/yahboomcar_astra.egg-info/PKG-INFO
+[5.270s] writing dependency_links to ../../build/yahboomcar_astra/yahboomcar_astra.egg-info/dependency_links.txt
+[5.271s] writing entry points to ../../build/yahboomcar_astra/yahboomcar_astra.egg-info/entry_points.txt
+[5.272s] writing requirements to ../../build/yahboomcar_astra/yahboomcar_astra.egg-info/requires.txt
+[5.273s] writing top-level names to ../../build/yahboomcar_astra/yahboomcar_astra.egg-info/top_level.txt
+[5.446s] reading manifest file '../../build/yahboomcar_astra/yahboomcar_astra.egg-info/SOURCES.txt'
+[5.450s] writing manifest file '../../build/yahboomcar_astra/yahboomcar_astra.egg-info/SOURCES.txt'
+[5.451s] running build
+[5.451s] running build_py
+[5.452s] copying yahboomcar_astra/colorHSV.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_astra/build/lib/yahboomcar_astra
+[5.453s] running install
+[5.459s] running install_lib
+[5.463s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_astra/build/lib/yahboomcar_astra/colorHSV.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages/yahboomcar_astra
+[5.468s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages/yahboomcar_astra/colorHSV.py to colorHSV.cpython-38.pyc
+[5.478s] /root/codes/iron_yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages/yahboomcar_astra/colorHSV.py:95: SyntaxWarning: 'float' object is not callable; perhaps you missed a comma?
+[5.479s]   cv.putText(rgb_img, hsvText, (30, 60), cv.FONT_HERSHEY_SIMPLEX, 0.6 (100, 200, 200), 1)
+[5.480s] running install_data
+[5.483s] running install_egg_info
+[5.491s] removing '/root/codes/iron_yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages/yahboomcar_astra-0.0.0-py3.8.egg-info' (and everything under it)
+[5.492s] Copying ../../build/yahboomcar_astra/yahboomcar_astra.egg-info to /root/codes/iron_yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages/yahboomcar_astra-0.0.0-py3.8.egg-info
+[5.496s] running install_scripts
+[5.579s] Installing colorHSV script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_astra/lib/yahboomcar_astra
+[5.580s] Installing colorTracker script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_astra/lib/yahboomcar_astra
+[5.581s] writing list of installed files to '/root/codes/iron_yahboomcar_ws/build/yahboomcar_astra/install.log'
+[5.687s] Invoked command in '/root/codes/iron_yahboomcar_ws/src/yahboomcar_astra' returned '0': PYTHONPATH=/root/codes/iron_yahboomcar_ws/build/yahboomcar_astra/prefix_override:/root/codes/iron_yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_astra build --build-base /root/codes/iron_yahboomcar_ws/build/yahboomcar_astra/build install --record /root/codes/iron_yahboomcar_ws/build/yahboomcar_astra/install.log --install-scripts $base/lib/yahboomcar_astra --single-version-externally-managed

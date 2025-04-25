@@ -1,0 +1,119 @@
+[0.081s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_web_savmap_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --build /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_web_savmap_interfaces -- -j4 -l4
+[0.392s] [  3%] Built target yahboom_web_savmap_interfaces__cpp
+[0.519s] [ 12%] Built target yahboom_web_savmap_interfaces__rosidl_generator_c
+[0.646s] [ 22%] Built target yahboom_web_savmap_interfaces__rosidl_typesupport_introspection_cpp
+[0.787s] [ 32%] Built target yahboom_web_savmap_interfaces__rosidl_typesupport_c
+[0.936s] [ 41%] Built target yahboom_web_savmap_interfaces__rosidl_typesupport_introspection_c
+[1.109s] [ 51%] Built target yahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.228s] [ 61%] Built target yahboom_web_savmap_interfaces__rosidl_typesupport_cpp
+[1.399s] [ 70%] Built target yahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_c
+[1.527s] [ 70%] Built target yahboom_web_savmap_interfaces
+[1.640s] [ 74%] Built target yahboom_web_savmap_interfaces__py
+[1.782s] [ 80%] Built target yahboom_web_savmap_interfaces__python
+[1.925s] [ 87%] Built target yahboom_web_savmap_interfaces__rosidl_typesupport_c__pyext
+[2.066s] [ 93%] Built target yahboom_web_savmap_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.208s] [100%] Built target yahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.631s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_web_savmap_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --build /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_web_savmap_interfaces -- -j4 -l4
+[3.033s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_web_savmap_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --install /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_web_savmap_interfaces
+[3.119s] -- Install configuration: ""
+[3.121s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/ament_index/resource_index/rosidl_interfaces/yahboom_web_savmap_interfaces
+[3.122s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces
+[3.123s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv
+[3.124s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail
+[3.125s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail/web_save_map__functions.h
+[3.126s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail/web_save_map__struct.h
+[3.128s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail/web_save_map__type_support.h
+[3.129s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail/web_save_map__functions.c
+[3.130s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/web_save_map.h
+[3.131s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/msg
+[3.133s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.134s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/environment/library_path.sh
+[3.134s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/environment/library_path.dsv
+[3.135s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_generator_c.so
+[3.137s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces
+[3.138s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv
+[3.139s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail
+[3.140s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail/web_save_map__rosidl_typesupport_fastrtps_c.h
+[3.141s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/msg
+[3.142s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.145s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.147s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces
+[3.148s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv
+[3.149s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail
+[3.150s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail/dds_fastrtps
+[3.151s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail/web_save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[3.153s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/msg
+[3.154s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.156s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.158s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces
+[3.159s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv
+[3.160s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail
+[3.161s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail/web_save_map__type_support.c
+[3.162s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail/web_save_map__rosidl_typesupport_introspection_c.h
+[3.163s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/msg
+[3.164s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.167s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_typesupport_introspection_c.so
+[3.169s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_typesupport_c.so
+[3.172s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces
+[3.173s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv
+[3.174s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail
+[3.175s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail/web_save_map__builder.hpp
+[3.177s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail/web_save_map__traits.hpp
+[3.177s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail/web_save_map__struct.hpp
+[3.178s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/web_save_map.hpp
+[3.179s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces
+[3.180s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv
+[3.181s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail
+[3.182s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail/web_save_map__type_support.cpp
+[3.183s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/include/yahboom_web_savmap_interfaces/srv/detail/web_save_map__rosidl_typesupport_introspection_cpp.hpp
+[3.187s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.188s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__rosidl_typesupport_cpp.so
+[3.190s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/environment/pythonpath.sh
+[3.191s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/environment/pythonpath.dsv
+[3.192s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/python3.8/site-packages/yahboom_web_savmap_interfaces/__init__.py
+[3.442s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/python3.8/site-packages/yahboom_web_savmap_interfaces/srv
+[3.443s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/python3.8/site-packages/yahboom_web_savmap_interfaces/srv/_web_save_map_s.c
+[3.446s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/python3.8/site-packages/yahboom_web_savmap_interfaces/srv/__init__.py
+[3.447s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/python3.8/site-packages/yahboom_web_savmap_interfaces/srv/_web_save_map.py
+[3.447s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/python3.8/site-packages/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[3.452s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/python3.8/site-packages/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[3.456s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/python3.8/site-packages/yahboom_web_savmap_interfaces/yahboom_web_savmap_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[3.458s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib/libyahboom_web_savmap_interfaces__python.so
+[3.460s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/srv/WebSaveMap.idl
+[3.461s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/srv/WebSaveMap.srv
+[3.462s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/srv/WebSaveMap_Request.msg
+[3.463s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/srv/WebSaveMap_Response.msg
+[3.465s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/ament_index/resource_index/package_run_dependencies/yahboom_web_savmap_interfaces
+[3.466s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/ament_index/resource_index/parent_prefix_path/yahboom_web_savmap_interfaces
+[3.467s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/environment/ament_prefix_path.sh
+[3.469s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/environment/ament_prefix_path.dsv
+[3.470s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/environment/path.sh
+[3.471s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/environment/path.dsv
+[3.472s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/local_setup.bash
+[3.473s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/local_setup.sh
+[3.474s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/local_setup.zsh
+[3.475s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/local_setup.dsv
+[3.478s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/package.dsv
+[3.480s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/ament_index/resource_index/packages/yahboom_web_savmap_interfaces
+[3.482s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfaces__rosidl_generator_cExport.cmake
+[3.483s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.485s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.486s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.488s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfaces__rosidl_typesupport_cExport.cmake
+[3.489s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.491s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfaces__rosidl_generator_cppExport.cmake
+[3.493s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.494s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.496s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfaces__rosidl_typesupport_cppExport.cmake
+[3.497s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.499s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.500s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.501s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.502s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.504s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.505s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.506s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.507s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfacesConfig.cmake
+[3.509s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/cmake/yahboom_web_savmap_interfacesConfig-version.cmake
+[3.510s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/share/yahboom_web_savmap_interfaces/package.xml
+[3.521s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_web_savmap_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --install /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_web_savmap_interfaces

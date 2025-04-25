@@ -1,0 +1,56 @@
+[6.816s] Invoking command in '/root/codes/iron_yahboomcar_ws/src/yahboomcar_visual': PYTHONPATH=/root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/prefix_override:/root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_visual build --build-base /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build install --record /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/install.log --install-scripts $base/lib/yahboomcar_visual --single-version-externally-managed
+[8.815s] running egg_info
+[8.820s] writing ../../build/yahboomcar_visual/yahboomcar_visual.egg-info/PKG-INFO
+[8.822s] writing dependency_links to ../../build/yahboomcar_visual/yahboomcar_visual.egg-info/dependency_links.txt
+[8.824s] writing entry points to ../../build/yahboomcar_visual/yahboomcar_visual.egg-info/entry_points.txt
+[8.826s] writing requirements to ../../build/yahboomcar_visual/yahboomcar_visual.egg-info/requires.txt
+[8.828s] writing top-level names to ../../build/yahboomcar_visual/yahboomcar_visual.egg-info/top_level.txt
+[9.094s] reading manifest file '../../build/yahboomcar_visual/yahboomcar_visual.egg-info/SOURCES.txt'
+[9.102s] writing manifest file '../../build/yahboomcar_visual/yahboomcar_visual.egg-info/SOURCES.txt'
+[9.103s] running build
+[9.105s] running build_py
+[9.107s] copying yahboomcar_visual/laser_to_image.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build/lib/yahboomcar_visual
+[9.109s] copying yahboomcar_visual/__init__.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build/lib/yahboomcar_visual
+[9.111s] copying yahboomcar_visual/astra_color_point.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build/lib/yahboomcar_visual
+[9.113s] copying yahboomcar_visual/simple_AR.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build/lib/yahboomcar_visual
+[9.115s] copying yahboomcar_visual/pub_image.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build/lib/yahboomcar_visual
+[9.117s] copying yahboomcar_visual/astra_depth_image.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build/lib/yahboomcar_visual
+[9.119s] copying yahboomcar_visual/astra_image_flip.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build/lib/yahboomcar_visual
+[9.121s] copying yahboomcar_visual/laser_geometry.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build/lib/yahboomcar_visual
+[9.123s] copying yahboomcar_visual/astra_rgb_image.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build/lib/yahboomcar_visual
+[9.130s] running install
+[9.137s] running install_lib
+[9.143s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build/lib/yahboomcar_visual/laser_to_image.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual
+[9.145s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build/lib/yahboomcar_visual/__init__.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual
+[9.150s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build/lib/yahboomcar_visual/astra_color_point.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual
+[9.152s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build/lib/yahboomcar_visual/simple_AR.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual
+[9.154s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build/lib/yahboomcar_visual/pub_image.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual
+[9.156s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build/lib/yahboomcar_visual/astra_depth_image.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual
+[9.159s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build/lib/yahboomcar_visual/astra_image_flip.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual
+[9.161s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build/lib/yahboomcar_visual/laser_geometry.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual
+[9.167s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build/lib/yahboomcar_visual/astra_rgb_image.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual
+[9.176s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual/laser_to_image.py to laser_to_image.cpython-38.pyc
+[9.192s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual/__init__.py to __init__.cpython-38.pyc
+[9.194s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual/astra_color_point.py to astra_color_point.cpython-38.pyc
+[9.197s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual/simple_AR.py to simple_AR.cpython-38.pyc
+[9.212s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual/pub_image.py to pub_image.cpython-38.pyc
+[9.215s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual/astra_depth_image.py to astra_depth_image.cpython-38.pyc
+[9.217s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual/astra_image_flip.py to astra_image_flip.cpython-38.pyc
+[9.220s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual/laser_geometry.py to laser_geometry.cpython-38.pyc
+[9.227s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual/astra_rgb_image.py to astra_rgb_image.cpython-38.pyc
+[9.231s] running install_data
+[9.232s] copying resource/yahboomcar_visual -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/share/ament_index/resource_index/packages
+[9.233s] copying package.xml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/share/yahboomcar_visual
+[9.234s] running install_egg_info
+[9.265s] removing '/root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual-0.0.0-py3.8.egg-info' (and everything under it)
+[9.269s] Copying ../../build/yahboomcar_visual/yahboomcar_visual.egg-info to /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual-0.0.0-py3.8.egg-info
+[9.270s] running install_scripts
+[9.376s] Installing astra_color_point script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/yahboomcar_visual
+[9.378s] Installing astra_depth_image script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/yahboomcar_visual
+[9.382s] Installing astra_image_flip script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/yahboomcar_visual
+[9.382s] Installing astra_rgb_image script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/yahboomcar_visual
+[9.385s] Installing laser_to_image script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/yahboomcar_visual
+[9.386s] Installing pub_image script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/yahboomcar_visual
+[9.388s] Installing simple_AR script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/yahboomcar_visual
+[9.391s] writing list of installed files to '/root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/install.log'
+[9.528s] Invoked command in '/root/codes/iron_yahboomcar_ws/src/yahboomcar_visual' returned '0': PYTHONPATH=/root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/prefix_override:/root/codes/iron_yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_visual build --build-base /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/build install --record /root/codes/iron_yahboomcar_ws/build/yahboomcar_visual/install.log --install-scripts $base/lib/yahboomcar_visual --single-version-externally-managed

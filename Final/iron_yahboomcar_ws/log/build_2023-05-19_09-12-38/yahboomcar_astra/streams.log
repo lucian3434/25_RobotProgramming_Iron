@@ -1,0 +1,22 @@
+[4.931s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_astra': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_astra build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/install.log --install-scripts $base/lib/yahboomcar_astra --single-version-externally-managed
+[6.271s] running egg_info
+[6.272s] writing ../../build/yahboomcar_astra/yahboomcar_astra.egg-info/PKG-INFO
+[6.273s] writing dependency_links to ../../build/yahboomcar_astra/yahboomcar_astra.egg-info/dependency_links.txt
+[6.275s] writing entry points to ../../build/yahboomcar_astra/yahboomcar_astra.egg-info/entry_points.txt
+[6.290s] writing requirements to ../../build/yahboomcar_astra/yahboomcar_astra.egg-info/requires.txt
+[6.291s] writing top-level names to ../../build/yahboomcar_astra/yahboomcar_astra.egg-info/top_level.txt
+[6.302s] reading manifest file '../../build/yahboomcar_astra/yahboomcar_astra.egg-info/SOURCES.txt'
+[6.325s] writing manifest file '../../build/yahboomcar_astra/yahboomcar_astra.egg-info/SOURCES.txt'
+[6.325s] running build
+[6.326s] running build_py
+[6.327s] running install
+[6.339s] running install_lib
+[6.343s] running install_data
+[6.345s] running install_egg_info
+[6.360s] removing '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages/yahboomcar_astra-0.0.0-py3.8.egg-info' (and everything under it)
+[6.368s] Copying ../../build/yahboomcar_astra/yahboomcar_astra.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages/yahboomcar_astra-0.0.0-py3.8.egg-info
+[6.369s] running install_scripts
+[6.460s] Installing colorHSV script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/yahboomcar_astra
+[6.461s] Installing colorTracker script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/yahboomcar_astra
+[6.462s] writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/install.log'
+[6.575s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_astra' returned '0': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_astra build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/install.log --install-scripts $base/lib/yahboomcar_astra --single-version-externally-managed

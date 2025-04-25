@@ -1,0 +1,13 @@
+In file included from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/include/yahboomcar_KCFTracker/KCF_Tracker.h:12[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/src/KCF_Tracker.cpp:2[m[K:
+[01m[K/opt/ros/foxy/include/image_transport/image_transport.h:41:89:[m[K [01;36m[Knote: [m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead
+   41 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/include/yahboomcar_KCFTracker/kcftracker.cpp:[m[K In member function ‘[01m[Kcv::Mat KCFTracker::getFeatures(const cv::Mat&, bool, float)[m[K’:
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/include/yahboomcar_KCFTracker/kcftracker.cpp:398:26:[m[K [01;31m[Kerror: [m[K‘[01m[KcvIplImage[m[K’ was not declared in this scope; did you mean ‘[01m[KIplImage[m[K’?
+  398 |         IplImage z_ipl = [01;31m[KcvIplImage[m[K(z);
+      |                          [01;31m[K^~~~~~~~~~[m[K
+      |                          [32m[KIplImage[m[K
+make[2]: *** [CMakeFiles/KCF_Tracker_Node.dir/build.make:89: CMakeFiles/KCF_Tracker_Node.dir/include/yahboomcar_KCFTracker/kcftracker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/KCF_Tracker_Node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

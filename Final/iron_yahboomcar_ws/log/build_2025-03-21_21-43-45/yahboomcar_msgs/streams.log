@@ -1,0 +1,322 @@
+[0.389s] Invoking command in '/root/codes/iron_yahboomcar_ws/build/yahboomcar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/codes/iron_yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/codes/iron_yahboomcar_ws/install/yahboomcar_visual:/root/codes/iron_yahboomcar_ws/install/yahboomcar_nav:/root/codes/iron_yahboomcar_ws/install/yahboomcar_multi:/root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe:/root/codes/iron_yahboomcar_ws/install/yahboomcar_linefollow:/root/codes/iron_yahboomcar_ws/install/yahboomcar_laser:/root/codes/iron_yahboomcar_ws/install/yahboomcar_description_x1:/root/codes/iron_yahboomcar_ws/install/yahboomcar_description:/root/codes/iron_yahboomcar_ws/install/yahboomcar_ctrl:/root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup:/root/codes/iron_yahboomcar_ws/install/yahboomcar_astra:/root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map:/root/codes/iron_yahboomcar_ws/install/robot_pose_publisher:/root/codes/iron_yahboomcar_ws/install/laserscan_to_point_pulisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake /root/codes/iron_yahboomcar_ws/src/yahboomcar_msgs -DCMAKE_INSTALL_PREFIX=/root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs
+[3.766s] -- The C compiler identification is GNU 9.4.0
+[3.767s] -- The CXX compiler identification is GNU 9.4.0
+[3.769s] -- Check for working C compiler: /usr/bin/cc
+[3.770s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.770s] -- Detecting C compiler ABI info
+[3.771s] -- Detecting C compiler ABI info - done
+[3.771s] -- Detecting C compile features
+[3.772s] -- Detecting C compile features - done
+[3.772s] -- Check for working CXX compiler: /usr/bin/c++
+[3.772s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.774s] -- Detecting CXX compiler ABI info
+[3.775s] -- Detecting CXX compiler ABI info - done
+[3.776s] -- Detecting CXX compile features
+[3.776s] -- Detecting CXX compile features - done
+[3.777s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.778s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.778s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.379s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[5.561s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.753s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.013s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.351s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.341s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.693s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[9.513s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[10.965s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[13.201s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.013s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.284s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[14.344s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[14.609s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[14.610s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.611s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[14.612s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[14.836s] -- Found PythonExtra: .so  
+[15.843s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[16.491s] -- Added test 'copyright' to check source files copyright and LICENSE
+[16.506s] -- Added test 'lint_cmake' to check CMake code style
+[16.520s] -- Added test 'xmllint' to check XML markup files
+[16.557s] -- Configuring done
+[16.889s] -- Generating done
+[16.903s] -- Build files have been written to: /root/codes/iron_yahboomcar_ws/build/yahboomcar_msgs
+[16.966s] Invoked command in '/root/codes/iron_yahboomcar_ws/build/yahboomcar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/codes/iron_yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/codes/iron_yahboomcar_ws/install/yahboomcar_visual:/root/codes/iron_yahboomcar_ws/install/yahboomcar_nav:/root/codes/iron_yahboomcar_ws/install/yahboomcar_multi:/root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe:/root/codes/iron_yahboomcar_ws/install/yahboomcar_linefollow:/root/codes/iron_yahboomcar_ws/install/yahboomcar_laser:/root/codes/iron_yahboomcar_ws/install/yahboomcar_description_x1:/root/codes/iron_yahboomcar_ws/install/yahboomcar_description:/root/codes/iron_yahboomcar_ws/install/yahboomcar_ctrl:/root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup:/root/codes/iron_yahboomcar_ws/install/yahboomcar_astra:/root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map:/root/codes/iron_yahboomcar_ws/install/robot_pose_publisher:/root/codes/iron_yahboomcar_ws/install/laserscan_to_point_pulisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake /root/codes/iron_yahboomcar_ws/src/yahboomcar_msgs -DCMAKE_INSTALL_PREFIX=/root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs
+[16.970s] Invoking command in '/root/codes/iron_yahboomcar_ws/build/yahboomcar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/codes/iron_yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/codes/iron_yahboomcar_ws/install/yahboomcar_visual:/root/codes/iron_yahboomcar_ws/install/yahboomcar_nav:/root/codes/iron_yahboomcar_ws/install/yahboomcar_multi:/root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe:/root/codes/iron_yahboomcar_ws/install/yahboomcar_linefollow:/root/codes/iron_yahboomcar_ws/install/yahboomcar_laser:/root/codes/iron_yahboomcar_ws/install/yahboomcar_description_x1:/root/codes/iron_yahboomcar_ws/install/yahboomcar_description:/root/codes/iron_yahboomcar_ws/install/yahboomcar_ctrl:/root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup:/root/codes/iron_yahboomcar_ws/install/yahboomcar_astra:/root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map:/root/codes/iron_yahboomcar_ws/install/robot_pose_publisher:/root/codes/iron_yahboomcar_ws/install/laserscan_to_point_pulisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --build /root/codes/iron_yahboomcar_ws/build/yahboomcar_msgs -- -j4 -l4
+[17.322s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[17.338s] [35m[1mScanning dependencies of target yahboomcar_msgs__cpp[0m
+[17.516s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[21.263s] [  3%] Built target yahboomcar_msgs__cpp
+[21.450s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[21.527s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[22.019s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[22.230s] [35m[1mScanning dependencies of target yahboomcar_msgs__rosidl_generator_c[0m
+[22.434s] [  9%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/image_msg__functions.c.o[0m
+[23.005s] [ 11%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/point_array__functions.c.o[0m
+[23.477s] [ 12%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/position__functions.c.o[0m
+[24.157s] [ 14%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/target__functions.c.o[0m
+[24.682s] [ 15%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/target_array__functions.c.o[0m
+[25.277s] [ 17%] [32m[1mLinking C shared library libyahboomcar_msgs__rosidl_generator_c.so[0m
+[25.839s] [ 17%] Built target yahboomcar_msgs__rosidl_generator_c
+[26.044s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[26.310s] [35m[1mScanning dependencies of target yahboomcar_msgs__rosidl_typesupport_cpp[0m
+[26.496s] [ 20%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/image_msg__type_support.cpp.o[0m
+[26.664s] [35m[1mScanning dependencies of target yahboomcar_msgs__rosidl_typesupport_introspection_cpp[0m
+[26.753s] [35m[1mScanning dependencies of target yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[26.893s] [ 22%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/image_msg__type_support.cpp.o[0m
+[27.005s] [ 23%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/image_msg__type_support.cpp.o[0m
+[29.082s] [ 25%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/point_array__type_support.cpp.o[0m
+[30.327s] [ 26%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/point_array__type_support.cpp.o[0m
+[31.459s] [35m[1mScanning dependencies of target yahboomcar_msgs__rosidl_typesupport_introspection_c[0m
+[31.668s] [ 28%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/point_array__type_support.cpp.o[0m
+[31.700s] [ 30%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/image_msg__type_support.c.o[0m
+[32.173s] [ 31%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/point_array__type_support.c.o[0m
+[32.270s] [ 33%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/position__type_support.cpp.o[0m
+[32.654s] [ 34%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/position__type_support.c.o[0m
+[33.032s] [ 36%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/target__type_support.c.o[0m
+[33.558s] [ 38%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/target_array__type_support.c.o[0m
+[33.859s] [ 39%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/position__type_support.cpp.o[0m
+[34.117s] [ 41%] [32m[1mLinking C shared library libyahboomcar_msgs__rosidl_typesupport_introspection_c.so[0m
+[34.703s] [ 41%] Built target yahboomcar_msgs__rosidl_typesupport_introspection_c
+[34.931s] [ 42%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35.936s] [ 44%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/target__type_support.cpp.o[0m
+[36.105s] [ 46%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/position__type_support.cpp.o[0m
+[38.006s] [ 47%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/target__type_support.cpp.o[0m
+[39.465s] [35m[1mScanning dependencies of target yahboomcar_msgs__rosidl_typesupport_c[0m
+[39.705s] [ 49%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/image_msg__type_support.cpp.o[0m
+[39.804s] [ 50%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/target_array__type_support.cpp.o[0m
+[40.275s] [ 52%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/point_array__type_support.cpp.o[0m
+[40.813s] [ 53%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/position__type_support.cpp.o[0m
+[41.277s] [ 55%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/target__type_support.cpp.o[0m
+[41.408s] [ 57%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/target__type_support.cpp.o[0m
+[41.982s] [ 58%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/target_array__type_support.cpp.o[0m
+[42.524s] [ 60%] [32m[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_c.so[0m
+[43.167s] [ 61%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/target_array__type_support.cpp.o[0m
+[43.414s] [ 61%] Built target yahboomcar_msgs__rosidl_typesupport_c
+[43.882s] [ 63%] [32m[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_cpp.so[0m
+[44.515s] [ 63%] Built target yahboomcar_msgs__rosidl_typesupport_cpp
+[46.666s] [ 65%] [32m[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[46.892s] [ 66%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/target_array__type_support.cpp.o[0m
+[47.268s] [ 66%] Built target yahboomcar_msgs__rosidl_typesupport_introspection_cpp
+[49.853s] [ 68%] [32m[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[50.368s] [ 68%] Built target yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp
+[50.451s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[53.922s] [35m[1mScanning dependencies of target yahboomcar_msgs__rosidl_typesupport_fastrtps_c[0m
+[54.074s] [ 71%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/image_msg__type_support_c.cpp.o[0m
+[56.394s] [ 73%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/target__type_support_c.cpp.o[0m
+[58.489s] [ 74%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/target_array__type_support_c.cpp.o[0m
+[60.704s] [ 76%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/position__type_support_c.cpp.o[0m
+[62.925s] [ 77%] [32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/point_array__type_support_c.cpp.o[0m
+[64.988s] [ 79%] [32m[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[65.499s] [ 79%] Built target yahboomcar_msgs__rosidl_typesupport_fastrtps_c
+[65.608s] [35m[1mScanning dependencies of target yahboomcar_msgs[0m
+[65.721s] [ 79%] Built target yahboomcar_msgs
+[65.794s] [35m[1mScanning dependencies of target yahboomcar_msgs__py[0m
+[65.865s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[71.315s] [ 80%] Built target yahboomcar_msgs__py
+[71.427s] [35m[1mScanning dependencies of target yahboomcar_msgs__python[0m
+[71.639s] [ 82%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__python.dir/rosidl_generator_py/yahboomcar_msgs/msg/_image_msg_s.c.o[0m
+[72.330s] [ 84%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__python.dir/rosidl_generator_py/yahboomcar_msgs/msg/_target_s.c.o[0m
+[73.031s] [ 85%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__python.dir/rosidl_generator_py/yahboomcar_msgs/msg/_target_array_s.c.o[0m
+[73.632s] [ 87%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__python.dir/rosidl_generator_py/yahboomcar_msgs/msg/_position_s.c.o[0m
+[74.219s] [ 88%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__python.dir/rosidl_generator_py/yahboomcar_msgs/msg/_point_array_s.c.o[0m
+[74.894s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/yahboomcar_msgs/libyahboomcar_msgs__python.so[0m
+[75.216s] [ 90%] Built target yahboomcar_msgs__python
+[75.299s] [35m[1mScanning dependencies of target yahboomcar_msgs__rosidl_typesupport_c__pyext[0m
+[75.459s] [ 92%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[76.077s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[76.362s] [ 93%] Built target yahboomcar_msgs__rosidl_typesupport_c__pyext
+[76.469s] [35m[1mScanning dependencies of target yahboomcar_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[76.636s] [ 95%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[77.207s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[77.675s] [ 96%] Built target yahboomcar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[77.779s] [35m[1mScanning dependencies of target yahboomcar_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[77.938s] [ 98%] [32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[78.518s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[78.816s] [100%] Built target yahboomcar_msgs__rosidl_typesupport_introspection_c__pyext
+[78.913s] Invoked command in '/root/codes/iron_yahboomcar_ws/build/yahboomcar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/codes/iron_yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/codes/iron_yahboomcar_ws/install/yahboomcar_visual:/root/codes/iron_yahboomcar_ws/install/yahboomcar_nav:/root/codes/iron_yahboomcar_ws/install/yahboomcar_multi:/root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe:/root/codes/iron_yahboomcar_ws/install/yahboomcar_linefollow:/root/codes/iron_yahboomcar_ws/install/yahboomcar_laser:/root/codes/iron_yahboomcar_ws/install/yahboomcar_description_x1:/root/codes/iron_yahboomcar_ws/install/yahboomcar_description:/root/codes/iron_yahboomcar_ws/install/yahboomcar_ctrl:/root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup:/root/codes/iron_yahboomcar_ws/install/yahboomcar_astra:/root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map:/root/codes/iron_yahboomcar_ws/install/robot_pose_publisher:/root/codes/iron_yahboomcar_ws/install/laserscan_to_point_pulisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --build /root/codes/iron_yahboomcar_ws/build/yahboomcar_msgs -- -j4 -l4
+[80.279s] Invoking command in '/root/codes/iron_yahboomcar_ws/build/yahboomcar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/codes/iron_yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/codes/iron_yahboomcar_ws/install/yahboomcar_visual:/root/codes/iron_yahboomcar_ws/install/yahboomcar_nav:/root/codes/iron_yahboomcar_ws/install/yahboomcar_multi:/root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe:/root/codes/iron_yahboomcar_ws/install/yahboomcar_linefollow:/root/codes/iron_yahboomcar_ws/install/yahboomcar_laser:/root/codes/iron_yahboomcar_ws/install/yahboomcar_description_x1:/root/codes/iron_yahboomcar_ws/install/yahboomcar_description:/root/codes/iron_yahboomcar_ws/install/yahboomcar_ctrl:/root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup:/root/codes/iron_yahboomcar_ws/install/yahboomcar_astra:/root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map:/root/codes/iron_yahboomcar_ws/install/robot_pose_publisher:/root/codes/iron_yahboomcar_ws/install/laserscan_to_point_pulisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --install /root/codes/iron_yahboomcar_ws/build/yahboomcar_msgs
+[80.360s] -- Install configuration: ""
+[80.360s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/ament_index/resource_index/rosidl_interfaces/yahboomcar_msgs
+[80.361s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs
+[80.361s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg
+[80.362s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail
+[80.363s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__type_support.h
+[80.363s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__type_support.h
+[80.365s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__functions.h
+[80.367s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__functions.c
+[80.368s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__struct.h
+[80.370s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__type_support.h
+[80.372s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__functions.c
+[80.374s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__functions.c
+[80.375s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__type_support.h
+[80.377s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__functions.c
+[80.378s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__functions.h
+[80.380s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__functions.h
+[80.382s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__struct.h
+[80.383s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__struct.h
+[80.385s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__functions.c
+[80.387s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__struct.h
+[80.388s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__struct.h
+[80.390s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__functions.h
+[80.391s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__functions.h
+[80.393s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__type_support.h
+[80.395s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/target.h
+[80.398s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/position.h
+[80.400s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/target_array.h
+[80.402s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/image_msg.h
+[80.403s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/rosidl_generator_c__visibility_control.h
+[80.405s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/point_array.h
+[80.407s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/library_path.sh
+[80.409s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/library_path.dsv
+[80.432s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_generator_c.so
+[80.438s] -- Set runtime path of "/root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_generator_c.so" to ""
+[80.442s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs
+[80.444s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg
+[80.444s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail
+[80.446s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__rosidl_typesupport_fastrtps_c.h
+[80.448s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[80.450s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+[80.451s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h
+[80.452s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__rosidl_typesupport_fastrtps_c.h
+[80.454s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[80.468s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_fastrtps_c.so
+[80.472s] -- Set runtime path of "/root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[80.474s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs
+[80.475s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg
+[80.476s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail
+[80.478s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[80.479s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/dds_fastrtps
+[80.481s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+[80.482s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__rosidl_typesupport_fastrtps_cpp.hpp
+[80.484s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[80.486s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp
+[80.487s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[80.495s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[80.499s] -- Set runtime path of "/root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[80.500s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs
+[80.501s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg
+[80.502s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail
+[80.503s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__type_support.c
+[80.505s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__rosidl_typesupport_introspection_c.h
+[80.507s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__type_support.c
+[80.508s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__rosidl_typesupport_introspection_c.h
+[80.510s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__rosidl_typesupport_introspection_c.h
+[80.514s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_introspection_c.h
+[80.516s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__type_support.c
+[80.518s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__type_support.c
+[80.520s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__type_support.c
+[80.522s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__rosidl_typesupport_introspection_c.h
+[80.533s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[80.548s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_introspection_c.so
+[80.551s] -- Set runtime path of "/root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_introspection_c.so" to ""
+[80.554s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_c.so
+[80.564s] -- Set runtime path of "/root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_c.so" to ""
+[80.565s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs
+[80.565s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg
+[80.566s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail
+[80.567s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__builder.hpp
+[80.567s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__builder.hpp
+[80.568s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__builder.hpp
+[80.569s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__struct.hpp
+[80.570s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__struct.hpp
+[80.570s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__traits.hpp
+[80.571s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__traits.hpp
+[80.572s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__builder.hpp
+[80.574s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__struct.hpp
+[80.576s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__traits.hpp
+[80.579s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__traits.hpp
+[80.581s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__struct.hpp
+[80.583s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__struct.hpp
+[80.585s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__traits.hpp
+[80.589s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__builder.hpp
+[80.590s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/position.hpp
+[80.590s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/image_msg.hpp
+[80.591s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/target_array.hpp
+[80.591s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/target.hpp
+[80.593s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/point_array.hpp
+[80.595s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs
+[80.596s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg
+[80.597s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail
+[80.599s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp
+[80.600s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+[80.601s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[80.603s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__type_support.cpp
+[80.604s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__type_support.cpp
+[80.606s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__rosidl_typesupport_introspection_cpp.hpp
+[80.608s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__type_support.cpp
+[80.610s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__rosidl_typesupport_introspection_cpp.hpp
+[80.611s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__type_support.cpp
+[80.614s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__type_support.cpp
+[80.644s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_introspection_cpp.so
+[80.646s] -- Set runtime path of "/root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[80.667s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_cpp.so
+[80.673s] -- Set runtime path of "/root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_cpp.so" to ""
+[80.674s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/pythonpath.sh
+[80.682s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/pythonpath.dsv
+[80.684s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/__init__.py
+[81.086s] Compiling '/root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/__init__.py'...
+[81.115s] -- Up-to-date: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg
+[81.116s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_target_array_s.c
+[81.118s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_position_s.c
+[81.121s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_point_array.py
+[81.123s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_point_array_s.c
+[81.124s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_target.py
+[81.126s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/__init__.py
+[81.139s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_position.py
+[81.140s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_target_s.c
+[81.143s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_image_msg_s.c
+[81.144s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_image_msg.py
+[81.148s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_target_array.py
+[81.162s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[81.165s] -- Set runtime path of "/root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[81.178s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[81.181s] -- Set runtime path of "/root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[81.193s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[81.197s] -- Set runtime path of "/root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[81.209s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__python.so
+[81.213s] -- Set runtime path of "/root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__python.so" to ""
+[81.214s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/ImageMsg.idl
+[81.216s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/PointArray.idl
+[81.218s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/Position.idl
+[81.221s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/Target.idl
+[81.223s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/TargetArray.idl
+[81.224s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/ImageMsg.msg
+[81.226s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/PointArray.msg
+[81.228s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/Position.msg
+[81.238s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/Target.msg
+[81.239s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/TargetArray.msg
+[81.240s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/ament_index/resource_index/package_run_dependencies/yahboomcar_msgs
+[81.241s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/ament_index/resource_index/parent_prefix_path/yahboomcar_msgs
+[81.251s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/ament_prefix_path.sh
+[81.252s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/ament_prefix_path.dsv
+[81.253s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/path.sh
+[81.254s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/path.dsv
+[81.255s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.bash
+[81.255s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.sh
+[81.256s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.zsh
+[81.257s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.dsv
+[81.260s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/package.dsv
+[81.269s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/ament_index/resource_index/packages/yahboomcar_msgs
+[81.276s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_generator_cExport.cmake
+[81.278s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_generator_cExport-noconfig.cmake
+[81.292s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cExport.cmake
+[81.293s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[81.296s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cExport.cmake
+[81.298s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[81.312s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_generator_cppExport.cmake
+[81.316s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[81.318s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[81.343s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cppExport.cmake
+[81.352s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[81.357s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/rosidl_cmake-extras.cmake
+[81.359s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[81.364s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[81.366s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[81.368s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[81.370s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[81.372s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[81.374s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgsConfig.cmake
+[81.376s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgsConfig-version.cmake
+[81.378s] -- Installing: /root/codes/iron_yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/package.xml
+[81.399s] Invoked command in '/root/codes/iron_yahboomcar_ws/build/yahboomcar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/codes/iron_yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/codes/iron_yahboomcar_ws/install/yahboomcar_visual:/root/codes/iron_yahboomcar_ws/install/yahboomcar_nav:/root/codes/iron_yahboomcar_ws/install/yahboomcar_multi:/root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe:/root/codes/iron_yahboomcar_ws/install/yahboomcar_linefollow:/root/codes/iron_yahboomcar_ws/install/yahboomcar_laser:/root/codes/iron_yahboomcar_ws/install/yahboomcar_description_x1:/root/codes/iron_yahboomcar_ws/install/yahboomcar_description:/root/codes/iron_yahboomcar_ws/install/yahboomcar_ctrl:/root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup:/root/codes/iron_yahboomcar_ws/install/yahboomcar_astra:/root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map:/root/codes/iron_yahboomcar_ws/install/robot_pose_publisher:/root/codes/iron_yahboomcar_ws/install/laserscan_to_point_pulisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --install /root/codes/iron_yahboomcar_ws/build/yahboomcar_msgs

@@ -1,0 +1,3 @@
+[console_scripts]
+color_service = yahboomcar_color.color_service:main
+

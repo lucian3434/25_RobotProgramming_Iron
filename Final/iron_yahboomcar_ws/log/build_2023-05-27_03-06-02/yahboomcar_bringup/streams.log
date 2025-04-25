@@ -1,0 +1,31 @@
+[4.756s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_bringup': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_bringup build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/install.log --install-scripts $base/lib/yahboomcar_bringup --single-version-externally-managed
+[6.115s] running egg_info
+[6.118s] writing ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/PKG-INFO
+[6.124s] writing dependency_links to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/dependency_links.txt
+[6.125s] writing entry points to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/entry_points.txt
+[6.125s] writing requirements to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/requires.txt
+[6.126s] writing top-level names to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/top_level.txt
+[6.316s] reading manifest file '../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/SOURCES.txt'
+[6.327s] writing manifest file '../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/SOURCES.txt'
+[6.327s] running build
+[6.328s] running build_py
+[6.333s] running install
+[6.338s] running install_lib
+[6.355s] running install_data
+[6.358s] running install_egg_info
+[6.367s] removing '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup-0.0.0-py3.8.egg-info' (and everything under it)
+[6.369s] Copying ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup-0.0.0-py3.8.egg-info
+[6.378s] running install_scripts
+[6.465s] Installing Ackman_driver_R2 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.465s] Installing Mcnamu_driver_X3 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.466s] Installing Mcnamu_driver_x1 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.466s] Installing calibrate_angular_R2 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.467s] Installing calibrate_angular_X3 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.467s] Installing calibrate_linear_R2 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.468s] Installing calibrate_linear_X3 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.468s] Installing patrol_4ROS script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.469s] Installing patrol_4ROS_R2 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.469s] Installing patrol_a1_R2 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.470s] Installing patrol_a1_X3 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.472s] writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/install.log'
+[6.588s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_bringup' returned '0': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_bringup build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/install.log --install-scripts $base/lib/yahboomcar_bringup --single-version-externally-managed

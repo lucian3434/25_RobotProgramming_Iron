@@ -1,0 +1,4 @@
+CMake Error: The current CMakeCache.txt directory /root/codes/iron_yahboomcar_ws/build/yahboomcar_KCFTracker/CMakeCache.txt is different than the directory /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_KCFTracker where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+WARNING: Package name "yahboomcar_KCFTracker" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+/usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.3.2
+/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.2

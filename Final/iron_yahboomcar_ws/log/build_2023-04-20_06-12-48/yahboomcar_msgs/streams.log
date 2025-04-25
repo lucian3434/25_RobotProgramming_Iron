@@ -1,0 +1,189 @@
+[0.327s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy /usr/bin/cmake --build /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_msgs -- -j4 -l4
+[1.797s] [  1%] Built target yahboomcar_msgs__cpp
+[1.799s] [ 12%] Built target yahboomcar_msgs__rosidl_generator_c
+[1.801s] [ 25%] Built target yahboomcar_msgs__rosidl_typesupport_introspection_cpp
+[1.803s] [ 34%] Built target yahboomcar_msgs__rosidl_typesupport_cpp
+[1.803s] [ 46%] Built target yahboomcar_msgs__rosidl_typesupport_introspection_c
+[1.803s] [ 57%] Built target yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp
+[1.804s] [ 68%] Built target yahboomcar_msgs__rosidl_typesupport_c
+[1.805s] [ 79%] Built target yahboomcar_msgs__rosidl_typesupport_fastrtps_c
+[1.805s] [ 79%] Built target yahboomcar_msgs
+[1.805s] [ 80%] Built target yahboomcar_msgs__py
+[1.806s] [ 90%] Built target yahboomcar_msgs__python
+[2.047s] [ 93%] Built target yahboomcar_msgs__rosidl_typesupport_c__pyext
+[2.066s] [ 96%] Built target yahboomcar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.102s] [100%] Built target yahboomcar_msgs__rosidl_typesupport_introspection_c__pyext
+[2.183s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy /usr/bin/cmake --build /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_msgs -- -j4 -l4
+[4.532s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy /usr/bin/cmake --install /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_msgs
+[4.652s] -- Install configuration: ""
+[4.652s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/ament_index/resource_index/rosidl_interfaces/yahboomcar_msgs
+[4.653s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs
+[4.655s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg
+[4.656s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail
+[4.657s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__type_support.h
+[4.657s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__functions.c
+[4.658s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__struct.h
+[4.660s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__struct.h
+[4.661s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__struct.h
+[4.662s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__functions.c
+[4.662s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__type_support.h
+[4.670s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__functions.h
+[4.674s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__functions.c
+[4.675s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__functions.h
+[4.675s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__functions.c
+[4.676s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__functions.h
+[4.677s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__functions.h
+[4.677s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__struct.h
+[4.678s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__struct.h
+[4.678s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__type_support.h
+[4.679s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__functions.c
+[4.682s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__type_support.h
+[4.683s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__type_support.h
+[4.683s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__functions.h
+[4.684s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.685s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/image_msg.h
+[4.685s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/target.h
+[4.686s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/position.h
+[4.687s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/target_array.h
+[4.687s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/point_array.h
+[4.688s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/library_path.sh
+[4.689s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/library_path.dsv
+[4.689s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_generator_c.so
+[4.690s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs
+[4.691s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg
+[4.692s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail
+[4.692s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[4.694s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__rosidl_typesupport_fastrtps_c.h
+[4.698s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__rosidl_typesupport_fastrtps_c.h
+[4.699s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+[4.703s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h
+[4.707s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.712s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_fastrtps_c.so
+[4.717s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs
+[4.718s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg
+[4.719s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail
+[4.721s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/dds_fastrtps
+[4.722s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__rosidl_typesupport_fastrtps_cpp.hpp
+[4.722s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[4.725s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+[4.730s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[4.731s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp
+[4.733s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.738s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.743s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs
+[4.744s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg
+[4.745s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail
+[4.746s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_introspection_c.h
+[4.756s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__type_support.c
+[4.760s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__type_support.c
+[4.768s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__rosidl_typesupport_introspection_c.h
+[4.772s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__rosidl_typesupport_introspection_c.h
+[4.777s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__rosidl_typesupport_introspection_c.h
+[4.779s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__type_support.c
+[4.780s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__type_support.c
+[4.784s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__rosidl_typesupport_introspection_c.h
+[4.785s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__type_support.c
+[4.786s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.789s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_introspection_c.so
+[4.799s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_c.so
+[4.801s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs
+[4.801s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg
+[4.802s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/point_array.hpp
+[4.803s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail
+[4.803s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__struct.hpp
+[4.807s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__struct.hpp
+[4.809s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__builder.hpp
+[4.812s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__struct.hpp
+[4.815s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__builder.hpp
+[4.817s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__builder.hpp
+[4.820s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__traits.hpp
+[4.831s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__traits.hpp
+[4.832s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__traits.hpp
+[4.833s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__builder.hpp
+[4.835s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__builder.hpp
+[4.842s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__struct.hpp
+[4.845s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__traits.hpp
+[4.848s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__traits.hpp
+[4.850s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__struct.hpp
+[4.854s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/image_msg.hpp
+[4.856s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/target_array.hpp
+[4.860s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/target.hpp
+[4.863s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/position.hpp
+[4.865s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs
+[4.866s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg
+[4.866s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail
+[4.867s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__rosidl_typesupport_introspection_cpp.hpp
+[4.869s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__type_support.cpp
+[4.872s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__type_support.cpp
+[4.876s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp
+[4.881s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[4.885s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/image_msg__type_support.cpp
+[4.887s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__type_support.cpp
+[4.891s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target__type_support.cpp
+[4.895s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+[4.897s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/include/yahboomcar_msgs/msg/detail/target_array__rosidl_typesupport_introspection_cpp.hpp
+[4.904s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_introspection_cpp.so
+[4.912s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__rosidl_typesupport_cpp.so
+[4.916s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/pythonpath.sh
+[4.919s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/pythonpath.dsv
+[4.922s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/__init__.py
+[5.133s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg
+[5.133s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_image_msg_s.c
+[5.137s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_position.py
+[5.139s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_target_array_s.c
+[5.143s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_target_array.py
+[5.146s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_point_array.py
+[5.149s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/__init__.py
+[5.152s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_image_msg.py
+[5.154s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_point_array_s.c
+[5.157s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_target_s.c
+[5.160s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_position_s.c
+[5.162s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/msg/_target.py
+[5.170s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[5.176s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[5.183s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[5.193s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/libyahboomcar_msgs__python.so
+[5.199s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/ImageMsg.idl
+[5.202s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/PointArray.idl
+[5.207s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/Position.idl
+[5.211s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/Target.idl
+[5.214s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/TargetArray.idl
+[5.217s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/ImageMsg.msg
+[5.220s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/PointArray.msg
+[5.222s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/Position.msg
+[5.225s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/Target.msg
+[5.228s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/msg/TargetArray.msg
+[5.232s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/ament_index/resource_index/package_run_dependencies/yahboomcar_msgs
+[5.236s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/ament_index/resource_index/parent_prefix_path/yahboomcar_msgs
+[5.239s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/ament_prefix_path.sh
+[5.242s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/ament_prefix_path.dsv
+[5.245s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/path.sh
+[5.249s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/environment/path.dsv
+[5.252s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.bash
+[5.255s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.sh
+[5.259s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.zsh
+[5.262s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/local_setup.dsv
+[5.265s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/package.dsv
+[5.267s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/ament_index/resource_index/packages/yahboomcar_msgs
+[5.270s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_generator_cExport.cmake
+[5.273s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.278s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.281s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.286s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cExport.cmake
+[5.289s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.293s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_generator_cppExport.cmake
+[5.298s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.301s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.305s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cppExport.cmake
+[5.308s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.311s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/rosidl_cmake-extras.cmake
+[5.314s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.318s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.322s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.324s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.327s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.330s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.333s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgsConfig.cmake
+[5.336s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake/yahboomcar_msgsConfig-version.cmake
+[5.338s] -- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/package.xml
+[6.294s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy /usr/bin/cmake --install /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_msgs

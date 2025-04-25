@@ -1,0 +1,27 @@
+[5.415s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_visual': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_visual/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_visual build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_visual/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_visual/install.log --install-scripts $base/lib/yahboomcar_visual --single-version-externally-managed
+[6.598s] running egg_info
+[6.601s] writing ../../build/yahboomcar_visual/yahboomcar_visual.egg-info/PKG-INFO
+[6.608s] writing dependency_links to ../../build/yahboomcar_visual/yahboomcar_visual.egg-info/dependency_links.txt
+[6.608s] writing entry points to ../../build/yahboomcar_visual/yahboomcar_visual.egg-info/entry_points.txt
+[6.609s] writing requirements to ../../build/yahboomcar_visual/yahboomcar_visual.egg-info/requires.txt
+[6.609s] writing top-level names to ../../build/yahboomcar_visual/yahboomcar_visual.egg-info/top_level.txt
+[6.785s] reading manifest file '../../build/yahboomcar_visual/yahboomcar_visual.egg-info/SOURCES.txt'
+[6.791s] writing manifest file '../../build/yahboomcar_visual/yahboomcar_visual.egg-info/SOURCES.txt'
+[6.791s] running build
+[6.792s] running build_py
+[6.799s] running install
+[6.803s] running install_lib
+[6.815s] running install_data
+[6.823s] running install_egg_info
+[6.830s] removing '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual-0.0.0-py3.8.egg-info' (and everything under it)
+[6.831s] Copying ../../build/yahboomcar_visual/yahboomcar_visual.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages/yahboomcar_visual-0.0.0-py3.8.egg-info
+[6.837s] running install_scripts
+[6.917s] Installing astra_color_point script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/yahboomcar_visual
+[6.921s] Installing astra_depth_image script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/yahboomcar_visual
+[6.921s] Installing astra_image_flip script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/yahboomcar_visual
+[6.922s] Installing astra_rgb_image script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/yahboomcar_visual
+[6.922s] Installing laser_to_image script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/yahboomcar_visual
+[6.923s] Installing pub_image script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/yahboomcar_visual
+[6.924s] Installing simple_AR script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/yahboomcar_visual
+[6.925s] writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_visual/install.log'
+[7.040s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_visual' returned '0': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_visual/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_visual build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_visual/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_visual/install.log --install-scripts $base/lib/yahboomcar_visual --single-version-externally-managed

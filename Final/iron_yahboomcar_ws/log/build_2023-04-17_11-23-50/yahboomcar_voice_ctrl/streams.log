@@ -1,0 +1,61 @@
+[7.018s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_voice_ctrl': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_voice_ctrl build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/install.log --install-scripts $base/lib/yahboomcar_voice_ctrl --single-version-externally-managed
+[8.875s] running egg_info
+[8.880s] creating ../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info
+[8.886s] writing ../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/PKG-INFO
+[8.892s] writing dependency_links to ../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/dependency_links.txt
+[8.901s] writing entry points to ../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/entry_points.txt
+[8.905s] writing requirements to ../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/requires.txt
+[8.910s] writing top-level names to ../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/top_level.txt
+[8.934s] writing manifest file '../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/SOURCES.txt'
+[9.462s] reading manifest file '../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/SOURCES.txt'
+[9.480s] writing manifest file '../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/SOURCES.txt'
+[9.484s] running build
+[9.484s] running build_py
+[9.485s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build
+[9.485s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib
+[9.490s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl
+[9.491s] copying yahboomcar_voice_ctrl/Voice_Ctrl_Mcnamu_driver.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl
+[9.491s] copying yahboomcar_voice_ctrl/voice_Ctrl_color_identify.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl
+[9.496s] copying yahboomcar_voice_ctrl/Voice_Ctrl_follow_line_a1.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl
+[9.497s] copying yahboomcar_voice_ctrl/Voice_Ctrl_colorTracker.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl
+[9.498s] copying yahboomcar_voice_ctrl/Voice_Ctrl_colorHSV.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl
+[9.499s] copying yahboomcar_voice_ctrl/__init__.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl
+[9.502s] copying yahboomcar_voice_ctrl/astra_common.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl
+[9.505s] copying yahboomcar_voice_ctrl/colorHSV.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl
+[9.505s] copying yahboomcar_voice_ctrl/follow_common.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl
+[9.508s] running install
+[9.512s] running install_lib
+[9.528s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl
+[9.531s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl/Voice_Ctrl_Mcnamu_driver.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl
+[9.538s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl/voice_Ctrl_color_identify.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl
+[9.539s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl/Voice_Ctrl_follow_line_a1.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl
+[9.539s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl/Voice_Ctrl_colorTracker.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl
+[9.540s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl/Voice_Ctrl_colorHSV.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl
+[9.541s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl/__init__.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl
+[9.544s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl/astra_common.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl
+[9.546s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl/colorHSV.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl
+[9.547s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl/follow_common.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl
+[9.559s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl/Voice_Ctrl_Mcnamu_driver.py to Voice_Ctrl_Mcnamu_driver.cpython-38.pyc
+[9.583s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl/voice_Ctrl_color_identify.py to voice_Ctrl_color_identify.cpython-38.pyc
+[9.592s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl/Voice_Ctrl_follow_line_a1.py to Voice_Ctrl_follow_line_a1.cpython-38.pyc
+[9.607s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl/Voice_Ctrl_colorTracker.py to Voice_Ctrl_colorTracker.cpython-38.pyc
+[9.623s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl/Voice_Ctrl_colorHSV.py to Voice_Ctrl_colorHSV.cpython-38.pyc
+[9.633s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl/__init__.py to __init__.cpython-38.pyc
+[9.635s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl/astra_common.py to astra_common.cpython-38.pyc
+[9.643s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl/colorHSV.py to colorHSV.cpython-38.pyc
+[9.653s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl/follow_common.py to follow_common.cpython-38.pyc
+[9.678s] running install_data
+[9.682s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/share/ament_index
+[9.684s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/share/ament_index/resource_index
+[9.688s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/share/ament_index/resource_index/packages
+[9.690s] copying resource/yahboomcar_voice_ctrl -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/share/ament_index/resource_index/packages
+[9.691s] copying package.xml -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/share/yahboomcar_voice_ctrl
+[9.693s] running install_egg_info
+[9.719s] Copying ../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl-0.0.0-py3.8.egg-info
+[9.725s] running install_scripts
+[9.930s] Installing Voice_Ctrl_Mcnamu_driver script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+[9.940s] Installing Voice_Ctrl_colorHSV script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+[9.942s] Installing Voice_Ctrl_colorTracker script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+[9.950s] Installing Voice_Ctrl_follow_line_a1 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+[9.959s] writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/install.log'
+[10.239s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_voice_ctrl' returned '0': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_voice_ctrl build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/install.log --install-scripts $base/lib/yahboomcar_voice_ctrl --single-version-externally-managed

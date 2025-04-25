@@ -1,0 +1,65 @@
+[2.404s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_base_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy /usr/bin/cmake /root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_base_node -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node
+[2.916s] -- The C compiler identification is GNU 9.4.0
+[3.493s] -- The CXX compiler identification is GNU 9.4.0
+[3.574s] -- Check for working C compiler: /usr/bin/cc
+[4.278s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.291s] -- Detecting C compiler ABI info
+[5.121s] -- Detecting C compiler ABI info - done
+[5.248s] -- Detecting C compile features
+[5.253s] -- Detecting C compile features - done
+[5.269s] -- Check for working CXX compiler: /usr/bin/c++
+[6.205s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.222s] -- Detecting CXX compiler ABI info
+[7.312s] -- Detecting CXX compiler ABI info - done
+[7.482s] -- Detecting CXX compile features
+[7.492s] -- Detecting CXX compile features - done
+[7.576s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[7.857s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.858s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.690s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[11.584s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.760s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[13.406s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[14.058s] -- Found FastRTPS: /opt/ros/foxy/include  
+[15.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.479s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[17.455s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[17.470s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[17.471s] -- Looking for pthread.h
+[18.242s] -- Looking for pthread.h - found
+[18.243s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[19.312s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[19.314s] -- Looking for pthread_create in pthreads
+[20.240s] -- Looking for pthread_create in pthreads - not found
+[20.242s] -- Looking for pthread_create in pthread
+[21.530s] -- Looking for pthread_create in pthread - found
+[21.537s] -- Found Threads: TRUE  
+[26.132s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[26.740s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[27.096s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[28.343s] -- Added test 'copyright' to check source files copyright and LICENSE
+[28.358s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[28.359s] -- Configured cppcheck include dirs: 
+[28.359s] -- Configured cppcheck exclude dirs and/or files: 
+[28.361s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[28.362s] -- Configured cpplint exclude dirs and/or files: 
+[28.372s] -- Added test 'lint_cmake' to check CMake code style
+[28.401s] -- Added test 'uncrustify' to check C / C++ code style
+[28.401s] -- Configured uncrustify additional arguments: 
+[28.403s] -- Added test 'xmllint' to check XML markup files
+[28.455s] -- Configuring done
+[28.472s] CMake Error at CMakeLists.txt:40 (add_executable):
+[28.473s]   Cannot find source file:
+[28.473s] 
+[28.474s]     src/base_node.cpp
+[28.474s] 
+[28.474s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[28.475s]   .hpp .hxx .in .txx
+[28.475s] 
+[28.475s] 
+[28.493s] CMake Error at CMakeLists.txt:40 (add_executable):
+[28.495s]   No SOURCES given to target: base_node
+[28.496s] 
+[28.496s] 
+[28.497s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[30.968s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_base_node' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy /usr/bin/cmake /root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_base_node -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node

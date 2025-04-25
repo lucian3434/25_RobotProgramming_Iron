@@ -1,0 +1,76 @@
+[0.323s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_KCFTracker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy /usr/bin/cmake /root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker
+[2.537s] -- The C compiler identification is GNU 9.4.0
+[2.538s] -- The CXX compiler identification is GNU 9.4.0
+[2.539s] -- Check for working C compiler: /usr/bin/cc
+[2.631s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.650s] -- Detecting C compiler ABI info
+[3.487s] -- Detecting C compiler ABI info - done
+[3.646s] -- Detecting C compile features
+[3.651s] -- Detecting C compile features - done
+[3.686s] -- Check for working CXX compiler: /usr/bin/c++
+[4.685s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.697s] -- Detecting CXX compiler ABI info
+[5.701s] -- Detecting CXX compiler ABI info - done
+[5.836s] -- Detecting CXX compile features
+[5.839s] -- Detecting CXX compile features - done
+[5.910s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.228s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.229s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.640s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[9.306s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.633s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[11.120s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[11.565s] -- Found FastRTPS: /opt/ros/foxy/include  
+[12.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.806s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[14.499s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[15.179s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[15.215s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.227s] -- Looking for pthread.h
+[16.114s] -- Looking for pthread.h - found
+[16.117s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[17.316s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[17.321s] -- Looking for pthread_create in pthreads
+[18.194s] -- Looking for pthread_create in pthreads - not found
+[18.194s] -- Looking for pthread_create in pthread
+[19.212s] -- Looking for pthread_create in pthread - found
+[19.225s] -- Found Threads: TRUE  
+[20.239s] -- Found OpenCV: /usr/local (found version "3.2.0") 
+[20.280s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[20.360s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[20.892s] WARNING: Package name "yahboomcar_KCFTracker" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[21.497s] -- Added test 'copyright' to check source files copyright and LICENSE
+[21.518s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[21.529s] -- Configured cppcheck include dirs: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/include/yahboomcar_KCFTracker
+[21.529s] -- Configured cppcheck exclude dirs and/or files: 
+[21.553s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[21.554s] -- Configured cpplint exclude dirs and/or files: 
+[21.568s] -- Added test 'flake8' to check Python code syntax and style conventions
+[21.588s] -- Added test 'lint_cmake' to check CMake code style
+[21.609s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[21.641s] -- Added test 'uncrustify' to check C / C++ code style
+[21.643s] -- Configured uncrustify additional arguments: 
+[21.657s] -- Added test 'xmllint' to check XML markup files
+[21.713s] -- Configuring done
+[21.832s] -- Generating done
+[21.852s] -- Build files have been written to: /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_KCFTracker
+[21.920s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_KCFTracker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy /usr/bin/cmake /root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker
+[21.943s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_KCFTracker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy /usr/bin/cmake --build /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_KCFTracker -- -j4 -l4
+[22.684s] [35m[1mScanning dependencies of target KCF_Tracker_Node[0m
+[23.374s] [ 16%] [32mBuilding CXX object CMakeFiles/KCF_Tracker_Node.dir/src/KCF_Tracker_main.cpp.o[0m
+[26.074s] In file included from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/include/yahboomcar_KCFTracker/KCF_Tracker.h:12[m[K,
+[26.077s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/src/KCF_Tracker_main.cpp:2[m[K:
+[26.078s] [01m[K/opt/ros/foxy/include/image_transport/image_transport.h:41:89:[m[K [01;36m[Knote: [m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead
+[26.078s]    41 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+[26.078s]       |                                                                                         [01;36m[K^[m[K
+[63.871s] [ 33%] [32mBuilding CXX object CMakeFiles/KCF_Tracker_Node.dir/include/yahboomcar_KCFTracker/fhog.cpp.o[0m
+[67.780s] [ 50%] [32mBuilding CXX object CMakeFiles/KCF_Tracker_Node.dir/include/yahboomcar_KCFTracker/PID.cpp.o[0m
+[68.939s] [ 66%] [32mBuilding CXX object CMakeFiles/KCF_Tracker_Node.dir/include/yahboomcar_KCFTracker/kcftracker.cpp.o[0m
+[76.643s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/include/yahboomcar_KCFTracker/kcftracker.cpp:[m[K In member function ‘[01m[Kcv::Mat KCFTracker::getFeatures(const cv::Mat&, bool, float)[m[K’:
+[76.644s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/include/yahboomcar_KCFTracker/kcftracker.cpp:398:26:[m[K [01;31m[Kerror: [m[K‘[01m[KcvIplImage[m[K’ was not declared in this scope; did you mean ‘[01m[KIplImage[m[K’?
+[76.644s]   398 |         IplImage z_ipl = [01;31m[KcvIplImage[m[K(z);
+[76.645s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[76.645s]       |                          [32m[KIplImage[m[K
+[79.087s] make[2]: *** [CMakeFiles/KCF_Tracker_Node.dir/build.make:89: CMakeFiles/KCF_Tracker_Node.dir/include/yahboomcar_KCFTracker/kcftracker.cpp.o] Error 1
+[79.088s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/KCF_Tracker_Node.dir/all] Error 2
+[79.095s] make: *** [Makefile:141: all] Error 2

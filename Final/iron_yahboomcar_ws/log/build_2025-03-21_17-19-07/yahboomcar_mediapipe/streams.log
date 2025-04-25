@@ -1,0 +1,77 @@
+[4.232s] Invoking command in '/root/codes/iron_yahboomcar_ws/src/yahboomcar_mediapipe': PYTHONPATH=/root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/prefix_override:/root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_mediapipe build --build-base /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build install --record /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/install.log --install-scripts $base/lib/yahboomcar_mediapipe --single-version-externally-managed
+[5.780s] running egg_info
+[5.783s] creating ../../build/yahboomcar_mediapipe/yahboomcar_mediapipe.egg-info
+[5.784s] writing ../../build/yahboomcar_mediapipe/yahboomcar_mediapipe.egg-info/PKG-INFO
+[5.786s] writing dependency_links to ../../build/yahboomcar_mediapipe/yahboomcar_mediapipe.egg-info/dependency_links.txt
+[5.787s] writing entry points to ../../build/yahboomcar_mediapipe/yahboomcar_mediapipe.egg-info/entry_points.txt
+[5.788s] writing requirements to ../../build/yahboomcar_mediapipe/yahboomcar_mediapipe.egg-info/requires.txt
+[5.789s] writing top-level names to ../../build/yahboomcar_mediapipe/yahboomcar_mediapipe.egg-info/top_level.txt
+[5.795s] writing manifest file '../../build/yahboomcar_mediapipe/yahboomcar_mediapipe.egg-info/SOURCES.txt'
+[5.978s] reading manifest file '../../build/yahboomcar_mediapipe/yahboomcar_mediapipe.egg-info/SOURCES.txt'
+[5.985s] writing manifest file '../../build/yahboomcar_mediapipe/yahboomcar_mediapipe.egg-info/SOURCES.txt'
+[5.986s] running build
+[5.987s] running build_py
+[5.988s] creating /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build
+[5.990s] creating /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib
+[5.991s] creating /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe
+[5.992s] copying yahboomcar_mediapipe/09_VirtualPaint.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe
+[5.993s] copying yahboomcar_mediapipe/08_Objectron.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe
+[5.993s] copying yahboomcar_mediapipe/__init__.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe
+[5.994s] copying yahboomcar_mediapipe/02_PoseDetector.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe
+[5.995s] copying yahboomcar_mediapipe/01_HandDetector.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe
+[5.995s] copying yahboomcar_mediapipe/untitled.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe
+[5.996s] copying yahboomcar_mediapipe/07_FaceDetection.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe
+[5.996s] copying yahboomcar_mediapipe/05_FaceEyeDetection.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe
+[5.997s] copying yahboomcar_mediapipe/03_Holistic.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe
+[5.997s] copying yahboomcar_mediapipe/test_msg.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe
+[5.998s] copying yahboomcar_mediapipe/06_FaceLandmarks.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe
+[5.998s] copying yahboomcar_mediapipe/11_GestureRecognition.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe
+[5.999s] copying yahboomcar_mediapipe/04_FaceMesh.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe
+[5.999s] copying yahboomcar_mediapipe/10_HandCtrl.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe
+[6.000s] running install
+[6.001s] running install_lib
+[6.006s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe/09_VirtualPaint.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe
+[6.007s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe/08_Objectron.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe
+[6.008s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe/__init__.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe
+[6.008s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe/02_PoseDetector.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe
+[6.010s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe/01_HandDetector.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe
+[6.010s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe/untitled.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe
+[6.011s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe/07_FaceDetection.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe
+[6.012s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe/05_FaceEyeDetection.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe
+[6.013s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe/03_Holistic.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe
+[6.014s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe/test_msg.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe
+[6.014s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe/06_FaceLandmarks.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe
+[6.015s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe/11_GestureRecognition.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe
+[6.015s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe/04_FaceMesh.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe
+[6.016s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build/lib/yahboomcar_mediapipe/10_HandCtrl.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe
+[6.019s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe/09_VirtualPaint.py to 09_VirtualPaint.cpython-38.pyc
+[6.030s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe/08_Objectron.py to 08_Objectron.cpython-38.pyc
+[6.033s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe/__init__.py to __init__.cpython-38.pyc
+[6.034s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe/02_PoseDetector.py to 02_PoseDetector.cpython-38.pyc
+[6.038s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe/01_HandDetector.py to 01_HandDetector.cpython-38.pyc
+[6.042s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe/untitled.py to untitled.cpython-38.pyc
+[6.046s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe/07_FaceDetection.py to 07_FaceDetection.cpython-38.pyc
+[6.049s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe/05_FaceEyeDetection.py to 05_FaceEyeDetection.cpython-38.pyc
+[6.054s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe/03_Holistic.py to 03_Holistic.cpython-38.pyc
+[6.058s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe/test_msg.py to test_msg.cpython-38.pyc
+[6.060s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe/06_FaceLandmarks.py to 06_FaceLandmarks.cpython-38.pyc
+[6.065s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe/11_GestureRecognition.py to 11_GestureRecognition.cpython-38.pyc
+[6.073s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe/04_FaceMesh.py to 04_FaceMesh.cpython-38.pyc
+[6.076s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe/10_HandCtrl.py to 10_HandCtrl.cpython-38.pyc
+[6.085s] running install_data
+[6.087s] copying resource/yahboomcar_mediapipe -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/share/ament_index/resource_index/packages
+[6.087s] copying package.xml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/share/yahboomcar_mediapipe
+[6.088s] copying rviz/mediapipe_points.rviz -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/share/yahboomcar_mediapipe/rviz
+[6.089s] copying launch/mediapipe_points.launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/share/yahboomcar_mediapipe/launch
+[6.089s] running install_egg_info
+[6.098s] removing '/root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe-0.0.0-py3.8.egg-info' (and everything under it)
+[6.099s] Copying ../../build/yahboomcar_mediapipe/yahboomcar_mediapipe.egg-info to /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages/yahboomcar_mediapipe-0.0.0-py3.8.egg-info
+[6.103s] running install_scripts
+[6.199s] Installing 01_HandDetector script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+[6.200s] Installing 02_PoseDetector script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+[6.201s] Installing 03_Holistic script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+[6.201s] Installing 04_FaceMesh script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+[6.202s] Installing 05_FaceEyeDetection script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+[6.202s] Installing test_msg script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/yahboomcar_mediapipe
+[6.205s] writing list of installed files to '/root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/install.log'
+[6.327s] Invoked command in '/root/codes/iron_yahboomcar_ws/src/yahboomcar_mediapipe' returned '0': PYTHONPATH=/root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/prefix_override:/root/codes/iron_yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_mediapipe build --build-base /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/build install --record /root/codes/iron_yahboomcar_ws/build/yahboomcar_mediapipe/install.log --install-scripts $base/lib/yahboomcar_mediapipe --single-version-externally-managed

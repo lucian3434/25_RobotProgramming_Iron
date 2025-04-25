@@ -1,0 +1,37 @@
+[6.862s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/laserscan_to_point_pulisher': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/laserscan_to_point_pulisher/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/laserscan_to_point_pulisher build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/laserscan_to_point_pulisher/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/laserscan_to_point_pulisher/install.log --install-scripts $base/lib/laserscan_to_point_pulisher --single-version-externally-managed
+[9.068s] running egg_info
+[9.078s] creating ../../build/laserscan_to_point_pulisher/laserscan_to_point_pulisher.egg-info
+[9.079s] writing ../../build/laserscan_to_point_pulisher/laserscan_to_point_pulisher.egg-info/PKG-INFO
+[9.081s] writing dependency_links to ../../build/laserscan_to_point_pulisher/laserscan_to_point_pulisher.egg-info/dependency_links.txt
+[9.082s] writing entry points to ../../build/laserscan_to_point_pulisher/laserscan_to_point_pulisher.egg-info/entry_points.txt
+[9.083s] writing requirements to ../../build/laserscan_to_point_pulisher/laserscan_to_point_pulisher.egg-info/requires.txt
+[9.083s] writing top-level names to ../../build/laserscan_to_point_pulisher/laserscan_to_point_pulisher.egg-info/top_level.txt
+[9.096s] writing manifest file '../../build/laserscan_to_point_pulisher/laserscan_to_point_pulisher.egg-info/SOURCES.txt'
+[9.459s] reading manifest file '../../build/laserscan_to_point_pulisher/laserscan_to_point_pulisher.egg-info/SOURCES.txt'
+[9.473s] writing manifest file '../../build/laserscan_to_point_pulisher/laserscan_to_point_pulisher.egg-info/SOURCES.txt'
+[9.474s] running build
+[9.474s] running build_py
+[9.482s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/laserscan_to_point_pulisher/build
+[9.483s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/laserscan_to_point_pulisher/build/lib
+[9.484s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/laserscan_to_point_pulisher/build/lib/laserscan_to_point_pulisher
+[9.484s] copying laserscan_to_point_pulisher/laserscan_to_point_publish.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/laserscan_to_point_pulisher/build/lib/laserscan_to_point_pulisher
+[9.485s] copying laserscan_to_point_pulisher/__init__.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/laserscan_to_point_pulisher/build/lib/laserscan_to_point_pulisher
+[9.486s] running install
+[9.490s] running install_lib
+[9.507s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher/lib/python3.8/site-packages/laserscan_to_point_pulisher
+[9.507s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/laserscan_to_point_pulisher/build/lib/laserscan_to_point_pulisher/laserscan_to_point_publish.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher/lib/python3.8/site-packages/laserscan_to_point_pulisher
+[9.508s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/laserscan_to_point_pulisher/build/lib/laserscan_to_point_pulisher/__init__.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher/lib/python3.8/site-packages/laserscan_to_point_pulisher
+[9.522s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher/lib/python3.8/site-packages/laserscan_to_point_pulisher/laserscan_to_point_publish.py to laserscan_to_point_publish.cpython-38.pyc
+[9.524s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher/lib/python3.8/site-packages/laserscan_to_point_pulisher/__init__.py to __init__.cpython-38.pyc
+[9.527s] running install_data
+[9.529s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher/share/ament_index
+[9.530s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher/share/ament_index/resource_index
+[9.532s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher/share/ament_index/resource_index/packages
+[9.533s] copying resource/laserscan_to_point_pulisher -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher/share/ament_index/resource_index/packages
+[9.535s] copying package.xml -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher/share/laserscan_to_point_pulisher
+[9.537s] running install_egg_info
+[9.551s] Copying ../../build/laserscan_to_point_pulisher/laserscan_to_point_pulisher.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher/lib/python3.8/site-packages/laserscan_to_point_pulisher-0.0.0-py3.8.egg-info
+[9.561s] running install_scripts
+[9.695s] Installing laserscan_to_point_pulisher script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher/lib/laserscan_to_point_pulisher
+[9.698s] writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/laserscan_to_point_pulisher/install.log'
+[10.037s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/laserscan_to_point_pulisher' returned '0': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/laserscan_to_point_pulisher/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/laserscan_to_point_pulisher build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/laserscan_to_point_pulisher/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/laserscan_to_point_pulisher/install.log --install-scripts $base/lib/laserscan_to_point_pulisher --single-version-externally-managed

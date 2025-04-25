@@ -1,0 +1,42 @@
+[5.258s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_voice_ctrl': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_voice_ctrl build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/install.log --install-scripts $base/lib/yahboomcar_voice_ctrl --single-version-externally-managed
+[6.445s] running egg_info
+[6.448s] writing ../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/PKG-INFO
+[6.454s] writing dependency_links to ../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/dependency_links.txt
+[6.455s] writing entry points to ../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/entry_points.txt
+[6.455s] writing requirements to ../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/requires.txt
+[6.456s] writing top-level names to ../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/top_level.txt
+[6.632s] reading manifest file '../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/SOURCES.txt'
+[6.639s] writing manifest file '../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info/SOURCES.txt'
+[6.639s] running build
+[6.639s] running build_py
+[6.646s] copying yahboomcar_voice_ctrl/Voice_Ctrl_follow_line_4ROS_R2.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl
+[6.651s] copying yahboomcar_voice_ctrl/Voice_Ctrl_follow_line_a1_X3.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl
+[6.654s] copying yahboomcar_voice_ctrl/Voice_Ctrl_Mcnamu_driver_X3.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl
+[6.656s] copying yahboomcar_voice_ctrl/Voice_Ctrl_follow_line_a1_R2.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl
+[6.659s] running install
+[6.664s] running install_lib
+[6.670s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl/Voice_Ctrl_follow_line_4ROS_R2.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl
+[6.673s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl/Voice_Ctrl_follow_line_a1_X3.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl
+[6.675s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl/Voice_Ctrl_Mcnamu_driver_X3.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl
+[6.676s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build/lib/yahboomcar_voice_ctrl/Voice_Ctrl_follow_line_a1_R2.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl
+[6.681s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl/Voice_Ctrl_follow_line_4ROS_R2.py to Voice_Ctrl_follow_line_4ROS_R2.cpython-38.pyc
+[6.695s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl/Voice_Ctrl_follow_line_a1_X3.py to Voice_Ctrl_follow_line_a1_X3.cpython-38.pyc
+[6.703s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl/Voice_Ctrl_Ackman_driver.py to Voice_Ctrl_Ackman_driver.cpython-38.pyc
+[6.710s] Sorry: IndentationError: unindent does not match any outer indentation level (Voice_Ctrl_Ackman_driver.py, line 286)
+[6.711s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl/Voice_Ctrl_Mcnamu_driver_X3.py to Voice_Ctrl_Mcnamu_driver_X3.cpython-38.pyc
+[6.717s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl/Voice_Ctrl_follow_line_a1_R2.py to Voice_Ctrl_follow_line_a1_R2.cpython-38.pyc
+[6.725s] running install_data
+[6.732s] running install_egg_info
+[6.739s] removing '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl-0.0.0-py3.8.egg-info' (and everything under it)
+[6.741s] Copying ../../build/yahboomcar_voice_ctrl/yahboomcar_voice_ctrl.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages/yahboomcar_voice_ctrl-0.0.0-py3.8.egg-info
+[6.747s] running install_scripts
+[6.835s] Installing Voice_Ctrl_Ackman_driver_R2 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+[6.840s] Installing Voice_Ctrl_Mcnamu_driver_X3 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+[6.841s] Installing Voice_Ctrl_colorHSV script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+[6.842s] Installing Voice_Ctrl_colorTracker script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+[6.842s] Installing Voice_Ctrl_follow_line_4ROS_R2 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+[6.843s] Installing Voice_Ctrl_follow_line_a1_R2 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+[6.843s] Installing Voice_Ctrl_follow_line_a1_X3 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+[6.844s] Installing voice_Ctrl_send_mark script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/yahboomcar_voice_ctrl
+[6.846s] writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/install.log'
+[6.953s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_voice_ctrl' returned '0': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_voice_ctrl build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_voice_ctrl/install.log --install-scripts $base/lib/yahboomcar_voice_ctrl --single-version-externally-managed

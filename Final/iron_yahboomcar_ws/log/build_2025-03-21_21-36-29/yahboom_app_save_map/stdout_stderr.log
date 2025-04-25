@@ -1,0 +1,32 @@
+running egg_info
+writing ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/PKG-INFO
+writing dependency_links to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/dependency_links.txt
+writing entry points to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/entry_points.txt
+writing requirements to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/requires.txt
+writing top-level names to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/top_level.txt
+reading manifest file '../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/SOURCES.txt'
+writing manifest file '../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/SOURCES.txt'
+running build
+running build_py
+copying yahboom_app_save_map/__init__.py -> /root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/build/lib/yahboom_app_save_map
+copying yahboom_app_save_map/yahboom_app_save_map_client.py -> /root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/build/lib/yahboom_app_save_map
+copying yahboom_app_save_map/yahboom_app_save_map.py -> /root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/build/lib/yahboom_app_save_map
+running install
+running install_lib
+copying /root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/build/lib/yahboom_app_save_map/__init__.py -> /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map
+copying /root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/build/lib/yahboom_app_save_map/yahboom_app_save_map_client.py -> /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map
+copying /root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/build/lib/yahboom_app_save_map/yahboom_app_save_map.py -> /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map
+byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map/__init__.py to __init__.cpython-38.pyc
+byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map/yahboom_app_save_map_client.py to yahboom_app_save_map_client.cpython-38.pyc
+byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map/yahboom_app_save_map.py to yahboom_app_save_map.cpython-38.pyc
+running install_data
+copying resource/yahboom_app_save_map -> /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/share/ament_index/resource_index/packages
+copying package.xml -> /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/share/yahboom_app_save_map
+copying launch/yahboom_app_save_map.launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/share/yahboom_app_save_map
+running install_egg_info
+removing '/root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info to /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map-0.0.0-py3.8.egg-info
+running install_scripts
+Installing client script to /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/yahboom_app_save_map
+Installing server script to /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/yahboom_app_save_map
+writing list of installed files to '/root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/install.log'

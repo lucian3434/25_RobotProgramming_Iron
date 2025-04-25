@@ -1,0 +1,204 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+In file included from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:3[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:51:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K-Wcpp[m[K]
+   51 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+      |      [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/common/actor_map.h:44[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkLODActor.h:73:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   73 |   vtkTypeMacro(vtkLODActor, vtkActor)[01;35m[K;[m[K
+      |                                      [01;35m[K^[m[K
+      |                                      [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/point_picking_event.h:44[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:52[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkCommand.h:344:45:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  344 |   vtkBaseTypeMacro(vtkCommand,vtkObjectBase)[01;35m[K;[m[K
+      |                                             [01;35m[K^[m[K
+      |                                             [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/interactor_style.h:53[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:54[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkInteractorStyleRubberBandPick.h:44:84:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   44 |   vtkTypeMacro(vtkInteractorStyleRubberBandPick, vtkInteractorStyleTrackballCamera)[01;35m[K;[m[K
+      |                                                                                    [01;35m[K^[m[K
+      |                                                                                    [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:54[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/pcl-1.10/pcl/visualization/interactor_style.h:127:86:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  127 |         vtkTypeMacro (PCLVisualizerInteractorStyle, vtkInteractorStyleRubberBandPick)[01;35m[K;[m[K
+      |                                                                                      [01;35m[K^[m[K
+      |                                                                                      [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:41[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkVersion.h:41:37:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   41 |   vtkTypeMacro(vtkVersion,vtkObject)[01;35m[K;[m[K
+      |                                     [01;35m[K^[m[K
+      |                                     [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:43[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkCellArray.h:47:39:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   47 |   vtkTypeMacro(vtkCellArray,vtkObject)[01;35m[K;[m[K
+      |                                       [01;35m[K^[m[K
+      |                                       [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:44[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkLeaderActor2D.h:59:44:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   59 |   vtkTypeMacro(vtkLeaderActor2D,vtkActor2D)[01;35m[K;[m[K
+      |                                            [01;35m[K^[m[K
+      |                                            [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkVectorText.h:45:51:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   45 |   vtkTypeMacro(vtkVectorText,vtkPolyDataAlgorithm)[01;35m[K;[m[K
+      |                                                   [01;35m[K^[m[K
+      |                                                   [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:46[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkAlgorithmOutput.h:40:45:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   40 |   vtkTypeMacro(vtkAlgorithmOutput,vtkObject)[01;35m[K;[m[K
+      |                                             [01;35m[K^[m[K
+      |                                             [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:47[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkFollower.h:43:37:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   43 |   vtkTypeMacro(vtkFollower,vtkActor)[01;35m[K;[m[K
+      |                                     [01;35m[K^[m[K
+      |                                     [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:49[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkSphereSource.h:43:53:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   43 |   vtkTypeMacro(vtkSphereSource,vtkPolyDataAlgorithm)[01;35m[K;[m[K
+      |                                                     [01;35m[K^[m[K
+      |                                                     [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:50[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkProperty2D.h:40:40:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   40 |   vtkTypeMacro(vtkProperty2D,vtkObject)[01;35m[K;[m[K
+      |                                        [01;35m[K^[m[K
+      |                                        [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:51[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkDataSetSurfaceFilter.h:53:61:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   53 |   vtkTypeMacro(vtkDataSetSurfaceFilter,vtkPolyDataAlgorithm)[01;35m[K;[m[K
+      |                                                             [01;35m[K^[m[K
+      |                                                             [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:52[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkPointData.h:36:50:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   36 |   vtkTypeMacro(vtkPointData,vtkDataSetAttributes)[01;35m[K;[m[K
+      |                                                  [01;35m[K^[m[K
+      |                                                  [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:53[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkPolyDataMapper.h:40:45:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   40 |   vtkTypeMacro(vtkPolyDataMapper, vtkMapper)[01;35m[K;[m[K
+      |                                             [01;35m[K^[m[K
+      |                                             [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:54[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkProperty.h:61:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   61 |   vtkTypeMacro(vtkProperty,vtkObject)[01;35m[K;[m[K
+      |                                      [01;35m[K^[m[K
+      |                                      [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:56[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkCellData.h:37:49:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   37 |   vtkTypeMacro(vtkCellData,vtkDataSetAttributes)[01;35m[K;[m[K
+      |                                                 [01;35m[K^[m[K
+      |                                                 [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:57[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkDataSetMapper.h:40:44:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   40 |   vtkTypeMacro(vtkDataSetMapper, vtkMapper)[01;35m[K;[m[K
+      |                                            [01;35m[K^[m[K
+      |                                            [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:58[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkRenderer.h:60:40:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   60 |   vtkTypeMacro(vtkRenderer,vtkViewport)[01;35m[K;[m[K
+      |                                        [01;35m[K^[m[K
+      |                                        [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:59[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkRendererCollection.h:38:53:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   38 |   vtkTypeMacro(vtkRendererCollection, vtkCollection)[01;35m[K;[m[K
+      |                                                     [01;35m[K^[m[K
+      |                                                     [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:60[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkAppendPolyData.h:47:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   47 |   vtkTypeMacro(vtkAppendPolyData,vtkPolyDataAlgorithm)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:61[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkTextProperty.h:36:42:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   36 |   vtkTypeMacro(vtkTextProperty,vtkObject)[01;35m[K;[m[K
+      |                                          [01;35m[K^[m[K
+      |                                          [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:63[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkLineSource.h:40:51:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   40 |   vtkTypeMacro(vtkLineSource,vtkPolyDataAlgorithm)[01;35m[K;[m[K
+      |                                                   [01;35m[K^[m[K
+      |                                                   [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/common/impl/shapes.hpp:42[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/common/shapes.h:293[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:65[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+                 from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[01m[K/usr/include/vtk-7.1/vtkPolygon.h:43:35:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   43 |   vtkTypeMacro(vtkPolygon,vtkCell)[01;35m[K;[m[K
+      |                                   [01;35m[K^[m[K
+      |                                   [31m[K-[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:[m[K In member function ‘[01m[Kvoid mediapipeCloud::handle_point(std::shared_ptr<yahboomcar_msgs::msg::PointArray_<std::allocator<void> > >)[m[K’:
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:45:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   45 |             for (int i = 0; [01;35m[Ki < msg->points.size()[m[K; i++)
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K

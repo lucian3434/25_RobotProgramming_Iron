@@ -1,0 +1,388 @@
+[0.266s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_point': CMAKE_PREFIX_PATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy LD_LIBRARY_PATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point
+[1.016s] -- The C compiler identification is GNU 9.4.0
+[1.757s] -- The CXX compiler identification is GNU 9.4.0
+[1.800s] -- Check for working C compiler: /usr/bin/cc
+[2.735s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.739s] -- Detecting C compiler ABI info
+[3.737s] -- Detecting C compiler ABI info - done
+[3.899s] -- Detecting C compile features
+[3.901s] -- Detecting C compile features - done
+[3.936s] -- Check for working CXX compiler: /usr/bin/c++
+[4.776s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.785s] -- Detecting CXX compiler ABI info
+[5.792s] -- Detecting CXX compiler ABI info - done
+[5.955s] -- Detecting CXX compile features
+[5.959s] -- Detecting CXX compile features - done
+[6.054s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.376s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.378s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.990s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[9.393s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.529s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[10.445s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[10.669s] -- Found FastRTPS: /opt/ros/foxy/include  
+[11.597s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.913s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[13.567s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[13.581s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.585s] -- Looking for pthread.h
+[14.220s] -- Looking for pthread.h - found
+[14.222s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.079s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[15.082s] -- Looking for pthread_create in pthreads
+[15.671s] -- Looking for pthread_create in pthreads - not found
+[15.674s] -- Looking for pthread_create in pthread
+[16.342s] -- Looking for pthread_create in pthread - found
+[16.357s] -- Found Threads: TRUE  
+[17.424s] -- Checking for module 'eigen3'
+[17.595s] --   Found eigen3, version 3.4.0
+[17.942s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[17.943s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[18.571s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[18.753s] -- Checking for module 'flann'
+[18.951s] --   Found flann, version 1.9.1
+[19.565s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[20.043s] -- The imported target "vtkParseOGLExt" references the file
+[20.045s]    "/usr/bin/vtkParseOGLExt-7.1"
+[20.047s] but this file does not exist.  Possible reasons include:
+[20.051s] * The file was deleted, renamed, or moved to another location.
+[20.053s] * An install or uninstall procedure did not complete successfully.
+[20.055s] * The installation package was faulty and contained
+[20.057s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[20.059s] but not all the files it references.
+[20.061s] 
+[20.070s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[20.072s]    "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[20.074s] but this file does not exist.  Possible reasons include:
+[20.076s] * The file was deleted, renamed, or moved to another location.
+[20.077s] * An install or uninstall procedure did not complete successfully.
+[20.081s] * The installation package was faulty and contained
+[20.082s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[20.084s] but not all the files it references.
+[20.085s] 
+[20.098s] -- The imported target "vtk" references the file
+[20.101s]    "/usr/bin/vtk"
+[20.103s] but this file does not exist.  Possible reasons include:
+[20.105s] * The file was deleted, renamed, or moved to another location.
+[20.106s] * An install or uninstall procedure did not complete successfully.
+[20.107s] * The installation package was faulty and contained
+[20.107s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[20.108s] but not all the files it references.
+[20.109s] 
+[20.116s] -- The imported target "pvtk" references the file
+[20.116s]    "/usr/bin/pvtk"
+[20.117s] but this file does not exist.  Possible reasons include:
+[20.118s] * The file was deleted, renamed, or moved to another location.
+[20.118s] * An install or uninstall procedure did not complete successfully.
+[20.119s] * The installation package was faulty and contained
+[20.119s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[20.120s] but not all the files it references.
+[20.121s] 
+[20.248s] -- Checking for module 'libusb-1.0'
+[20.403s] --   Found libusb-1.0, version 1.0.23
+[20.768s] -- Found USB_10: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[21.299s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[21.301s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[21.858s] -- Found OpenNI2: /root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib/libOpenNI2.so  
+[21.858s] -- OpenNI2 found (include: /root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/include/openni2, lib: /root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib/libOpenNI2.so)
+[21.861s] ** WARNING ** io features related to pcap will be disabled
+[21.862s] ** WARNING ** io features related to png will be disabled
+[21.937s] -- Found libusb-1.0: /usr/include  
+[21.938s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[21.970s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[22.005s] -- OpenNI2 found (include: /root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/include/openni2, lib: /root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib/libOpenNI2.so)
+[22.202s] -- Found Qhull: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so  
+[22.203s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)
+[22.243s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[22.310s] -- looking for PCL_COMMON
+[22.315s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[22.317s] -- looking for PCL_KDTREE
+[22.322s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[22.322s] -- looking for PCL_OCTREE
+[22.326s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[22.326s] -- looking for PCL_SEARCH
+[22.330s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[22.332s] -- looking for PCL_SAMPLE_CONSENSUS
+[22.336s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[22.337s] -- looking for PCL_FILTERS
+[22.340s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[22.343s] -- looking for PCL_2D
+[22.343s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[22.344s] -- looking for PCL_GEOMETRY
+[22.345s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[22.346s] -- looking for PCL_IO
+[22.350s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[22.352s] -- looking for PCL_FEATURES
+[22.355s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[22.357s] -- looking for PCL_ML
+[22.360s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[22.362s] -- looking for PCL_SEGMENTATION
+[22.365s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[22.367s] -- looking for PCL_VISUALIZATION
+[22.370s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[22.373s] -- looking for PCL_SURFACE
+[22.385s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[22.385s] -- looking for PCL_REGISTRATION
+[22.388s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[22.390s] -- looking for PCL_KEYPOINTS
+[22.394s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[22.395s] -- looking for PCL_TRACKING
+[22.398s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[22.400s] -- looking for PCL_RECOGNITION
+[22.404s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[22.406s] -- looking for PCL_STEREO
+[22.411s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[22.412s] -- looking for PCL_APPS
+[22.417s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[22.420s] -- looking for PCL_IN_HAND_SCANNER
+[22.421s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[22.422s] -- looking for PCL_POINT_CLOUD_EDITOR
+[22.424s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[22.425s] -- looking for PCL_OUTOFCORE
+[22.429s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[22.431s] -- looking for PCL_PEOPLE
+[22.436s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[22.442s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/aarch64-linux-gnu/libboost_system.so;/usr/lib/aarch64-linux-gnu/libboost_filesystem.so;/usr/lib/aarch64-linux-gnu/libboost_date_time.so;/usr/lib/aarch64-linux-gnu/libboost_iostreams.so;/usr/lib/aarch64-linux-gnu/libboost_regex.so;optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/aarch64-linux-gnu/libfreetype.so;/usr/lib/aarch64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/aarch64-linux-gnu/libjpeg.so;/usr/lib/aarch64-linux-gnu/libpng.so;/usr/lib/aarch64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/aarch64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[22.834s] -- Found yahboomcar_msgs: 0.0.0 (/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/share/yahboomcar_msgs/cmake)
+[23.138s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[24.067s] -- Added test 'copyright' to check source files copyright and LICENSE
+[24.076s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[24.080s] -- Configured cppcheck include dirs: 
+[24.081s] -- Configured cppcheck exclude dirs and/or files: 
+[24.088s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[24.088s] -- Configured cpplint exclude dirs and/or files: 
+[24.095s] -- Added test 'lint_cmake' to check CMake code style
+[24.103s] -- Added test 'uncrustify' to check C / C++ code style
+[24.104s] -- Configured uncrustify additional arguments: 
+[24.109s] -- Added test 'xmllint' to check XML markup files
+[24.147s] -- Configuring done
+[24.638s] -- Generating done
+[24.657s] -- Build files have been written to: /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_point
+[24.731s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_point' returned '0': CMAKE_PREFIX_PATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy LD_LIBRARY_PATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point
+[24.741s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_point': CMAKE_PREFIX_PATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy LD_LIBRARY_PATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_point -- -j4 -l4
+[25.096s] [35m[1mScanning dependencies of target pub_point[0m
+[25.882s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_point.dir/src/pub_point.cpp.o[0m
+[26.724s] In file included from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:3[m[K:
+[26.725s] [01m[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:51:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K-Wcpp[m[K]
+[26.725s]    51 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[26.726s]       |      [01;35m[K^~~~~~~[m[K
+[49.493s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/common/actor_map.h:44[m[K,
+[49.496s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:48[m[K,
+[49.496s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[49.497s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[49.497s] [01m[K/usr/include/vtk-7.1/vtkLODActor.h:73:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[49.497s]    73 |   vtkTypeMacro(vtkLODActor, vtkActor)[01;35m[K;[m[K
+[49.498s]       |                                      [01;35m[K^[m[K
+[49.498s]       |                                      [31m[K-[m[K
+[49.539s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/point_picking_event.h:44[m[K,
+[49.540s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:52[m[K,
+[49.540s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[49.541s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[49.541s] [01m[K/usr/include/vtk-7.1/vtkCommand.h:344:45:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[49.546s]   344 |   vtkBaseTypeMacro(vtkCommand,vtkObjectBase)[01;35m[K;[m[K
+[49.547s]       |                                             [01;35m[K^[m[K
+[49.547s]       |                                             [31m[K-[m[K
+[49.657s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/interactor_style.h:53[m[K,
+[49.663s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:54[m[K,
+[49.663s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[49.665s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[49.666s] [01m[K/usr/include/vtk-7.1/vtkInteractorStyleRubberBandPick.h:44:84:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[49.666s]    44 |   vtkTypeMacro(vtkInteractorStyleRubberBandPick, vtkInteractorStyleTrackballCamera)[01;35m[K;[m[K
+[49.667s]       |                                                                                    [01;35m[K^[m[K
+[49.667s]       |                                                                                    [31m[K-[m[K
+[49.667s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:54[m[K,
+[49.668s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[49.671s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[49.672s] [01m[K/usr/include/pcl-1.10/pcl/visualization/interactor_style.h:127:86:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[49.672s]   127 |         vtkTypeMacro (PCLVisualizerInteractorStyle, vtkInteractorStyleRubberBandPick)[01;35m[K;[m[K
+[49.673s]       |                                                                                      [01;35m[K^[m[K
+[49.673s]       |                                                                                      [31m[K-[m[K
+[50.134s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:41[m[K,
+[50.135s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[50.135s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[50.135s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[50.136s] [01m[K/usr/include/vtk-7.1/vtkVersion.h:41:37:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[50.136s]    41 |   vtkTypeMacro(vtkVersion,vtkObject)[01;35m[K;[m[K
+[50.137s]       |                                     [01;35m[K^[m[K
+[50.137s]       |                                     [31m[K-[m[K
+[50.147s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:43[m[K,
+[50.147s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[50.147s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[50.151s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[50.151s] [01m[K/usr/include/vtk-7.1/vtkCellArray.h:47:39:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[50.151s]    47 |   vtkTypeMacro(vtkCellArray,vtkObject)[01;35m[K;[m[K
+[50.153s]       |                                       [01;35m[K^[m[K
+[50.153s]       |                                       [31m[K-[m[K
+[50.210s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:44[m[K,
+[50.211s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[50.211s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[50.211s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[50.212s] [01m[K/usr/include/vtk-7.1/vtkLeaderActor2D.h:59:44:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[50.212s]    59 |   vtkTypeMacro(vtkLeaderActor2D,vtkActor2D)[01;35m[K;[m[K
+[50.213s]       |                                            [01;35m[K^[m[K
+[50.213s]       |                                            [31m[K-[m[K
+[50.396s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:45[m[K,
+[50.397s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[50.397s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[50.398s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[50.398s] [01m[K/usr/include/vtk-7.1/vtkVectorText.h:45:51:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[50.398s]    45 |   vtkTypeMacro(vtkVectorText,vtkPolyDataAlgorithm)[01;35m[K;[m[K
+[50.399s]       |                                                   [01;35m[K^[m[K
+[50.399s]       |                                                   [31m[K-[m[K
+[50.406s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:46[m[K,
+[50.407s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[50.407s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[50.408s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[50.408s] [01m[K/usr/include/vtk-7.1/vtkAlgorithmOutput.h:40:45:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[50.410s]    40 |   vtkTypeMacro(vtkAlgorithmOutput,vtkObject)[01;35m[K;[m[K
+[50.410s]       |                                             [01;35m[K^[m[K
+[50.411s]       |                                             [31m[K-[m[K
+[50.411s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:47[m[K,
+[50.411s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[50.412s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[50.414s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[50.415s] [01m[K/usr/include/vtk-7.1/vtkFollower.h:43:37:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[50.417s]    43 |   vtkTypeMacro(vtkFollower,vtkActor)[01;35m[K;[m[K
+[50.418s]       |                                     [01;35m[K^[m[K
+[50.418s]       |                                     [31m[K-[m[K
+[50.419s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:49[m[K,
+[50.419s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[50.419s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[50.425s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[50.426s] [01m[K/usr/include/vtk-7.1/vtkSphereSource.h:43:53:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[50.426s]    43 |   vtkTypeMacro(vtkSphereSource,vtkPolyDataAlgorithm)[01;35m[K;[m[K
+[50.426s]       |                                                     [01;35m[K^[m[K
+[50.426s]       |                                                     [31m[K-[m[K
+[50.484s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:50[m[K,
+[50.486s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[50.486s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[50.486s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[50.487s] [01m[K/usr/include/vtk-7.1/vtkProperty2D.h:40:40:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[50.487s]    40 |   vtkTypeMacro(vtkProperty2D,vtkObject)[01;35m[K;[m[K
+[50.487s]       |                                        [01;35m[K^[m[K
+[50.488s]       |                                        [31m[K-[m[K
+[50.537s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:51[m[K,
+[50.537s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[50.538s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[50.538s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[50.538s] [01m[K/usr/include/vtk-7.1/vtkDataSetSurfaceFilter.h:53:61:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[50.539s]    53 |   vtkTypeMacro(vtkDataSetSurfaceFilter,vtkPolyDataAlgorithm)[01;35m[K;[m[K
+[50.539s]       |                                                             [01;35m[K^[m[K
+[50.540s]       |                                                             [31m[K-[m[K
+[50.603s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:52[m[K,
+[50.604s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[50.605s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[50.605s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[50.605s] [01m[K/usr/include/vtk-7.1/vtkPointData.h:36:50:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[50.606s]    36 |   vtkTypeMacro(vtkPointData,vtkDataSetAttributes)[01;35m[K;[m[K
+[50.606s]       |                                                  [01;35m[K^[m[K
+[50.606s]       |                                                  [31m[K-[m[K
+[50.781s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:53[m[K,
+[50.787s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[50.789s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[50.789s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[50.790s] [01m[K/usr/include/vtk-7.1/vtkPolyDataMapper.h:40:45:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[50.790s]    40 |   vtkTypeMacro(vtkPolyDataMapper, vtkMapper)[01;35m[K;[m[K
+[50.791s]       |                                             [01;35m[K^[m[K
+[50.791s]       |                                             [31m[K-[m[K
+[50.814s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:54[m[K,
+[50.816s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[50.818s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[50.818s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[50.819s] [01m[K/usr/include/vtk-7.1/vtkProperty.h:61:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[50.819s]    61 |   vtkTypeMacro(vtkProperty,vtkObject)[01;35m[K;[m[K
+[50.820s]       |                                      [01;35m[K^[m[K
+[50.820s]       |                                      [31m[K-[m[K
+[50.986s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:56[m[K,
+[50.993s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[50.994s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[50.994s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[50.994s] [01m[K/usr/include/vtk-7.1/vtkCellData.h:37:49:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[50.995s]    37 |   vtkTypeMacro(vtkCellData,vtkDataSetAttributes)[01;35m[K;[m[K
+[50.995s]       |                                                 [01;35m[K^[m[K
+[50.996s]       |                                                 [31m[K-[m[K
+[50.996s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:57[m[K,
+[50.996s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[50.997s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[50.997s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[50.997s] [01m[K/usr/include/vtk-7.1/vtkDataSetMapper.h:40:44:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[50.998s]    40 |   vtkTypeMacro(vtkDataSetMapper, vtkMapper)[01;35m[K;[m[K
+[50.998s]       |                                            [01;35m[K^[m[K
+[50.998s]       |                                            [31m[K-[m[K
+[51.110s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:58[m[K,
+[51.111s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[51.111s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[51.112s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[51.116s] [01m[K/usr/include/vtk-7.1/vtkRenderer.h:60:40:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[51.117s]    60 |   vtkTypeMacro(vtkRenderer,vtkViewport)[01;35m[K;[m[K
+[51.117s]       |                                        [01;35m[K^[m[K
+[51.117s]       |                                        [31m[K-[m[K
+[51.258s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:59[m[K,
+[51.258s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[51.258s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[51.259s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[51.259s] [01m[K/usr/include/vtk-7.1/vtkRendererCollection.h:38:53:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[51.260s]    38 |   vtkTypeMacro(vtkRendererCollection, vtkCollection)[01;35m[K;[m[K
+[51.269s]       |                                                     [01;35m[K^[m[K
+[51.270s]       |                                                     [31m[K-[m[K
+[51.270s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:60[m[K,
+[51.270s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[51.271s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[51.271s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[51.271s] [01m[K/usr/include/vtk-7.1/vtkAppendPolyData.h:47:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[51.272s]    47 |   vtkTypeMacro(vtkAppendPolyData,vtkPolyDataAlgorithm)[01;35m[K;[m[K
+[51.279s]       |                                                       [01;35m[K^[m[K
+[51.283s]       |                                                       [31m[K-[m[K
+[51.291s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:61[m[K,
+[51.292s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[51.293s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[51.295s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[51.296s] [01m[K/usr/include/vtk-7.1/vtkTextProperty.h:36:42:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[51.296s]    36 |   vtkTypeMacro(vtkTextProperty,vtkObject)[01;35m[K;[m[K
+[51.297s]       |                                          [01;35m[K^[m[K
+[51.299s]       |                                          [31m[K-[m[K
+[51.428s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:63[m[K,
+[51.428s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[51.429s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[51.429s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[51.430s] [01m[K/usr/include/vtk-7.1/vtkLineSource.h:40:51:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[51.432s]    40 |   vtkTypeMacro(vtkLineSource,vtkPolyDataAlgorithm)[01;35m[K;[m[K
+[51.433s]       |                                                   [01;35m[K^[m[K
+[51.436s]       |                                                   [31m[K-[m[K
+[51.623s] In file included from [01m[K/usr/include/pcl-1.10/pcl/visualization/common/impl/shapes.hpp:42[m[K,
+[51.623s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/common/shapes.h:293[m[K,
+[51.624s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/impl/pcl_visualizer.hpp:65[m[K,
+[51.624s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/pcl_visualizer.h:2347[m[K,
+[51.625s]                  from [01m[K/usr/include/pcl-1.10/pcl/visualization/cloud_viewer.h:39[m[K,
+[51.625s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:15[m[K:
+[51.625s] [01m[K/usr/include/vtk-7.1/vtkPolygon.h:43:35:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[51.626s]    43 |   vtkTypeMacro(vtkPolygon,vtkCell)[01;35m[K;[m[K
+[51.627s]       |                                   [01;35m[K^[m[K
+[51.628s]       |                                   [31m[K-[m[K
+[52.517s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:[m[K In member function ‘[01m[Kvoid mediapipeCloud::handle_point(std::shared_ptr<yahboomcar_msgs::msg::PointArray_<std::allocator<void> > >)[m[K’:
+[52.525s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_point/src/pub_point.cpp:45:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[52.528s]    45 |             for (int i = 0; [01;35m[Ki < msg->points.size()[m[K; i++)
+[52.530s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[86.061s] [100%] [32m[1mLinking CXX executable pub_point[0m
+[90.164s] [100%] Built target pub_point
+[90.250s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_point' returned '0': CMAKE_PREFIX_PATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy LD_LIBRARY_PATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_point -- -j4 -l4
+[90.520s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_point': CMAKE_PREFIX_PATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy LD_LIBRARY_PATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_point
+[90.583s] -- Install configuration: ""
+[90.585s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point/lib/yahboomcar_point/pub_point
+[90.607s] -- Set runtime path of "/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point/lib/yahboomcar_point/pub_point" to ""
+[90.612s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point/share/ament_index/resource_index/package_run_dependencies/yahboomcar_point
+[90.614s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point/share/ament_index/resource_index/parent_prefix_path/yahboomcar_point
+[90.628s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/environment/ament_prefix_path.sh
+[90.630s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/environment/ament_prefix_path.dsv
+[90.635s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/environment/path.sh
+[90.638s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/environment/path.dsv
+[90.639s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/local_setup.bash
+[90.639s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/local_setup.sh
+[90.642s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/local_setup.zsh
+[90.644s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/local_setup.dsv
+[90.646s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/package.dsv
+[90.649s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point/share/ament_index/resource_index/packages/yahboomcar_point
+[90.651s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/cmake/yahboomcar_pointConfig.cmake
+[90.653s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/cmake/yahboomcar_pointConfig-version.cmake
+[90.656s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/package.xml
+[90.695s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_point' returned '0': CMAKE_PREFIX_PATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy LD_LIBRARY_PATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_point

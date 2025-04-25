@@ -1,0 +1,5 @@
+  File "/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages/yahboomcar_linefollow/follow_line_4ROS_R2.py", line 286
+    linedetec..destroy_node()
+              ^
+SyntaxError: invalid syntax
+

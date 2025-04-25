@@ -1,0 +1,13 @@
+CMake Error: The current CMakeCache.txt directory /root/codes/iron_yahboomcar_ws/build/yahboomcar_slam/CMakeCache.txt is different than the directory /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_slam where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Warning (dev) at CMakeLists.txt:31 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+

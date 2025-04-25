@@ -1,0 +1,125 @@
+CMake Error: The current CMakeCache.txt directory /root/codes/iron_yahboomcar_ws/build/yahboomcar_slam/CMakeCache.txt is different than the directory /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_slam where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+-- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/include/openni2, lib: /root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib/libOpenNI2.so)
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/include/openni2, lib: /root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib/libOpenNI2.so)
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+CMake Warning (dev) at CMakeLists.txt:31 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_slam/include/yahboomcar_slam;$<BUILD_INTERFACE:/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_slam/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_slam
+[100%] Built target pointcloud_mapping
+-- Install configuration: ""
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/lib/yahboomcar_slam/pointcloud_mapping
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/launch
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/launch/camera_octomap_launch.py
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/launch/octomap_server_launch.py
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/launch/orbslam_pose_launch.py
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/launch/orbslam_ros_launch.py
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/launch/display_pcl_launch.py
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/launch/orbslam_pcl_octomap_launch.py
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/launch/orbslam_pcl_map_launch.py
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/launch/orbslam_base_launch.py
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/launch/display_octomap_launch.py
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/params
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/params/ORBvoc.txt
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/params/pointcloud_map.yaml
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/params/usb_cam_param.yaml
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/params/pointcloud_octomap.yaml
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/params/rgbd.yaml
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/params/mono.yaml
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/pcl
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/pcl/resultPointCloudFile.pcd
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/rviz
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/rviz/orbslam_pcl.rviz
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/rviz/cotomap.rviz
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/ament_index/resource_index/package_run_dependencies/yahboomcar_slam
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/ament_index/resource_index/parent_prefix_path/yahboomcar_slam
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/environment/ament_prefix_path.sh
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/environment/path.sh
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/environment/path.dsv
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/local_setup.bash
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/local_setup.sh
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/local_setup.zsh
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/local_setup.dsv
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/package.dsv
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/ament_index/resource_index/packages/yahboomcar_slam
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/cmake/yahboomcar_slamConfig.cmake
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/cmake/yahboomcar_slamConfig-version.cmake
+-- Up-to-date: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/package.xml

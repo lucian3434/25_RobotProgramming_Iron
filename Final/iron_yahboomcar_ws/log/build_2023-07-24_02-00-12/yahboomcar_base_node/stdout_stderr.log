@@ -1,0 +1,41 @@
+[35m[1mScanning dependencies of target base_node_R2[0m
+[35m[1mScanning dependencies of target base_node_X3[0m
+[35m[1mScanning dependencies of target base_node_x1[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/base_node_X3.dir/src/base_node_X3.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/base_node_x1.dir/src/base_node_x1.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/base_node_R2.dir/src/base_node_R2.cpp.o[0m
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_base_node/src/base_node_R2.cpp:[m[K In member function ‘[01m[Kvoid OdomPublisher::handle_vel(std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)[m[K’:
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_base_node/src/base_node_R2.cpp:101:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_frame[m[K’ was not declared in this scope
+  101 |    odom.header.frame_id = [01;31m[Kodom_frame[m[K;
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_base_node/src/base_node_R2.cpp:102:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_footprint_frame[m[K’ was not declared in this scope
+  102 |    odom.child_frame_id = [01;31m[Kbase_footprint_frame[m[K;
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_base_node/src/base_node_x1.cpp:[m[K In member function ‘[01m[Kvoid OdomPublisher::handle_vel(std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)[m[K’:
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_base_node/src/base_node_x1.cpp:101:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_frame[m[K’ was not declared in this scope
+  101 |    odom.header.frame_id = [01;31m[Kodom_frame[m[K;
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_base_node/src/base_node_X3.cpp:[m[K In member function ‘[01m[Kvoid OdomPublisher::handle_vel(std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)[m[K’:
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_base_node/src/base_node_X3.cpp:102:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_frame[m[K’ was not declared in this scope
+  102 |    odom.header.frame_id = [01;31m[Kodom_frame[m[K;
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_base_node/src/base_node_x1.cpp:102:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_footprint_frame[m[K’ was not declared in this scope
+  102 |    odom.child_frame_id = [01;31m[Kbase_footprint_frame[m[K;
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_base_node/src/base_node_X3.cpp:103:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_footprint_frame[m[K’ was not declared in this scope
+  103 |    odom.child_frame_id =  [01;31m[Kbase_footprint_frame[m[K;
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_base_node/src/base_node_X3.cpp:81:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksteer_angle[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   81 |    double [01;35m[Ksteer_angle[m[K = linear_velocity_y_;
+      |           [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_base_node/src/base_node_X3.cpp:82:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KMI_PI[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   82 |    double [01;35m[KMI_PI[m[K = 3.1416;
+      |           [01;35m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/base_node_x1.dir/build.make:63: CMakeFiles/base_node_x1.dir/src/base_node_x1.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/base_node_x1.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/base_node_R2.dir/build.make:63: CMakeFiles/base_node_R2.dir/src/base_node_R2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/base_node_R2.dir/all] Error 2
+make[2]: *** [CMakeFiles/base_node_X3.dir/build.make:63: CMakeFiles/base_node_X3.dir/src/base_node_X3.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/base_node_X3.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

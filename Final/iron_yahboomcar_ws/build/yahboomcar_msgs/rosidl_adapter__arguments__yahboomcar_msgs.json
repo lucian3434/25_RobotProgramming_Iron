@@ -1,0 +1,12 @@
+{
+  "package_name": "yahboomcar_msgs",
+  "non_idl_tuples": [
+    "/root/codes/iron_yahboomcar_ws/src/yahboomcar_msgs:msg/ImageMsg.msg",
+    "/root/codes/iron_yahboomcar_ws/src/yahboomcar_msgs:msg/PointArray.msg",
+    "/root/codes/iron_yahboomcar_ws/src/yahboomcar_msgs:msg/Position.msg",
+    "/root/codes/iron_yahboomcar_ws/src/yahboomcar_msgs:msg/Target.msg",
+    "/root/codes/iron_yahboomcar_ws/src/yahboomcar_msgs:msg/TargetArray.msg",
+    "/root/codes/iron_yahboomcar_ws/src/yahboomcar_msgs:msg/ColorData.msg",
+    "/root/codes/iron_yahboomcar_ws/src/yahboomcar_msgs:srv/GetColor.srv"
+  ]
+}

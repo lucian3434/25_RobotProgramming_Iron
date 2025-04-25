@@ -1,0 +1,19 @@
+{
+  "package_name": "yahboom_web_savmap_interfaces",
+  "output_dir": "/root/codes/iron_yahboomcar_ws/build/yahboom_web_savmap_interfaces/rosidl_typesupport_fastrtps_cpp/yahboom_web_savmap_interfaces",
+  "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/root/codes/iron_yahboomcar_ws/build/yahboom_web_savmap_interfaces/rosidl_adapter/yahboom_web_savmap_interfaces:srv/WebSaveMap.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/foxy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/root/codes/iron_yahboomcar_ws/build/yahboom_web_savmap_interfaces/rosidl_adapter/yahboom_web_savmap_interfaces/srv/WebSaveMap.idl"
+  ]
+}

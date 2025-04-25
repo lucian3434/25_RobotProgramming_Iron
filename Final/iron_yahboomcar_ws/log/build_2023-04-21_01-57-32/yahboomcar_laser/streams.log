@@ -1,0 +1,25 @@
+[4.793s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_laser': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_laser/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_laser build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_laser/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_laser/install.log --install-scripts $base/lib/yahboomcar_laser --single-version-externally-managed
+[6.009s] running egg_info
+[6.011s] writing ../../build/yahboomcar_laser/yahboomcar_laser.egg-info/PKG-INFO
+[6.013s] writing dependency_links to ../../build/yahboomcar_laser/yahboomcar_laser.egg-info/dependency_links.txt
+[6.014s] writing entry points to ../../build/yahboomcar_laser/yahboomcar_laser.egg-info/entry_points.txt
+[6.015s] writing requirements to ../../build/yahboomcar_laser/yahboomcar_laser.egg-info/requires.txt
+[6.015s] writing top-level names to ../../build/yahboomcar_laser/yahboomcar_laser.egg-info/top_level.txt
+[6.177s] reading manifest file '../../build/yahboomcar_laser/yahboomcar_laser.egg-info/SOURCES.txt'
+[6.179s] writing manifest file '../../build/yahboomcar_laser/yahboomcar_laser.egg-info/SOURCES.txt'
+[6.179s] running build
+[6.179s] running build_py
+[6.183s] running install
+[6.187s] running install_lib
+[6.199s] running install_data
+[6.200s] running install_egg_info
+[6.209s] removing '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages/yahboomcar_laser-0.0.0-py3.8.egg-info' (and everything under it)
+[6.210s] Copying ../../build/yahboomcar_laser/yahboomcar_laser.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages/yahboomcar_laser-0.0.0-py3.8.egg-info
+[6.217s] running install_scripts
+[6.297s] Installing laser_Avoidance_4ROS script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/yahboomcar_laser
+[6.299s] Installing laser_Avoidance_a1_X3 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/yahboomcar_laser
+[6.299s] Installing laser_Tracker_4ROS script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/yahboomcar_laser
+[6.305s] Installing laser_Tracker_a1_X3 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/yahboomcar_laser
+[6.306s] Installing laser_Warning_a1_X3 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/yahboomcar_laser
+[6.307s] writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_laser/install.log'
+[6.420s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_laser' returned '0': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_laser/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_laser build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_laser/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_laser/install.log --install-scripts $base/lib/yahboomcar_laser --single-version-externally-managed

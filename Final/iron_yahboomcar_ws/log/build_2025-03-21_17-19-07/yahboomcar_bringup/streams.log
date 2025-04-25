@@ -1,0 +1,88 @@
+[4.716s] Invoking command in '/root/codes/iron_yahboomcar_ws/src/yahboomcar_bringup': PYTHONPATH=/root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/prefix_override:/root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_bringup build --build-base /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build install --record /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/install.log --install-scripts $base/lib/yahboomcar_bringup --single-version-externally-managed
+[6.276s] running egg_info
+[6.278s] creating ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info
+[6.279s] writing ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/PKG-INFO
+[6.280s] writing dependency_links to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/dependency_links.txt
+[6.281s] writing entry points to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/entry_points.txt
+[6.282s] writing requirements to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/requires.txt
+[6.282s] writing top-level names to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/top_level.txt
+[6.291s] writing manifest file '../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/SOURCES.txt'
+[6.489s] reading manifest file '../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/SOURCES.txt'
+[6.494s] writing manifest file '../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/SOURCES.txt'
+[6.494s] running build
+[6.495s] running build_py
+[6.496s] creating /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build
+[6.497s] creating /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib
+[6.497s] creating /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[6.498s] copying yahboomcar_bringup/Mcnamu_driver_X3.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[6.499s] copying yahboomcar_bringup/patrol_4ROS.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[6.500s] copying yahboomcar_bringup/Ackman_driver_R2.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[6.500s] copying yahboomcar_bringup/__init__.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[6.501s] copying yahboomcar_bringup/patrol_a1_R2.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[6.503s] copying yahboomcar_bringup/Mcnamu_driver_x1.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[6.506s] copying yahboomcar_bringup/untitled.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[6.507s] copying yahboomcar_bringup/calibrate_angular_X3.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[6.508s] copying yahboomcar_bringup/patrol_a1_X3.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[6.508s] copying yahboomcar_bringup/calibrate_angular_R2.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[6.509s] copying yahboomcar_bringup/transform_utils.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[6.512s] copying yahboomcar_bringup/test.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[6.513s] copying yahboomcar_bringup/calibrate_linear_R2.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[6.513s] copying yahboomcar_bringup/calibrate_linear_X3.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[6.514s] copying yahboomcar_bringup/patrol_4ROS_R2.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup
+[6.514s] running install
+[6.526s] running install_lib
+[6.527s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/Mcnamu_driver_X3.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup
+[6.527s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/patrol_4ROS.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup
+[6.529s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/Ackman_driver_R2.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup
+[6.530s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/__init__.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup
+[6.531s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/patrol_a1_R2.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup
+[6.532s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/Mcnamu_driver_x1.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup
+[6.532s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/untitled.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup
+[6.533s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/calibrate_angular_X3.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup
+[6.533s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/patrol_a1_X3.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup
+[6.534s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/calibrate_angular_R2.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup
+[6.534s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/transform_utils.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup
+[6.535s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/test.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup
+[6.536s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/calibrate_linear_R2.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup
+[6.536s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/calibrate_linear_X3.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup
+[6.537s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/patrol_4ROS_R2.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup
+[6.537s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/Mcnamu_driver_X3.py to Mcnamu_driver_X3.cpython-38.pyc
+[6.547s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/patrol_4ROS.py to patrol_4ROS.cpython-38.pyc
+[6.556s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/Ackman_driver_R2.py to Ackman_driver_R2.cpython-38.pyc
+[6.561s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/__init__.py to __init__.cpython-38.pyc
+[6.562s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/patrol_a1_R2.py to patrol_a1_R2.cpython-38.pyc
+[6.572s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/Mcnamu_driver_x1.py to Mcnamu_driver_x1.cpython-38.pyc
+[6.577s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/untitled.py to untitled.cpython-38.pyc
+[6.578s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/calibrate_angular_X3.py to calibrate_angular_X3.cpython-38.pyc
+[6.584s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/patrol_a1_X3.py to patrol_a1_X3.cpython-38.pyc
+[6.596s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/calibrate_angular_R2.py to calibrate_angular_R2.cpython-38.pyc
+[6.601s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/transform_utils.py to transform_utils.cpython-38.pyc
+[6.603s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/test.py to test.cpython-38.pyc
+[6.604s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/calibrate_linear_R2.py to calibrate_linear_R2.cpython-38.pyc
+[6.609s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/calibrate_linear_X3.py to calibrate_linear_X3.cpython-38.pyc
+[6.614s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/patrol_4ROS_R2.py to patrol_4ROS_R2.cpython-38.pyc
+[6.626s] running install_data
+[6.630s] copying resource/yahboomcar_bringup -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/share/ament_index/resource_index/packages
+[6.632s] copying package.xml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/share/yahboomcar_bringup
+[6.635s] copying launch/yahboomcar_bringup_X3_launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/launch
+[6.637s] copying launch/yahboomcar_bringup_R2_launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/launch
+[6.639s] copying launch/yahboomcar_bringup_X1_launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/launch
+[6.641s] copying rviz/yahboomcar.rviz -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/share/yahboomcar_description/rviz
+[6.643s] copying param/imu_filter_param.yaml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/param
+[6.644s] running install_egg_info
+[6.656s] removing '/root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup-0.0.0-py3.8.egg-info' (and everything under it)
+[6.658s] Copying ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info to /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup-0.0.0-py3.8.egg-info
+[6.665s] running install_scripts
+[6.777s] Installing Ackman_driver_R2 script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.992s] Installing Mcnamu_driver_X3 script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.993s] Installing Mcnamu_driver_x1 script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.994s] Installing calibrate_angular_R2 script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.995s] Installing calibrate_angular_X3 script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.995s] Installing calibrate_linear_R2 script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.996s] Installing calibrate_linear_X3 script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.996s] Installing patrol_4ROS script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.997s] Installing patrol_4ROS_R2 script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[6.997s] Installing patrol_a1_R2 script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[7.008s] Installing patrol_a1_X3 script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup
+[7.008s] writing list of installed files to '/root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/install.log'
+[7.128s] Invoked command in '/root/codes/iron_yahboomcar_ws/src/yahboomcar_bringup' returned '0': PYTHONPATH=/root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/prefix_override:/root/codes/iron_yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_bringup build --build-base /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/build install --record /root/codes/iron_yahboomcar_ws/build/yahboomcar_bringup/install.log --install-scripts $base/lib/yahboomcar_bringup --single-version-externally-managed

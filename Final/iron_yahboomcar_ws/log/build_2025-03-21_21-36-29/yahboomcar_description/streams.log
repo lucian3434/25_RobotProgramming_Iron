@@ -1,0 +1,59 @@
+[5.663s] Invoking command in '/root/codes/iron_yahboomcar_ws/src/yahboomcar_description': PYTHONPATH=/root/codes/iron_yahboomcar_ws/build/yahboomcar_description/prefix_override:/root/codes/iron_yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_description build --build-base /root/codes/iron_yahboomcar_ws/build/yahboomcar_description/build install --record /root/codes/iron_yahboomcar_ws/build/yahboomcar_description/install.log --install-scripts $base/lib/yahboomcar_description --single-version-externally-managed
+[7.369s] running egg_info
+[7.373s] writing ../../build/yahboomcar_description/yahboomcar_description.egg-info/PKG-INFO
+[7.374s] writing dependency_links to ../../build/yahboomcar_description/yahboomcar_description.egg-info/dependency_links.txt
+[7.375s] writing entry points to ../../build/yahboomcar_description/yahboomcar_description.egg-info/entry_points.txt
+[7.375s] writing requirements to ../../build/yahboomcar_description/yahboomcar_description.egg-info/requires.txt
+[7.376s] writing top-level names to ../../build/yahboomcar_description/yahboomcar_description.egg-info/top_level.txt
+[7.588s] reading manifest file '../../build/yahboomcar_description/yahboomcar_description.egg-info/SOURCES.txt'
+[7.604s] writing manifest file '../../build/yahboomcar_description/yahboomcar_description.egg-info/SOURCES.txt'
+[7.605s] running build
+[7.605s] running build_py
+[7.606s] copying yahboomcar_description/__init__.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_description/build/lib/yahboomcar_description
+[7.607s] running install
+[7.610s] running install_lib
+[7.636s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_description/build/lib/yahboomcar_description/__init__.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages/yahboomcar_description
+[7.636s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages/yahboomcar_description/__init__.py to __init__.cpython-38.pyc
+[7.639s] running install_data
+[7.639s] copying resource/yahboomcar_description -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/ament_index/resource_index/packages
+[7.640s] copying package.xml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description
+[7.640s] copying launch/display_R2.launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/launch
+[7.641s] copying launch/description_X3_multi_robot2.launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/launch
+[7.642s] copying launch/description_X3_multi_robot1.launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/launch
+[7.643s] copying launch/display_X3.launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/launch
+[7.643s] copying launch/description_R2_multi_robot2.launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/launch
+[7.645s] copying launch/description_R2_multi_robot1.launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/launch
+[7.645s] copying urdf/yahboomcar_X3.urdf -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/urdf
+[7.646s] copying urdf/yahboomcar_X3_robot1.urdf -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/urdf
+[7.653s] copying urdf/yahboomcar_R2_multi.urdf.xacro -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/urdf
+[7.653s] copying urdf/yahboomcar_R2_robot1.urdf -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/urdf
+[7.654s] copying urdf/yahboomcar_X3.urdf.xacro -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/urdf
+[7.655s] copying urdf/yahboomcar_R2_robot2.urdf -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/urdf
+[7.655s] copying urdf/yahboomcar_X3_robot2.urdf -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/urdf
+[7.656s] copying urdf/yahboomcar_R2_robot2.urdf.xacro -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/urdf
+[7.656s] copying urdf/yahboomcar_R2_robot1.urdf.xacro -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/urdf
+[7.657s] copying urdf/yahboomcar_R2.urdf -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/urdf
+[7.658s] copying urdf/yahboomcar_R2.urdf.xacro -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/urdf
+[7.658s] copying meshes/front_right_wheel_X3.STL -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/meshes
+[7.659s] copying meshes/laser_link.STL -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/meshes
+[7.689s] copying meshes/front_left_steer.STL -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/meshes
+[7.690s] copying meshes/front_right_wheel.STL -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/meshes
+[7.691s] copying meshes/laser_link_R2.STL -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/meshes
+[7.694s] copying meshes/front_left_wheel.STL -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/meshes
+[7.697s] copying meshes/back_right_wheel_X3.STL -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/meshes
+[7.728s] copying meshes/front_right_steer.STL -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/meshes
+[7.728s] copying meshes/camera_link_R2.STL -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/meshes
+[7.729s] copying meshes/front_left_wheel_X3.STL -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/meshes
+[7.736s] copying meshes/back_right_link.STL -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/meshes
+[7.750s] copying meshes/base_link_X3.STL -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/meshes
+[7.767s] copying meshes/back_left_link.STL -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/meshes
+[7.781s] copying meshes/back_left_wheel_X3.STL -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/meshes
+[7.804s] copying meshes/base_link.STL -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/meshes
+[7.914s] copying meshes/camera_link.STL -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/meshes
+[7.917s] copying rviz/yahboomcar.rviz -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/share/yahboomcar_description/rviz
+[7.918s] running install_egg_info
+[7.936s] removing '/root/codes/iron_yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages/yahboomcar_description-0.0.0-py3.8.egg-info' (and everything under it)
+[7.939s] Copying ../../build/yahboomcar_description/yahboomcar_description.egg-info to /root/codes/iron_yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages/yahboomcar_description-0.0.0-py3.8.egg-info
+[7.973s] running install_scripts
+[8.097s] writing list of installed files to '/root/codes/iron_yahboomcar_ws/build/yahboomcar_description/install.log'
+[8.230s] Invoked command in '/root/codes/iron_yahboomcar_ws/src/yahboomcar_description' returned '0': PYTHONPATH=/root/codes/iron_yahboomcar_ws/build/yahboomcar_description/prefix_override:/root/codes/iron_yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_description build --build-base /root/codes/iron_yahboomcar_ws/build/yahboomcar_description/build install --record /root/codes/iron_yahboomcar_ws/build/yahboomcar_description/install.log --install-scripts $base/lib/yahboomcar_description --single-version-externally-managed

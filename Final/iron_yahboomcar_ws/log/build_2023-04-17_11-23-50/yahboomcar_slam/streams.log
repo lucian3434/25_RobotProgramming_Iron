@@ -1,0 +1,196 @@
+[0.214s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy /usr/bin/cmake /root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_slam -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam
+[0.966s] -- The C compiler identification is GNU 9.4.0
+[1.678s] -- The CXX compiler identification is GNU 9.4.0
+[1.714s] -- Check for working C compiler: /usr/bin/cc
+[2.514s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.518s] -- Detecting C compiler ABI info
+[3.492s] -- Detecting C compiler ABI info - done
+[3.589s] -- Detecting C compile features
+[3.592s] -- Detecting C compile features - done
+[3.605s] -- Check for working CXX compiler: /usr/bin/c++
+[4.234s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.260s] -- Detecting CXX compiler ABI info
+[4.856s] -- Detecting CXX compiler ABI info - done
+[4.909s] -- Detecting CXX compile features
+[4.912s] -- Detecting CXX compile features - done
+[4.967s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.256s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.258s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.739s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[8.851s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.124s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[10.713s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[11.096s] -- Found FastRTPS: /opt/ros/foxy/include  
+[12.333s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.067s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[13.082s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.091s] -- Looking for pthread.h
+[13.878s] -- Looking for pthread.h - found
+[13.879s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.908s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[14.919s] -- Looking for pthread_create in pthreads
+[16.151s] -- Looking for pthread_create in pthreads - not found
+[16.155s] -- Looking for pthread_create in pthread
+[16.816s] -- Looking for pthread_create in pthread - found
+[16.831s] -- Found Threads: TRUE  
+[17.957s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[19.578s] -- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)
+[20.440s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[20.575s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[23.266s] -- Checking for module 'eigen3'
+[23.490s] --   Found eigen3, version 3.4.0
+[24.150s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[24.165s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[25.301s] -- Checking for module 'flann'
+[25.445s] --   Found flann, version 1.9.1
+[25.985s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[26.365s] -- The imported target "vtkParseOGLExt" references the file
+[26.365s]    "/usr/bin/vtkParseOGLExt-7.1"
+[26.366s] but this file does not exist.  Possible reasons include:
+[26.366s] * The file was deleted, renamed, or moved to another location.
+[26.366s] * An install or uninstall procedure did not complete successfully.
+[26.367s] * The installation package was faulty and contained
+[26.367s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[26.368s] but not all the files it references.
+[26.368s] 
+[26.376s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[26.376s]    "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[26.376s] but this file does not exist.  Possible reasons include:
+[26.377s] * The file was deleted, renamed, or moved to another location.
+[26.378s] * An install or uninstall procedure did not complete successfully.
+[26.379s] * The installation package was faulty and contained
+[26.379s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[26.379s] but not all the files it references.
+[26.380s] 
+[26.384s] -- The imported target "vtk" references the file
+[26.384s]    "/usr/bin/vtk"
+[26.395s] but this file does not exist.  Possible reasons include:
+[26.397s] * The file was deleted, renamed, or moved to another location.
+[26.397s] * An install or uninstall procedure did not complete successfully.
+[26.398s] * The installation package was faulty and contained
+[26.398s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[26.398s] but not all the files it references.
+[26.399s] 
+[26.399s] -- The imported target "pvtk" references the file
+[26.399s]    "/usr/bin/pvtk"
+[26.400s] but this file does not exist.  Possible reasons include:
+[26.400s] * The file was deleted, renamed, or moved to another location.
+[26.400s] * An install or uninstall procedure did not complete successfully.
+[26.401s] * The installation package was faulty and contained
+[26.401s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[26.401s] but not all the files it references.
+[26.402s] 
+[26.575s] -- Checking for module 'libusb-1.0'
+[26.827s] --   Found libusb-1.0, version 1.0.23
+[27.583s] -- Found USB_10: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[28.370s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[28.919s] -- OpenNI2 found (include: /root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/include/openni2, lib: /root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib/libOpenNI2.so)
+[29.015s] -- Found libusb-1.0: /usr/include  
+[29.059s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[29.108s] -- OpenNI2 found (include: /root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/include/openni2, lib: /root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib/libOpenNI2.so)
+[29.375s] -- Found Qhull: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so  
+[29.378s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)
+[29.429s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[29.509s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[29.515s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[29.534s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[29.539s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[29.544s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[29.555s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[29.558s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[29.561s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[29.568s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[29.572s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[29.578s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[29.582s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[29.591s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[29.595s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[29.601s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[29.608s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[29.614s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[29.618s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[29.633s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[29.639s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[29.643s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[29.649s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[29.659s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[29.664s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[30.102s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[30.264s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[30.559s] CMake Warning (dev) at CMakeLists.txt:31 (find_package):
+[30.559s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[30.560s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[30.560s]   command to set the policy and suppress this warning.
+[30.560s] 
+[30.561s]   CMake variable PCL_ROOT is set to:
+[30.561s] 
+[30.562s]     /usr
+[30.562s] 
+[30.563s]   For compatibility, CMake is ignoring the variable.
+[30.563s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[30.564s] 
+[30.938s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[31.725s] -- Added test 'copyright' to check source files copyright and LICENSE
+[31.746s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[31.749s] -- Configured cppcheck include dirs: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_slam/include/yahboomcar_slam;$<BUILD_INTERFACE:/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_slam/include>
+[31.750s] -- Configured cppcheck exclude dirs and/or files: 
+[31.766s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[31.767s] -- Configured cpplint exclude dirs and/or files: 
+[31.773s] -- Added test 'flake8' to check Python code syntax and style conventions
+[31.783s] -- Added test 'lint_cmake' to check CMake code style
+[31.789s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[31.806s] -- Added test 'uncrustify' to check C / C++ code style
+[31.807s] -- Configured uncrustify additional arguments: 
+[31.814s] -- Added test 'xmllint' to check XML markup files
+[31.855s] -- Configuring done
+[32.557s] -- Generating done
+[32.583s] -- Build files have been written to: /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_slam
+[32.660s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy /usr/bin/cmake /root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_slam -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam
+[32.676s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy /usr/bin/cmake --build /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_slam -- -j4 -l4
+[33.020s] [35m[1mScanning dependencies of target pointcloud_mapping[0m
+[34.013s] [ 33%] [32mBuilding CXX object CMakeFiles/pointcloud_mapping.dir/src/point_cloud_main.cpp.o[0m
+[99.838s] [ 66%] [32mBuilding CXX object CMakeFiles/pointcloud_mapping.dir/src/point_cloud.cpp.o[0m
+[180.128s] [100%] [32m[1mLinking CXX executable pointcloud_mapping[0m
+[186.889s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.3.2
+[186.890s] /usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.3.2
+[186.891s] /usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.2
+[186.949s] [100%] Built target pointcloud_mapping
+[187.016s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy /usr/bin/cmake --build /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_slam -- -j4 -l4
+[187.233s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy /usr/bin/cmake --install /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_slam
+[187.284s] -- Install configuration: ""
+[187.285s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/lib/yahboomcar_slam/pointcloud_mapping
+[187.326s] -- Set runtime path of "/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/lib/yahboomcar_slam/pointcloud_mapping" to ""
+[187.327s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/launch
+[187.327s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/launch/octomap_server_launch.py
+[187.329s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/launch/move_driver_launch.py
+[187.331s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/launch/orbslam_pose_launch.py
+[187.332s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/launch/camera_octomap_launch.py
+[187.334s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/launch/orbslam_pcl_map_launch.py
+[187.336s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/launch/orbslam_ros_launch.py
+[187.338s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/launch/orbslam_pcl_octomap_launch.py
+[187.339s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/launch/orbslam_base_launch.py
+[187.340s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/params
+[187.341s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/params/rgbd.yaml
+[187.342s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/params/ORBvoc.txt
+[188.514s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/params/mono.yaml
+[188.515s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/params/pointcloud_octomap.yaml
+[188.516s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/params/pointcloud_map.yaml
+[188.517s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/params/usb_cam_param.yaml
+[188.518s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/pcl
+[188.518s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/pcl/resultPointCloudFile.pcd
+[188.742s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/ament_index/resource_index/package_run_dependencies/yahboomcar_slam
+[188.744s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/ament_index/resource_index/parent_prefix_path/yahboomcar_slam
+[188.745s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/environment/ament_prefix_path.sh
+[188.746s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/environment/ament_prefix_path.dsv
+[188.748s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/environment/path.sh
+[188.749s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/environment/path.dsv
+[188.750s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/local_setup.bash
+[188.751s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/local_setup.sh
+[188.752s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/local_setup.zsh
+[188.754s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/local_setup.dsv
+[188.755s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/package.dsv
+[188.757s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/ament_index/resource_index/packages/yahboomcar_slam
+[188.758s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/cmake/yahboomcar_slamConfig.cmake
+[188.759s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/cmake/yahboomcar_slamConfig-version.cmake
+[188.760s] -- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam/share/yahboomcar_slam/package.xml
+[188.783s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy /usr/bin/cmake --install /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_slam

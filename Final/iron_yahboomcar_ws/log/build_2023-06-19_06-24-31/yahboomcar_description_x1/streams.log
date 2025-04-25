@@ -1,0 +1,20 @@
+[5.990s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_description_x1': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_description_x1/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_description_x1 build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_description_x1/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_description_x1/install.log --install-scripts $base/lib/yahboomcar_description_x1 --single-version-externally-managed
+[7.592s] running egg_info
+[7.595s] writing ../../build/yahboomcar_description_x1/yahboomcar_description_x1.egg-info/PKG-INFO
+[7.596s] writing dependency_links to ../../build/yahboomcar_description_x1/yahboomcar_description_x1.egg-info/dependency_links.txt
+[7.597s] writing entry points to ../../build/yahboomcar_description_x1/yahboomcar_description_x1.egg-info/entry_points.txt
+[7.598s] writing requirements to ../../build/yahboomcar_description_x1/yahboomcar_description_x1.egg-info/requires.txt
+[7.598s] writing top-level names to ../../build/yahboomcar_description_x1/yahboomcar_description_x1.egg-info/top_level.txt
+[7.788s] reading manifest file '../../build/yahboomcar_description_x1/yahboomcar_description_x1.egg-info/SOURCES.txt'
+[7.799s] writing manifest file '../../build/yahboomcar_description_x1/yahboomcar_description_x1.egg-info/SOURCES.txt'
+[7.800s] running build
+[7.801s] running build_py
+[7.803s] running install
+[7.808s] running install_lib
+[7.816s] running install_data
+[7.821s] running install_egg_info
+[7.829s] removing '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages/yahboomcar_description_x1-0.0.0-py3.8.egg-info' (and everything under it)
+[7.831s] Copying ../../build/yahboomcar_description_x1/yahboomcar_description_x1.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages/yahboomcar_description_x1-0.0.0-py3.8.egg-info
+[7.847s] running install_scripts
+[7.943s] writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_description_x1/install.log'
+[8.232s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_description_x1' returned '0': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_description_x1/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_description_x1 build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_description_x1/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_description_x1/install.log --install-scripts $base/lib/yahboomcar_description_x1 --single-version-externally-managed

@@ -1,0 +1,42 @@
+[5.100s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboom_app_save_map': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboom_app_save_map build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/install.log --install-scripts $base/lib/yahboom_app_save_map --single-version-externally-managed
+[6.441s] running egg_info
+[6.444s] creating ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info
+[6.445s] writing ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/PKG-INFO
+[6.446s] writing dependency_links to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/dependency_links.txt
+[6.447s] writing entry points to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/entry_points.txt
+[6.448s] writing requirements to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/requires.txt
+[6.448s] writing top-level names to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/top_level.txt
+[6.455s] writing manifest file '../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/SOURCES.txt'
+[6.635s] reading manifest file '../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/SOURCES.txt'
+[6.638s] writing manifest file '../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/SOURCES.txt'
+[6.639s] running build
+[6.640s] running build_py
+[6.640s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/build
+[6.641s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/build/lib
+[6.641s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/build/lib/yahboom_app_save_map
+[6.642s] copying yahboom_app_save_map/__init__.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/build/lib/yahboom_app_save_map
+[6.645s] copying yahboom_app_save_map/yahboom_app_save_map_client.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/build/lib/yahboom_app_save_map
+[6.645s] copying yahboom_app_save_map/yahboom_app_save_map.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/build/lib/yahboom_app_save_map
+[6.646s] running install
+[6.647s] running install_lib
+[6.651s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map
+[6.652s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/build/lib/yahboom_app_save_map/__init__.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map
+[6.652s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/build/lib/yahboom_app_save_map/yahboom_app_save_map_client.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map
+[6.653s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/build/lib/yahboom_app_save_map/yahboom_app_save_map.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map
+[6.656s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map/__init__.py to __init__.cpython-38.pyc
+[6.661s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map/yahboom_app_save_map_client.py to yahboom_app_save_map_client.cpython-38.pyc
+[6.663s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map/yahboom_app_save_map.py to yahboom_app_save_map.cpython-38.pyc
+[6.665s] running install_data
+[6.668s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/share/ament_index
+[6.668s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/share/ament_index/resource_index
+[6.669s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/share/ament_index/resource_index/packages
+[6.669s] copying resource/yahboom_app_save_map -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/share/ament_index/resource_index/packages
+[6.670s] copying package.xml -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/share/yahboom_app_save_map
+[6.670s] copying launch/yahboom_app_save_map.launch.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/share/yahboom_app_save_map
+[6.671s] running install_egg_info
+[6.677s] Copying ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map-0.0.0-py3.8.egg-info
+[6.682s] running install_scripts
+[6.764s] Installing client script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/yahboom_app_save_map
+[6.765s] Installing server script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/yahboom_app_save_map
+[6.766s] writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/install.log'
+[6.884s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboom_app_save_map' returned '0': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboom_app_save_map build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboom_app_save_map/install.log --install-scripts $base/lib/yahboom_app_save_map --single-version-externally-managed

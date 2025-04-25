@@ -1,0 +1,13 @@
+WARNING: Package name "yahboomcar_KCFTracker" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+In file included from [01m[K/root/codes/iron_yahboomcar_ws/src/yahboomcar_KCFTracker/include/yahboomcar_KCFTracker/KCF_Tracker.h:12[m[K,
+                 from [01m[K/root/codes/iron_yahboomcar_ws/src/yahboomcar_KCFTracker/src/KCF_Tracker_main.cpp:2[m[K:
+[01m[K/opt/ros/foxy/include/image_transport/image_transport.h:41:89:[m[K [01;36m[Knote: [m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead
+   41 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+In file included from [01m[K/root/codes/iron_yahboomcar_ws/src/yahboomcar_KCFTracker/include/yahboomcar_KCFTracker/KCF_Tracker.h:12[m[K,
+                 from [01m[K/root/codes/iron_yahboomcar_ws/src/yahboomcar_KCFTracker/src/KCF_Tracker.cpp:2[m[K:
+[01m[K/opt/ros/foxy/include/image_transport/image_transport.h:41:89:[m[K [01;36m[Knote: [m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead
+   41 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+/usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.3.2
+/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.2

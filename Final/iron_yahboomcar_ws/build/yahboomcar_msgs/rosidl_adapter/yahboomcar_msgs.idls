@@ -1,0 +1,7 @@
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_msgs/rosidl_adapter/yahboomcar_msgs:msg/ImageMsg.idl
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_msgs/rosidl_adapter/yahboomcar_msgs:msg/PointArray.idl
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_msgs/rosidl_adapter/yahboomcar_msgs:msg/Position.idl
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_msgs/rosidl_adapter/yahboomcar_msgs:msg/Target.idl
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_msgs/rosidl_adapter/yahboomcar_msgs:msg/TargetArray.idl
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_msgs/rosidl_adapter/yahboomcar_msgs:msg/ColorData.idl
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_msgs/rosidl_adapter/yahboomcar_msgs:srv/GetColor.idl

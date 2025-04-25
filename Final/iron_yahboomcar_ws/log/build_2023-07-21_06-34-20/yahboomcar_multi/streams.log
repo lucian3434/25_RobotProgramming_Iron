@@ -1,0 +1,22 @@
+[3.819s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_multi': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_multi/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_multi build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_multi/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_multi/install.log --install-scripts $base/lib/yahboomcar_multi --single-version-externally-managed
+[5.003s] running egg_info
+[5.005s] writing ../../build/yahboomcar_multi/yahboomcar_multi.egg-info/PKG-INFO
+[5.010s] writing dependency_links to ../../build/yahboomcar_multi/yahboomcar_multi.egg-info/dependency_links.txt
+[5.010s] writing entry points to ../../build/yahboomcar_multi/yahboomcar_multi.egg-info/entry_points.txt
+[5.011s] writing requirements to ../../build/yahboomcar_multi/yahboomcar_multi.egg-info/requires.txt
+[5.011s] writing top-level names to ../../build/yahboomcar_multi/yahboomcar_multi.egg-info/top_level.txt
+[5.190s] reading manifest file '../../build/yahboomcar_multi/yahboomcar_multi.egg-info/SOURCES.txt'
+[5.195s] writing manifest file '../../build/yahboomcar_multi/yahboomcar_multi.egg-info/SOURCES.txt'
+[5.195s] running build
+[5.196s] running build_py
+[5.199s] running install
+[5.203s] running install_lib
+[5.216s] running install_data
+[5.221s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[5.222s] copying launch/bringup_multi.launch.xml -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[5.222s] running install_egg_info
+[5.229s] removing '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/lib/python3.8/site-packages/yahboomcar_multi-0.0.0-py3.8.egg-info' (and everything under it)
+[5.231s] Copying ../../build/yahboomcar_multi/yahboomcar_multi.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/lib/python3.8/site-packages/yahboomcar_multi-0.0.0-py3.8.egg-info
+[5.240s] running install_scripts
+[5.318s] writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_multi/install.log'
+[5.421s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_multi' returned '0': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_multi/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_multi build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_multi/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_multi/install.log --install-scripts $base/lib/yahboomcar_multi --single-version-externally-managed

@@ -1,0 +1,1 @@
+CMake Error: The current CMakeCache.txt directory /root/codes/iron_yahboomcar_ws/build/robot_pose_publisher_ros2/CMakeCache.txt is different than the directory /root/yahboomcar_ros2_ws/yahboomcar_ws/build/robot_pose_publisher_ros2 where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt

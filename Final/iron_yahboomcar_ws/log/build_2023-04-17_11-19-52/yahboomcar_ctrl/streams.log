@@ -1,0 +1,43 @@
+[7.295s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_ctrl': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_ctrl build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/install.log --install-scripts $base/lib/yahboomcar_ctrl --single-version-externally-managed
+[9.292s] running egg_info
+[9.294s] creating ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info
+[9.295s] writing ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/PKG-INFO
+[9.296s] writing dependency_links to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/dependency_links.txt
+[9.298s] writing entry points to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/entry_points.txt
+[9.299s] writing requirements to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/requires.txt
+[9.299s] writing top-level names to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/top_level.txt
+[9.306s] writing manifest file '../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/SOURCES.txt'
+[9.534s] reading manifest file '../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/SOURCES.txt'
+[9.539s] writing manifest file '../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/SOURCES.txt'
+[9.540s] running build
+[9.541s] running build_py
+[9.542s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build
+[9.542s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build/lib
+[9.550s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl
+[9.550s] copying yahboomcar_ctrl/__init__.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl
+[9.551s] copying yahboomcar_ctrl/yahboom_keyboard.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl
+[9.552s] copying yahboomcar_ctrl/yahboom_joy_X3.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl
+[9.557s] running install
+[9.569s] running install_lib
+[9.574s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages/yahboomcar_ctrl
+[9.575s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl/__init__.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages/yahboomcar_ctrl
+[9.576s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl/yahboom_keyboard.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages/yahboomcar_ctrl
+[9.577s] copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl/yahboom_joy_X3.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages/yahboomcar_ctrl
+[9.579s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages/yahboomcar_ctrl/__init__.py to __init__.cpython-38.pyc
+[9.585s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages/yahboomcar_ctrl/yahboom_keyboard.py to yahboom_keyboard.cpython-38.pyc
+[9.602s] byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages/yahboomcar_ctrl/yahboom_joy_X3.py to yahboom_joy_X3.cpython-38.pyc
+[9.621s] running install_data
+[9.631s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/share/ament_index
+[9.632s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/share/ament_index/resource_index
+[9.633s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/share/ament_index/resource_index/packages
+[9.634s] copying resource/yahboomcar_ctrl -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/share/ament_index/resource_index/packages
+[9.634s] copying package.xml -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/share/yahboomcar_ctrl
+[9.635s] creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/share/yahboomcar_ctrl/launch
+[9.635s] copying launch/yahboomcar_joy_launch.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/share/yahboomcar_ctrl/launch
+[9.638s] running install_egg_info
+[9.652s] Copying ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages/yahboomcar_ctrl-0.0.0-py3.8.egg-info
+[9.681s] running install_scripts
+[9.877s] Installing yahboom_joy_X3 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/yahboomcar_ctrl
+[9.888s] Installing yahboom_keyboard script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/yahboomcar_ctrl
+[9.890s] writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/install.log'
+[10.129s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_ctrl' returned '0': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_ctrl build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/install.log --install-scripts $base/lib/yahboomcar_ctrl --single-version-externally-managed

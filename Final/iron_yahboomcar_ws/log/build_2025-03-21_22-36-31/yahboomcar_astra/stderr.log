@@ -1,0 +1,2 @@
+/root/codes/iron_yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages/yahboomcar_astra/colorHSV.py:95: SyntaxWarning: 'float' object is not callable; perhaps you missed a comma?
+  cv.putText(rgb_img, hsvText, (30, 60), cv.FONT_HERSHEY_SIMPLEX, 0.6 (100, 200, 200), 1)

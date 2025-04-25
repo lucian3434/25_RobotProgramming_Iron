@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target KCF_Tracker_Node[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/KCF_Tracker_Node.dir/include/yahboomcar_KCFTracker/kcftracker.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable KCF_Tracker_Node[0m
+[100%] Built target KCF_Tracker_Node
+-- Install configuration: ""
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker/lib/yahboomcar_KCFTracker/KCF_Tracker_Node
+-- Set runtime path of "/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker/lib/yahboomcar_KCFTracker/KCF_Tracker_Node" to ""
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker/share/yahboomcar_KCFTracker/launch
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker/share/yahboomcar_KCFTracker/launch/KCFTracker.launch.py
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker/share/ament_index/resource_index/package_run_dependencies/yahboomcar_KCFTracker
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker/share/ament_index/resource_index/parent_prefix_path/yahboomcar_KCFTracker
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker/share/yahboomcar_KCFTracker/environment/ament_prefix_path.sh
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker/share/yahboomcar_KCFTracker/environment/ament_prefix_path.dsv
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker/share/yahboomcar_KCFTracker/environment/path.sh
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker/share/yahboomcar_KCFTracker/environment/path.dsv
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker/share/yahboomcar_KCFTracker/local_setup.bash
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker/share/yahboomcar_KCFTracker/local_setup.sh
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker/share/yahboomcar_KCFTracker/local_setup.zsh
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker/share/yahboomcar_KCFTracker/local_setup.dsv
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker/share/yahboomcar_KCFTracker/package.dsv
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker/share/ament_index/resource_index/packages/yahboomcar_KCFTracker
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker/share/yahboomcar_KCFTracker/cmake/yahboomcar_KCFTrackerConfig.cmake
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker/share/yahboomcar_KCFTracker/cmake/yahboomcar_KCFTrackerConfig-version.cmake
+-- Installing: /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker/share/yahboomcar_KCFTracker/package.xml

@@ -1,0 +1,28 @@
+[0.259s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_KCFTracker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --build /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_KCFTracker -- -j4 -l4
+[1.166s] [35m[1mScanning dependencies of target KCF_Tracker_Node[0m
+[1.554s] [ 16%] [32mBuilding CXX object CMakeFiles/KCF_Tracker_Node.dir/src/KCF_Tracker_main.cpp.o[0m
+[1.565s] [ 33%] [32mBuilding CXX object CMakeFiles/KCF_Tracker_Node.dir/src/KCF_Tracker.cpp.o[0m
+[6.676s] In file included from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/include/yahboomcar_KCFTracker/KCF_Tracker.h:12[m[K,
+[6.677s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/src/KCF_Tracker_main.cpp:2[m[K:
+[6.679s] [01m[K/opt/ros/foxy/include/image_transport/image_transport.h:41:89:[m[K [01;36m[Knote: [m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead
+[6.680s]    41 | This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+[6.682s]       |                                                              [01;36m[K^[m[K
+[6.683s] 
+[6.780s] In file included from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/include/yahboomcar_KCFTracker/KCF_Tracker.h:12[m[K,
+[6.781s]                  from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/src/KCF_Tracker.cpp:2[m[K:
+[6.782s] [01m[K/opt/ros/foxy/include/image_transport/image_transport.h:41:89:[m[K [01;36m[Knote: [m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead
+[6.784s]    41 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+[6.785s]       |                                                                                         [01;36m[K^[m[K
+[27.260s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/src/KCF_Tracker.cpp:185:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid ImageConverter::StopCar()[m[K’
+[27.261s]   185 | void [01;31m[KImageConverter[m[K::StopCar() {
+[27.278s]       |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[27.285s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/src/KCF_Tracker.cpp:185:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid ImageConverter::StopCar()[m[K’
+[27.286s] In file included from [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/src/KCF_Tracker.cpp:2[m[K:
+[27.287s] [01m[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/include/yahboomcar_KCFTracker/KCF_Tracker.h:31:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ImageConverter[m[K’ defined here
+[27.288s]    31 | class [01;36m[KImageConverter[m[K :public rclcpp::Node{
+[27.290s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[47.845s] make[2]: *** [CMakeFiles/KCF_Tracker_Node.dir/build.make:76: CMakeFiles/KCF_Tracker_Node.dir/src/KCF_Tracker.cpp.o] Error 1
+[47.847s] make[2]: *** Waiting for unfinished jobs....
+[72.307s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/KCF_Tracker_Node.dir/all] Error 2
+[72.310s] make: *** [Makefile:141: all] Error 2
+[72.319s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_KCFTracker' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy /usr/bin/cmake --build /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_KCFTracker -- -j4 -l4

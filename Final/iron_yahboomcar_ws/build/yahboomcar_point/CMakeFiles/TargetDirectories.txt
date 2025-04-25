@@ -1,0 +1,10 @@
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_point/CMakeFiles/install/strip.dir
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_point/CMakeFiles/install.dir
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_point/CMakeFiles/list_install_components.dir
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_point/CMakeFiles/rebuild_cache.dir
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_point/CMakeFiles/edit_cache.dir
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_point/CMakeFiles/test.dir
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_point/CMakeFiles/install/local.dir
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_point/CMakeFiles/pub_point.dir
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_point/CMakeFiles/yahboomcar_point_uninstall.dir
+/root/codes/iron_yahboomcar_ws/build/yahboomcar_point/CMakeFiles/uninstall.dir

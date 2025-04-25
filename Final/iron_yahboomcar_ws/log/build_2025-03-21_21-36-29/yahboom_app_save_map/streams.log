@@ -1,0 +1,34 @@
+[5.483s] Invoking command in '/root/codes/iron_yahboomcar_ws/src/yahboom_app_save_map': PYTHONPATH=/root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/prefix_override:/root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboom_app_save_map build --build-base /root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/build install --record /root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/install.log --install-scripts $base/lib/yahboom_app_save_map --single-version-externally-managed
+[8.731s] running egg_info
+[8.734s] writing ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/PKG-INFO
+[8.735s] writing dependency_links to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/dependency_links.txt
+[8.736s] writing entry points to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/entry_points.txt
+[8.740s] writing requirements to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/requires.txt
+[8.741s] writing top-level names to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/top_level.txt
+[9.163s] reading manifest file '../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/SOURCES.txt'
+[9.180s] writing manifest file '../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/SOURCES.txt'
+[9.180s] running build
+[9.181s] running build_py
+[9.185s] copying yahboom_app_save_map/__init__.py -> /root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/build/lib/yahboom_app_save_map
+[9.187s] copying yahboom_app_save_map/yahboom_app_save_map_client.py -> /root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/build/lib/yahboom_app_save_map
+[9.195s] copying yahboom_app_save_map/yahboom_app_save_map.py -> /root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/build/lib/yahboom_app_save_map
+[9.204s] running install
+[9.211s] running install_lib
+[9.227s] copying /root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/build/lib/yahboom_app_save_map/__init__.py -> /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map
+[9.235s] copying /root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/build/lib/yahboom_app_save_map/yahboom_app_save_map_client.py -> /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map
+[9.238s] copying /root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/build/lib/yahboom_app_save_map/yahboom_app_save_map.py -> /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map
+[9.249s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map/__init__.py to __init__.cpython-38.pyc
+[9.265s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map/yahboom_app_save_map_client.py to yahboom_app_save_map_client.cpython-38.pyc
+[9.275s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map/yahboom_app_save_map.py to yahboom_app_save_map.cpython-38.pyc
+[9.280s] running install_data
+[9.287s] copying resource/yahboom_app_save_map -> /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/share/ament_index/resource_index/packages
+[9.289s] copying package.xml -> /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/share/yahboom_app_save_map
+[9.291s] copying launch/yahboom_app_save_map.launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/share/yahboom_app_save_map
+[9.299s] running install_egg_info
+[9.315s] removing '/root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map-0.0.0-py3.8.egg-info' (and everything under it)
+[9.318s] Copying ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info to /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages/yahboom_app_save_map-0.0.0-py3.8.egg-info
+[9.331s] running install_scripts
+[9.534s] Installing client script to /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/yahboom_app_save_map
+[9.538s] Installing server script to /root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/yahboom_app_save_map
+[9.542s] writing list of installed files to '/root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/install.log'
+[9.813s] Invoked command in '/root/codes/iron_yahboomcar_ws/src/yahboom_app_save_map' returned '0': PYTHONPATH=/root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/prefix_override:/root/codes/iron_yahboomcar_ws/install/yahboom_app_save_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboom_app_save_map build --build-base /root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/build install --record /root/codes/iron_yahboomcar_ws/build/yahboom_app_save_map/install.log --install-scripts $base/lib/yahboom_app_save_map --single-version-externally-managed

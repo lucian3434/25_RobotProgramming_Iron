@@ -1,0 +1,1508 @@
+[0.000000] (-) TimerEvent: {}
+[0.000591] (yahboomcar_KCFTracker) JobQueued: {'identifier': 'yahboomcar_KCFTracker', 'dependencies': OrderedDict()}
+[0.000758] (yahboomcar_astra) JobQueued: {'identifier': 'yahboomcar_astra', 'dependencies': OrderedDict()}
+[0.000866] (yahboomcar_base_node) JobQueued: {'identifier': 'yahboomcar_base_node', 'dependencies': OrderedDict()}
+[0.000959] (yahboomcar_bringup) JobQueued: {'identifier': 'yahboomcar_bringup', 'dependencies': OrderedDict()}
+[0.012950] (yahboomcar_ctrl) JobQueued: {'identifier': 'yahboomcar_ctrl', 'dependencies': OrderedDict()}
+[0.013144] (yahboomcar_description) JobQueued: {'identifier': 'yahboomcar_description', 'dependencies': OrderedDict()}
+[0.013274] (yahboomcar_description_x1) JobQueued: {'identifier': 'yahboomcar_description_x1', 'dependencies': OrderedDict()}
+[0.013385] (yahboomcar_laser) JobQueued: {'identifier': 'yahboomcar_laser', 'dependencies': OrderedDict()}
+[0.013469] (yahboomcar_linefollow) JobQueued: {'identifier': 'yahboomcar_linefollow', 'dependencies': OrderedDict()}
+[0.013554] (yahboomcar_mediapipe) JobQueued: {'identifier': 'yahboomcar_mediapipe', 'dependencies': OrderedDict()}
+[0.013635] (yahboomcar_msgs) JobQueued: {'identifier': 'yahboomcar_msgs', 'dependencies': OrderedDict()}
+[0.013715] (yahboomcar_nav) JobQueued: {'identifier': 'yahboomcar_nav', 'dependencies': OrderedDict()}
+[0.013794] (yahboomcar_slam) JobQueued: {'identifier': 'yahboomcar_slam', 'dependencies': OrderedDict()}
+[0.013890] (yahboomcar_visual) JobQueued: {'identifier': 'yahboomcar_visual', 'dependencies': OrderedDict()}
+[0.013971] (yahboomcar_voice_ctrl) JobQueued: {'identifier': 'yahboomcar_voice_ctrl', 'dependencies': OrderedDict()}
+[0.014049] (yahboomcar_point) JobQueued: {'identifier': 'yahboomcar_point', 'dependencies': OrderedDict([('yahboomcar_msgs', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs')])}
+[0.014150] (yahboomcar_msgs) JobStarted: {'identifier': 'yahboomcar_msgs'}
+[0.090437] (-) TimerEvent: {}
+[0.105958] (yahboomcar_KCFTracker) JobStarted: {'identifier': 'yahboomcar_KCFTracker'}
+[0.179105] (yahboomcar_astra) JobStarted: {'identifier': 'yahboomcar_astra'}
+[0.194676] (-) TimerEvent: {}
+[0.281246] (yahboomcar_base_node) JobStarted: {'identifier': 'yahboomcar_base_node'}
+[0.294992] (-) TimerEvent: {}
+[0.371936] (yahboomcar_msgs) JobProgress: {'identifier': 'yahboomcar_msgs', 'progress': 'cmake'}
+[0.374132] (yahboomcar_msgs) Command: {'cmd': ['/usr/bin/cmake', '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_msgs', '-DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs'], 'cwd': '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_msgs', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/yahboomcar_ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/root/yahboomcar_ros2_ws/yahboomcar_ws'), ('COLCON_PREFIX_PATH', '/root/yahboomcar_ros2_ws/software/library_ws/install:/root/yahboomcar_ros2_ws/yahboomcar_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ORB_SLAM2_ROOT_DIR', '/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '111'), ('AMENT_PREFIX_PATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/opt/ros/foxy'), ('PWD', '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy')]), 'shell': False}
+[0.398236] (-) TimerEvent: {}
+[0.413079] (yahboomcar_KCFTracker) JobProgress: {'identifier': 'yahboomcar_KCFTracker', 'progress': 'cmake'}
+[0.422138] (yahboomcar_KCFTracker) Command: {'cmd': ['/usr/bin/cmake', '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker', '-DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker'], 'cwd': '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_KCFTracker', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/yahboomcar_ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/root/yahboomcar_ros2_ws/yahboomcar_ws'), ('COLCON_PREFIX_PATH', '/root/yahboomcar_ros2_ws/software/library_ws/install:/root/yahboomcar_ros2_ws/yahboomcar_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ORB_SLAM2_ROOT_DIR', '/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '111'), ('AMENT_PREFIX_PATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/opt/ros/foxy'), ('PWD', '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_KCFTracker'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy')]), 'shell': False}
+[0.499287] (-) TimerEvent: {}
+[0.604276] (-) TimerEvent: {}
+[0.705506] (-) TimerEvent: {}
+[0.807723] (-) TimerEvent: {}
+[0.909839] (-) TimerEvent: {}
+[1.012094] (-) TimerEvent: {}
+[1.114001] (-) TimerEvent: {}
+[1.216045] (-) TimerEvent: {}
+[1.317747] (-) TimerEvent: {}
+[1.419447] (-) TimerEvent: {}
+[1.524717] (-) TimerEvent: {}
+[1.628318] (-) TimerEvent: {}
+[1.729522] (-) TimerEvent: {}
+[1.830543] (-) TimerEvent: {}
+[1.931683] (-) TimerEvent: {}
+[2.032675] (-) TimerEvent: {}
+[2.133723] (-) TimerEvent: {}
+[2.236414] (-) TimerEvent: {}
+[2.339053] (-) TimerEvent: {}
+[2.442537] (-) TimerEvent: {}
+[2.548672] (-) TimerEvent: {}
+[2.618635] (yahboomcar_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.620915] (yahboomcar_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.621408] (yahboomcar_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.621745] (yahboomcar_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.622044] (yahboomcar_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.647425] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.648636] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.649017] (-) TimerEvent: {}
+[2.649915] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.667619] (yahboomcar_base_node) JobProgress: {'identifier': 'yahboomcar_base_node', 'progress': 'cmake'}
+[2.678461] (yahboomcar_base_node) Command: {'cmd': ['/usr/bin/cmake', '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_base_node', '-DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node'], 'cwd': '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_base_node', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/yahboomcar_ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/root/yahboomcar_ros2_ws/yahboomcar_ws'), ('COLCON_PREFIX_PATH', '/root/yahboomcar_ros2_ws/software/library_ws/install:/root/yahboomcar_ros2_ws/yahboomcar_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ORB_SLAM2_ROOT_DIR', '/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '111'), ('AMENT_PREFIX_PATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/opt/ros/foxy'), ('PWD', '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_base_node'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy')]), 'shell': False}
+[2.737022] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.749672] (-) TimerEvent: {}
+[2.760415] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.849849] (-) TimerEvent: {}
+[2.950822] (-) TimerEvent: {}
+[3.051937] (-) TimerEvent: {}
+[3.152962] (-) TimerEvent: {}
+[3.196571] (yahboomcar_base_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[3.253195] (-) TimerEvent: {}
+[3.355750] (-) TimerEvent: {}
+[3.458223] (-) TimerEvent: {}
+[3.563183] (-) TimerEvent: {}
+[3.597936] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.636223] (yahboomcar_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.663463] (-) TimerEvent: {}
+[3.756828] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.761685] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.763679] (-) TimerEvent: {}
+[3.773054] (yahboomcar_base_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.777236] (yahboomcar_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.778886] (yahboomcar_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.797408] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.809388] (yahboomcar_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.851762] (yahboomcar_base_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.863893] (-) TimerEvent: {}
+[3.966243] (-) TimerEvent: {}
+[4.069997] (-) TimerEvent: {}
+[4.173633] (-) TimerEvent: {}
+[4.274600] (-) TimerEvent: {}
+[4.379327] (-) TimerEvent: {}
+[4.481020] (-) TimerEvent: {}
+[4.558943] (yahboomcar_base_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.570294] (yahboomcar_base_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.581288] (-) TimerEvent: {}
+[4.628797] (yahboomcar_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.645277] (yahboomcar_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.681501] (-) TimerEvent: {}
+[4.782500] (-) TimerEvent: {}
+[4.796152] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.807976] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.882713] (-) TimerEvent: {}
+[4.983962] (-) TimerEvent: {}
+[5.085177] (-) TimerEvent: {}
+[5.186379] (-) TimerEvent: {}
+[5.289263] (-) TimerEvent: {}
+[5.394578] (-) TimerEvent: {}
+[5.401756] (yahboomcar_base_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.494846] (-) TimerEvent: {}
+[5.529140] (yahboomcar_base_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.533505] (yahboomcar_base_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.549957] (yahboomcar_base_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[5.595130] (-) TimerEvent: {}
+[5.653449] (yahboomcar_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.695405] (-) TimerEvent: {}
+[5.799873] (-) TimerEvent: {}
+[5.811882] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.844263] (yahboomcar_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.846953] (yahboomcar_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.900143] (-) TimerEvent: {}
+[5.923175] (yahboomcar_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[5.946720] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.949399] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.978506] (yahboomcar_astra) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/yahboomcar_astra', 'build', '--build-base', '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/build', 'install', '--record', '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/install.log', '--install-scripts', '$base/lib/yahboomcar_astra', '--single-version-externally-managed'], 'cwd': '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_astra', 'env': {'HOSTNAME': 'ubuntu', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/root/yahboomcar_ros2_ws', 'ROS_PYTHON_VERSION': '3', '_colcon_cd_root': '/root/yahboomcar_ros2_ws/yahboomcar_ws', 'COLCON_PREFIX_PATH': '/root/yahboomcar_ros2_ws/software/library_ws/install:/root/yahboomcar_ros2_ws/yahboomcar_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ORB_SLAM2_ROOT_DIR': '/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '111', 'AMENT_PREFIX_PATH': '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/opt/ros/foxy', 'PWD': '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs'}, 'shell': False}
+[6.001357] (-) TimerEvent: {}
+[6.020738] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[6.101155] (-) TimerEvent: {}
+[6.203845] (-) TimerEvent: {}
+[6.307093] (-) TimerEvent: {}
+[6.338912] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[6.340244] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.385880] (yahboomcar_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[6.386907] (yahboomcar_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.407334] (-) TimerEvent: {}
+[6.485590] (yahboomcar_base_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[6.502814] (yahboomcar_base_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.507610] (-) TimerEvent: {}
+[6.611243] (-) TimerEvent: {}
+[6.714056] (-) TimerEvent: {}
+[6.817061] (-) TimerEvent: {}
+[6.920096] (-) TimerEvent: {}
+[7.022326] (-) TimerEvent: {}
+[7.124404] (-) TimerEvent: {}
+[7.226980] (-) TimerEvent: {}
+[7.330106] (-) TimerEvent: {}
+[7.433020] (-) TimerEvent: {}
+[7.535994] (-) TimerEvent: {}
+[7.593372] (yahboomcar_base_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.636243] (-) TimerEvent: {}
+[7.737149] (-) TimerEvent: {}
+[7.763262] (yahboomcar_base_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.772635] (yahboomcar_base_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.837389] (-) TimerEvent: {}
+[7.856979] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[7.901938] (yahboomcar_astra) StdoutLine: {'line': b'running egg_info\n'}
+[7.905374] (yahboomcar_astra) StdoutLine: {'line': b'creating ../../build/yahboomcar_astra/yahboomcar_astra.egg-info\n'}
+[7.913363] (yahboomcar_astra) StdoutLine: {'line': b'writing ../../build/yahboomcar_astra/yahboomcar_astra.egg-info/PKG-INFO\n'}
+[7.916130] (yahboomcar_astra) StdoutLine: {'line': b'writing dependency_links to ../../build/yahboomcar_astra/yahboomcar_astra.egg-info/dependency_links.txt\n'}
+[7.919043] (yahboomcar_astra) StdoutLine: {'line': b'writing entry points to ../../build/yahboomcar_astra/yahboomcar_astra.egg-info/entry_points.txt\n'}
+[7.926738] (yahboomcar_astra) StdoutLine: {'line': b'writing requirements to ../../build/yahboomcar_astra/yahboomcar_astra.egg-info/requires.txt\n'}
+[7.928315] (yahboomcar_astra) StdoutLine: {'line': b'writing top-level names to ../../build/yahboomcar_astra/yahboomcar_astra.egg-info/top_level.txt\n'}
+[7.943801] (-) TimerEvent: {}
+[7.966747] (yahboomcar_astra) StdoutLine: {'line': b"writing manifest file '../../build/yahboomcar_astra/yahboomcar_astra.egg-info/SOURCES.txt'\n"}
+[8.043998] (-) TimerEvent: {}
+[8.137497] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[8.138504] (yahboomcar_base_node) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.144192] (-) TimerEvent: {}
+[8.156679] (yahboomcar_astra) StdoutLine: {'line': b"reading manifest file '../../build/yahboomcar_astra/yahboomcar_astra.egg-info/SOURCES.txt'\n"}
+[8.161012] (yahboomcar_astra) StdoutLine: {'line': b"writing manifest file '../../build/yahboomcar_astra/yahboomcar_astra.egg-info/SOURCES.txt'\n"}
+[8.162381] (yahboomcar_astra) StdoutLine: {'line': b'running build\n'}
+[8.163016] (yahboomcar_astra) StdoutLine: {'line': b'running build_py\n'}
+[8.164609] (yahboomcar_astra) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/build\n'}
+[8.165602] (yahboomcar_astra) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/build/lib\n'}
+[8.166586] (yahboomcar_astra) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/build/lib/yahboomcar_astra\n'}
+[8.167916] (yahboomcar_astra) StdoutLine: {'line': b'copying yahboomcar_astra/colorTracker.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/build/lib/yahboomcar_astra\n'}
+[8.174083] (yahboomcar_astra) StdoutLine: {'line': b'copying yahboomcar_astra/__init__.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/build/lib/yahboomcar_astra\n'}
+[8.176515] (yahboomcar_astra) StdoutLine: {'line': b'copying yahboomcar_astra/astra_common.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/build/lib/yahboomcar_astra\n'}
+[8.178587] (yahboomcar_astra) StdoutLine: {'line': b'copying yahboomcar_astra/colorHSV.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/build/lib/yahboomcar_astra\n'}
+[8.187940] (yahboomcar_astra) StdoutLine: {'line': b'running install\n'}
+[8.193178] (yahboomcar_astra) StdoutLine: {'line': b'running install_lib\n'}
+[8.201136] (yahboomcar_astra) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages/yahboomcar_astra\n'}
+[8.205061] (yahboomcar_astra) StdoutLine: {'line': b'copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/build/lib/yahboomcar_astra/colorTracker.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages/yahboomcar_astra\n'}
+[8.210782] (yahboomcar_astra) StdoutLine: {'line': b'copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/build/lib/yahboomcar_astra/__init__.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages/yahboomcar_astra\n'}
+[8.213855] (yahboomcar_astra) StdoutLine: {'line': b'copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/build/lib/yahboomcar_astra/astra_common.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages/yahboomcar_astra\n'}
+[8.220347] (yahboomcar_astra) StdoutLine: {'line': b'copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/build/lib/yahboomcar_astra/colorHSV.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages/yahboomcar_astra\n'}
+[8.223674] (yahboomcar_astra) StdoutLine: {'line': b'byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages/yahboomcar_astra/colorTracker.py to colorTracker.cpython-38.pyc\n'}
+[8.235796] (yahboomcar_astra) StdoutLine: {'line': b'byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages/yahboomcar_astra/__init__.py to __init__.cpython-38.pyc\n'}
+[8.236810] (yahboomcar_astra) StdoutLine: {'line': b'byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages/yahboomcar_astra/astra_common.py to astra_common.cpython-38.pyc\n'}
+[8.244420] (-) TimerEvent: {}
+[8.246950] (yahboomcar_astra) StdoutLine: {'line': b'byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages/yahboomcar_astra/colorHSV.py to colorHSV.cpython-38.pyc\n'}
+[8.258580] (yahboomcar_astra) StdoutLine: {'line': b'running install_data\n'}
+[8.267144] (yahboomcar_astra) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/share/ament_index\n'}
+[8.268108] (yahboomcar_astra) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/share/ament_index/resource_index\n'}
+[8.268597] (yahboomcar_astra) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/share/ament_index/resource_index/packages\n'}
+[8.268977] (yahboomcar_astra) StdoutLine: {'line': b'copying resource/yahboomcar_astra -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/share/ament_index/resource_index/packages\n'}
+[8.269667] (yahboomcar_astra) StdoutLine: {'line': b'copying package.xml -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/share/yahboomcar_astra\n'}
+[8.270022] (yahboomcar_astra) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/share/yahboomcar_astra/launch\n'}
+[8.270368] (yahboomcar_astra) StdoutLine: {'line': b'copying launch/colorTracker.launch.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/share/yahboomcar_astra/launch\n'}
+[8.273012] (yahboomcar_astra) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.278770] (yahboomcar_astra) StdoutLine: {'line': b'Copying ../../build/yahboomcar_astra/yahboomcar_astra.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages/yahboomcar_astra-0.0.0-py3.8.egg-info\n'}
+[8.286614] (yahboomcar_astra) StdoutLine: {'line': b'running install_scripts\n'}
+[8.344675] (-) TimerEvent: {}
+[8.429883] (yahboomcar_astra) StdoutLine: {'line': b'Installing colorHSV script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/yahboomcar_astra\n'}
+[8.430781] (yahboomcar_astra) StdoutLine: {'line': b'Installing colorTracker script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/yahboomcar_astra\n'}
+[8.433677] (yahboomcar_astra) StdoutLine: {'line': b"writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_astra/install.log'\n"}
+[8.444936] (-) TimerEvent: {}
+[8.548276] (-) TimerEvent: {}
+[8.565861] (yahboomcar_astra) CommandEnded: {'returncode': 0}
+[8.655483] (-) TimerEvent: {}
+[8.721671] (yahboomcar_astra) JobEnded: {'identifier': 'yahboomcar_astra', 'rc': 0}
+[8.728833] (yahboomcar_bringup) JobStarted: {'identifier': 'yahboomcar_bringup'}
+[8.751269] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[8.755907] (-) TimerEvent: {}
+[8.810123] (yahboomcar_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[8.856806] (-) TimerEvent: {}
+[8.933260] (yahboomcar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.956806] (-) TimerEvent: {}
+[9.055322] (yahboomcar_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[9.056974] (-) TimerEvent: {}
+[9.158801] (-) TimerEvent: {}
+[9.262075] (-) TimerEvent: {}
+[9.365454] (-) TimerEvent: {}
+[9.416664] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.465675] (-) TimerEvent: {}
+[9.570062] (-) TimerEvent: {}
+[9.672151] (-) TimerEvent: {}
+[9.743040] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[9.772494] (-) TimerEvent: {}
+[9.873435] (-) TimerEvent: {}
+[9.975462] (-) TimerEvent: {}
+[10.078527] (-) TimerEvent: {}
+[10.181747] (-) TimerEvent: {}
+[10.286094] (-) TimerEvent: {}
+[10.389274] (-) TimerEvent: {}
+[10.490237] (-) TimerEvent: {}
+[10.592932] (-) TimerEvent: {}
+[10.695761] (-) TimerEvent: {}
+[10.798832] (-) TimerEvent: {}
+[10.901862] (-) TimerEvent: {}
+[10.971000] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[11.002060] (-) TimerEvent: {}
+[11.105026] (-) TimerEvent: {}
+[11.142602] (yahboomcar_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[11.205238] (-) TimerEvent: {}
+[11.230559] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[11.305435] (-) TimerEvent: {}
+[11.408002] (-) TimerEvent: {}
+[11.509450] (-) TimerEvent: {}
+[11.611193] (-) TimerEvent: {}
+[11.628027] (yahboomcar_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[11.675608] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[11.711181] (-) TimerEvent: {}
+[11.812853] (-) TimerEvent: {}
+[11.864778] (yahboomcar_base_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.913052] (-) TimerEvent: {}
+[12.014641] (-) TimerEvent: {}
+[12.041117] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[12.114869] (-) TimerEvent: {}
+[12.215918] (-) TimerEvent: {}
+[12.319033] (-) TimerEvent: {}
+[12.424182] (-) TimerEvent: {}
+[12.530305] (-) TimerEvent: {}
+[12.633883] (-) TimerEvent: {}
+[12.736228] (-) TimerEvent: {}
+[12.801222] (yahboomcar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.836462] (-) TimerEvent: {}
+[12.868476] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.936694] (-) TimerEvent: {}
+[13.040385] (-) TimerEvent: {}
+[13.143632] (-) TimerEvent: {}
+[13.234573] (yahboomcar_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[13.243832] (-) TimerEvent: {}
+[13.347255] (-) TimerEvent: {}
+[13.456518] (-) TimerEvent: {}
+[13.559733] (-) TimerEvent: {}
+[13.663171] (-) TimerEvent: {}
+[13.686527] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[13.763236] (-) TimerEvent: {}
+[13.866024] (-) TimerEvent: {}
+[13.915922] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[13.966124] (-) TimerEvent: {}
+[14.069851] (-) TimerEvent: {}
+[14.173840] (-) TimerEvent: {}
+[14.276458] (-) TimerEvent: {}
+[14.338449] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[14.376666] (-) TimerEvent: {}
+[14.483956] (-) TimerEvent: {}
+[14.585582] (-) TimerEvent: {}
+[14.610027] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[14.685768] (-) TimerEvent: {}
+[14.788512] (-) TimerEvent: {}
+[14.891826] (-) TimerEvent: {}
+[14.994151] (-) TimerEvent: {}
+[15.035275] (yahboomcar_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[15.094460] (-) TimerEvent: {}
+[15.196925] (-) TimerEvent: {}
+[15.289532] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[15.297288] (-) TimerEvent: {}
+[15.325543] (yahboomcar_KCFTracker) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[15.337534] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[15.352167] (yahboomcar_bringup) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/yahboomcar_bringup', 'build', '--build-base', '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build', 'install', '--record', '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/install.log', '--install-scripts', '$base/lib/yahboomcar_bringup', '--single-version-externally-managed'], 'cwd': '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_bringup', 'env': {'HOSTNAME': 'ubuntu', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/root/yahboomcar_ros2_ws', 'ROS_PYTHON_VERSION': '3', '_colcon_cd_root': '/root/yahboomcar_ros2_ws/yahboomcar_ws', 'COLCON_PREFIX_PATH': '/root/yahboomcar_ros2_ws/software/library_ws/install:/root/yahboomcar_ros2_ws/yahboomcar_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ORB_SLAM2_ROOT_DIR': '/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '111', 'AMENT_PREFIX_PATH': '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/opt/ros/foxy', 'PWD': '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs'}, 'shell': False}
+[15.398854] (-) TimerEvent: {}
+[15.501175] (-) TimerEvent: {}
+[15.603794] (-) TimerEvent: {}
+[15.640482] (yahboomcar_base_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.704000] (-) TimerEvent: {}
+[15.805845] (-) TimerEvent: {}
+[15.907703] (-) TimerEvent: {}
+[16.010066] (-) TimerEvent: {}
+[16.112514] (-) TimerEvent: {}
+[16.214876] (-) TimerEvent: {}
+[16.224928] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[16.228203] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[16.315065] (-) TimerEvent: {}
+[16.416029] (-) TimerEvent: {}
+[16.517902] (-) TimerEvent: {}
+[16.620662] (-) TimerEvent: {}
+[16.721966] (-) TimerEvent: {}
+[16.760071] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[16.822287] (-) TimerEvent: {}
+[16.923276] (-) TimerEvent: {}
+[17.024358] (-) TimerEvent: {}
+[17.089494] (yahboomcar_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[17.124634] (-) TimerEvent: {}
+[17.225731] (-) TimerEvent: {}
+[17.326645] (-) TimerEvent: {}
+[17.426547] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[17.427306] (-) TimerEvent: {}
+[17.431371] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[17.492118] (yahboomcar_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[17.493841] (yahboomcar_bringup) StdoutLine: {'line': b'creating ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info\n'}
+[17.499892] (yahboomcar_bringup) StdoutLine: {'line': b'writing ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/PKG-INFO\n'}
+[17.501667] (yahboomcar_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/dependency_links.txt\n'}
+[17.502168] (yahboomcar_bringup) StdoutLine: {'line': b'writing entry points to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/entry_points.txt\n'}
+[17.502603] (yahboomcar_bringup) StdoutLine: {'line': b'writing requirements to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/requires.txt\n'}
+[17.502951] (yahboomcar_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/top_level.txt\n'}
+[17.505891] (yahboomcar_bringup) StdoutLine: {'line': b"writing manifest file '../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/SOURCES.txt'\n"}
+[17.527584] (-) TimerEvent: {}
+[17.629975] (-) TimerEvent: {}
+[17.732781] (-) TimerEvent: {}
+[17.736249] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[17.737212] (yahboomcar_bringup) StdoutLine: {'line': b"reading manifest file '../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/SOURCES.txt'\n"}
+[17.747375] (yahboomcar_bringup) StdoutLine: {'line': b"writing manifest file '../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info/SOURCES.txt'\n"}
+[17.748485] (yahboomcar_bringup) StdoutLine: {'line': b'running build\n'}
+[17.748907] (yahboomcar_bringup) StdoutLine: {'line': b'running build_py\n'}
+[17.749259] (yahboomcar_bringup) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build\n'}
+[17.749588] (yahboomcar_bringup) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib\n'}
+[17.749919] (yahboomcar_bringup) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[17.750231] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/untitled.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[17.750619] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/__init__.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[17.750989] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/test.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[17.751340] (yahboomcar_base_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[17.752041] (yahboomcar_base_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[17.756293] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/patrol_4ROS.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[17.758526] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/transform_utils.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[17.759583] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/calibrate_angular_X3.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[17.760296] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/patrol_a1_X3.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[17.760765] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/calibrate_linear_X3.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[17.761889] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/Mcnamu_driver_X3.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[17.768148] (yahboomcar_bringup) StdoutLine: {'line': b'copying yahboomcar_bringup/Mcnamu_driver_x1.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup\n'}
+[17.768682] (yahboomcar_bringup) StdoutLine: {'line': b'running install\n'}
+[17.778256] (yahboomcar_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[17.784181] (yahboomcar_bringup) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup\n'}
+[17.785096] (yahboomcar_bringup) StdoutLine: {'line': b'copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/Mcnamu_driver_x1.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup\n'}
+[17.785805] (yahboomcar_bringup) StdoutLine: {'line': b'copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/calibrate_angular_X3.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup\n'}
+[17.796892] (yahboomcar_bringup) StdoutLine: {'line': b'copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/patrol_a1_X3.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup\n'}
+[17.797842] (yahboomcar_bringup) StdoutLine: {'line': b'copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/untitled.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup\n'}
+[17.798737] (yahboomcar_bringup) StdoutLine: {'line': b'copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/calibrate_linear_X3.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup\n'}
+[17.800119] (yahboomcar_bringup) StdoutLine: {'line': b'copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/__init__.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup\n'}
+[17.800941] (yahboomcar_bringup) StdoutLine: {'line': b'copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/test.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup\n'}
+[17.801704] (yahboomcar_bringup) StdoutLine: {'line': b'copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/patrol_4ROS.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup\n'}
+[17.802352] (yahboomcar_bringup) StdoutLine: {'line': b'copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/Mcnamu_driver_X3.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup\n'}
+[17.803017] (yahboomcar_bringup) StdoutLine: {'line': b'copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/build/lib/yahboomcar_bringup/transform_utils.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup\n'}
+[17.811973] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/Mcnamu_driver_x1.py to Mcnamu_driver_x1.cpython-38.pyc\n'}
+[17.828339] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/calibrate_angular_X3.py to calibrate_angular_X3.cpython-38.pyc\n'}
+[17.833065] (-) TimerEvent: {}
+[17.835553] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/patrol_a1_X3.py to patrol_a1_X3.cpython-38.pyc\n'}
+[17.855459] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/untitled.py to untitled.cpython-38.pyc\n'}
+[17.856675] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/calibrate_linear_X3.py to calibrate_linear_X3.cpython-38.pyc\n'}
+[17.871426] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/__init__.py to __init__.cpython-38.pyc\n'}
+[17.873067] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/test.py to test.cpython-38.pyc\n'}
+[17.874063] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/patrol_4ROS.py to patrol_4ROS.cpython-38.pyc\n'}
+[17.894816] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/Mcnamu_driver_X3.py to Mcnamu_driver_X3.cpython-38.pyc\n'}
+[17.907993] (yahboomcar_bringup) StdoutLine: {'line': b'byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup/transform_utils.py to transform_utils.cpython-38.pyc\n'}
+[17.909779] (yahboomcar_bringup) StdoutLine: {'line': b'running install_data\n'}
+[17.916279] (yahboomcar_bringup) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/share/ament_index\n'}
+[17.917199] (yahboomcar_bringup) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/share/ament_index/resource_index\n'}
+[17.917702] (yahboomcar_bringup) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/share/ament_index/resource_index/packages\n'}
+[17.918354] (yahboomcar_bringup) StdoutLine: {'line': b'copying resource/yahboomcar_bringup -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/share/ament_index/resource_index/packages\n'}
+[17.918831] (yahboomcar_bringup) StdoutLine: {'line': b'copying package.xml -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/share/yahboomcar_bringup\n'}
+[17.919692] (yahboomcar_bringup) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/launch\n'}
+[17.920405] (yahboomcar_bringup) StdoutLine: {'line': b'copying launch/yahboomcar_bringup_launch.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/launch\n'}
+[17.920904] (yahboomcar_bringup) StdoutLine: {'line': b'copying launch/yahboomcar_bringup_x1_launch.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/launch\n'}
+[17.921575] (yahboomcar_bringup) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/share/yahboomcar_description\n'}
+[17.921939] (yahboomcar_bringup) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/share/yahboomcar_description/rviz\n'}
+[17.922285] (yahboomcar_bringup) StdoutLine: {'line': b'copying rviz/yahboomcar.rviz -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/share/yahboomcar_description/rviz\n'}
+[17.924671] (yahboomcar_bringup) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/param\n'}
+[17.925430] (yahboomcar_bringup) StdoutLine: {'line': b'copying param/imu_filter_param.yaml -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/share/yahboomcar_bringup/param\n'}
+[17.928837] (yahboomcar_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.933257] (-) TimerEvent: {}
+[17.940162] (yahboomcar_bringup) StdoutLine: {'line': b'Copying ../../build/yahboomcar_bringup/yahboomcar_bringup.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages/yahboomcar_bringup-0.0.0-py3.8.egg-info\n'}
+[17.946353] (yahboomcar_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[18.033472] (-) TimerEvent: {}
+[18.044237] (yahboomcar_bringup) StdoutLine: {'line': b'Installing Mcnamu_driver script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup\n'}
+[18.045217] (yahboomcar_bringup) StdoutLine: {'line': b'Installing Mcnamu_driver_x1 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup\n'}
+[18.046013] (yahboomcar_bringup) StdoutLine: {'line': b'Installing calibrate_angular script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup\n'}
+[18.046832] (yahboomcar_bringup) StdoutLine: {'line': b'Installing calibrate_linear script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup\n'}
+[18.047438] (yahboomcar_bringup) StdoutLine: {'line': b'Installing patrol_4ROS script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup\n'}
+[18.048146] (yahboomcar_bringup) StdoutLine: {'line': b'Installing patrol_a1 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/yahboomcar_bringup\n'}
+[18.050893] (yahboomcar_bringup) StdoutLine: {'line': b"writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_bringup/install.log'\n"}
+[18.133735] (-) TimerEvent: {}
+[18.166262] (yahboomcar_bringup) CommandEnded: {'returncode': 0}
+[18.238275] (-) TimerEvent: {}
+[18.251442] (yahboomcar_bringup) JobEnded: {'identifier': 'yahboomcar_bringup', 'rc': 0}
+[18.255046] (yahboomcar_ctrl) JobStarted: {'identifier': 'yahboomcar_ctrl'}
+[18.304590] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[18.305253] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[18.338517] (-) TimerEvent: {}
+[18.441160] (-) TimerEvent: {}
+[18.522275] (yahboomcar_base_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[18.524345] (yahboomcar_base_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[18.541032] (-) TimerEvent: {}
+[18.641865] (-) TimerEvent: {}
+[18.742745] (-) TimerEvent: {}
+[18.844294] (-) TimerEvent: {}
+[18.945210] (-) TimerEvent: {}
+[19.046541] (-) TimerEvent: {}
+[19.147854] (-) TimerEvent: {}
+[19.249006] (-) TimerEvent: {}
+[19.321760] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[19.336016] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[19.349240] (-) TimerEvent: {}
+[19.451203] (-) TimerEvent: {}
+[19.554054] (-) TimerEvent: {}
+[19.592653] (yahboomcar_base_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[19.594643] (yahboomcar_base_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[19.654283] (-) TimerEvent: {}
+[19.755449] (-) TimerEvent: {}
+[19.856991] (-) TimerEvent: {}
+[19.958771] (-) TimerEvent: {}
+[20.060254] (-) TimerEvent: {}
+[20.101631] (yahboomcar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[20.160475] (-) TimerEvent: {}
+[20.264711] (-) TimerEvent: {}
+[20.350337] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Found OpenCV: /usr/local (found version "3.2.0") \n'}
+[20.364896] (-) TimerEvent: {}
+[20.390426] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[20.465110] (-) TimerEvent: {}
+[20.470826] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[20.520873] (yahboomcar_base_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[20.523354] (yahboomcar_base_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[20.565342] (-) TimerEvent: {}
+[20.666480] (-) TimerEvent: {}
+[20.767712] (-) TimerEvent: {}
+[20.868691] (-) TimerEvent: {}
+[20.969667] (-) TimerEvent: {}
+[21.002925] (yahboomcar_KCFTracker) StderrLine: {'line': b'WARNING: Package name "yahboomcar_KCFTracker" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[21.069903] (-) TimerEvent: {}
+[21.172196] (-) TimerEvent: {}
+[21.282858] (-) TimerEvent: {}
+[21.388126] (-) TimerEvent: {}
+[21.502772] (-) TimerEvent: {}
+[21.607081] (yahboomcar_KCFTracker) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[21.608761] (-) TimerEvent: {}
+[21.629246] (yahboomcar_KCFTracker) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[21.639776] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/include/yahboomcar_KCFTracker\n'}
+[21.640526] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[21.663774] (yahboomcar_KCFTracker) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[21.665534] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[21.667681] (yahboomcar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[21.678525] (yahboomcar_KCFTracker) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[21.698766] (yahboomcar_KCFTracker) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[21.709046] (-) TimerEvent: {}
+[21.719377] (yahboomcar_KCFTracker) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[21.752055] (yahboomcar_KCFTracker) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[21.753718] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[21.767488] (yahboomcar_KCFTracker) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[21.809256] (-) TimerEvent: {}
+[21.810524] (yahboomcar_base_node) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[21.817770] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[21.823635] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Configuring done\n'}
+[21.909556] (-) TimerEvent: {}
+[21.943192] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Generating done\n'}
+[21.962512] (yahboomcar_KCFTracker) StdoutLine: {'line': b'-- Build files have been written to: /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_KCFTracker\n'}
+[22.009785] (-) TimerEvent: {}
+[22.030169] (yahboomcar_KCFTracker) CommandEnded: {'returncode': 0}
+[22.047952] (yahboomcar_KCFTracker) JobProgress: {'identifier': 'yahboomcar_KCFTracker', 'progress': 'build'}
+[22.050774] (yahboomcar_KCFTracker) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_KCFTracker', '--', '-j4', '-l4'], 'cwd': '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_KCFTracker', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/yahboomcar_ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/root/yahboomcar_ros2_ws/yahboomcar_ws'), ('COLCON_PREFIX_PATH', '/root/yahboomcar_ros2_ws/software/library_ws/install:/root/yahboomcar_ros2_ws/yahboomcar_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ORB_SLAM2_ROOT_DIR', '/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '111'), ('AMENT_PREFIX_PATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/opt/ros/foxy'), ('PWD', '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_KCFTracker'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy')]), 'shell': False}
+[22.114855] (-) TimerEvent: {}
+[22.142254] (yahboomcar_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[22.215161] (-) TimerEvent: {}
+[22.238150] (yahboomcar_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[22.315298] (-) TimerEvent: {}
+[22.416613] (-) TimerEvent: {}
+[22.517804] (-) TimerEvent: {}
+[22.619863] (-) TimerEvent: {}
+[22.621738] (yahboomcar_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[22.632409] (yahboomcar_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[22.633494] (yahboomcar_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[22.633932] (yahboomcar_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[22.720049] (-) TimerEvent: {}
+[22.795165] (yahboomcar_KCFTracker) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target KCF_Tracker_Node\x1b[0m\n'}
+[22.820251] (-) TimerEvent: {}
+[22.863208] (yahboomcar_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[22.920447] (-) TimerEvent: {}
+[23.023652] (-) TimerEvent: {}
+[23.125782] (-) TimerEvent: {}
+[23.228726] (-) TimerEvent: {}
+[23.330273] (-) TimerEvent: {}
+[23.431829] (-) TimerEvent: {}
+[23.484387] (yahboomcar_KCFTracker) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/KCF_Tracker_Node.dir/src/KCF_Tracker_main.cpp.o\x1b[0m\n'}
+[23.539729] (-) TimerEvent: {}
+[23.640679] (-) TimerEvent: {}
+[23.741642] (-) TimerEvent: {}
+[23.842774] (-) TimerEvent: {}
+[23.943873] (-) TimerEvent: {}
+[24.013384] (yahboomcar_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[24.044090] (-) TimerEvent: {}
+[24.145062] (-) TimerEvent: {}
+[24.246236] (-) TimerEvent: {}
+[24.347836] (-) TimerEvent: {}
+[24.449410] (-) TimerEvent: {}
+[24.551041] (-) TimerEvent: {}
+[24.652702] (-) TimerEvent: {}
+[24.754337] (-) TimerEvent: {}
+[24.792258] (yahboomcar_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[24.823889] (yahboomcar_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[24.848515] (yahboomcar_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[24.854557] (-) TimerEvent: {}
+[24.896629] (yahboomcar_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[24.954775] (-) TimerEvent: {}
+[25.056212] (-) TimerEvent: {}
+[25.157783] (-) TimerEvent: {}
+[25.259422] (-) TimerEvent: {}
+[25.361237] (-) TimerEvent: {}
+[25.436617] (yahboomcar_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[25.461504] (-) TimerEvent: {}
+[25.470784] (yahboomcar_msgs) StdoutLine: {'line': b'-- Build files have been written to: /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_msgs\n'}
+[25.542424] (yahboomcar_ctrl) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/yahboomcar_ctrl', 'build', '--build-base', '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build', 'install', '--record', '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/install.log', '--install-scripts', '$base/lib/yahboomcar_ctrl', '--single-version-externally-managed'], 'cwd': '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_ctrl', 'env': {'HOSTNAME': 'ubuntu', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/root/yahboomcar_ros2_ws', 'ROS_PYTHON_VERSION': '3', '_colcon_cd_root': '/root/yahboomcar_ros2_ws/yahboomcar_ws', 'COLCON_PREFIX_PATH': '/root/yahboomcar_ros2_ws/software/library_ws/install:/root/yahboomcar_ros2_ws/yahboomcar_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ORB_SLAM2_ROOT_DIR': '/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '111', 'AMENT_PREFIX_PATH': '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/opt/ros/foxy', 'PWD': '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs'}, 'shell': False}
+[25.561742] (-) TimerEvent: {}
+[25.573852] (yahboomcar_msgs) CommandEnded: {'returncode': 0}
+[25.581133] (yahboomcar_msgs) JobProgress: {'identifier': 'yahboomcar_msgs', 'progress': 'build'}
+[25.581471] (yahboomcar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_msgs', '--', '-j4', '-l4'], 'cwd': '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_msgs', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/yahboomcar_ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/root/yahboomcar_ros2_ws/yahboomcar_ws'), ('COLCON_PREFIX_PATH', '/root/yahboomcar_ros2_ws/software/library_ws/install:/root/yahboomcar_ros2_ws/yahboomcar_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ORB_SLAM2_ROOT_DIR', '/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '111'), ('AMENT_PREFIX_PATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/opt/ros/foxy'), ('PWD', '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib/python3.8/site-packages:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/opt/ros/foxy')]), 'shell': False}
+[25.662115] (-) TimerEvent: {}
+[25.765414] (-) TimerEvent: {}
+[25.868337] (-) TimerEvent: {}
+[25.971139] (-) TimerEvent: {}
+[26.084134] (-) TimerEvent: {}
+[26.184715] (yahboomcar_KCFTracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/include/yahboomcar_KCFTracker/KCF_Tracker.h:12\x1b[m\x1b[K,\n'}
+[26.185569] (-) TimerEvent: {}
+[26.188119] (yahboomcar_KCFTracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/src/KCF_Tracker_main.cpp:2\x1b[m\x1b[K:\n'}
+[26.188715] (yahboomcar_KCFTracker) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.h:41:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead\n"}
+[26.189109] (yahboomcar_KCFTracker) StderrLine: {'line': b'   41 | #pragma message ("Warning: This header is deprecated. Use \'image_transport.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[26.189472] (yahboomcar_KCFTracker) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[26.216606] (yahboomcar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yahboomcar_msgs__cpp\x1b[0m\n'}
+[26.285833] (-) TimerEvent: {}
+[26.331211] (yahboomcar_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[26.386122] (-) TimerEvent: {}
+[26.412874] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[26.486339] (-) TimerEvent: {}
+[26.587296] (-) TimerEvent: {}
+[26.688330] (-) TimerEvent: {}
+[26.789216] (-) TimerEvent: {}
+[26.890154] (-) TimerEvent: {}
+[26.992320] (-) TimerEvent: {}
+[27.020993] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)\n'}
+[27.092522] (-) TimerEvent: {}
+[27.193523] (-) TimerEvent: {}
+[27.294491] (-) TimerEvent: {}
+[27.376457] (yahboomcar_base_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[27.394726] (-) TimerEvent: {}
+[27.495837] (-) TimerEvent: {}
+[27.545608] (yahboomcar_ctrl) StdoutLine: {'line': b'running egg_info\n'}
+[27.548299] (yahboomcar_ctrl) StdoutLine: {'line': b'creating ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info\n'}
+[27.549321] (yahboomcar_ctrl) StdoutLine: {'line': b'writing ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/PKG-INFO\n'}
+[27.551091] (yahboomcar_ctrl) StdoutLine: {'line': b'writing dependency_links to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/dependency_links.txt\n'}
+[27.552378] (yahboomcar_ctrl) StdoutLine: {'line': b'writing entry points to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/entry_points.txt\n'}
+[27.553201] (yahboomcar_ctrl) StdoutLine: {'line': b'writing requirements to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/requires.txt\n'}
+[27.553763] (yahboomcar_ctrl) StdoutLine: {'line': b'writing top-level names to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/top_level.txt\n'}
+[27.560456] (yahboomcar_ctrl) StdoutLine: {'line': b"writing manifest file '../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/SOURCES.txt'\n"}
+[27.596038] (-) TimerEvent: {}
+[27.697991] (-) TimerEvent: {}
+[27.788226] (yahboomcar_ctrl) StdoutLine: {'line': b"reading manifest file '../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/SOURCES.txt'\n"}
+[27.793706] (yahboomcar_ctrl) StdoutLine: {'line': b"writing manifest file '../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/SOURCES.txt'\n"}
+[27.794854] (yahboomcar_ctrl) StdoutLine: {'line': b'running build\n'}
+[27.795659] (yahboomcar_ctrl) StdoutLine: {'line': b'running build_py\n'}
+[27.796164] (yahboomcar_ctrl) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build\n'}
+[27.796777] (yahboomcar_ctrl) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build/lib\n'}
+[27.798176] (-) TimerEvent: {}
+[27.804079] (yahboomcar_ctrl) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl\n'}
+[27.804864] (yahboomcar_ctrl) StdoutLine: {'line': b'copying yahboomcar_ctrl/__init__.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl\n'}
+[27.805682] (yahboomcar_ctrl) StdoutLine: {'line': b'copying yahboomcar_ctrl/yahboom_keyboard.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl\n'}
+[27.806523] (yahboomcar_ctrl) StdoutLine: {'line': b'copying yahboomcar_ctrl/yahboom_joy_X3.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl\n'}
+[27.812136] (yahboomcar_ctrl) StdoutLine: {'line': b'running install\n'}
+[27.823907] (yahboomcar_ctrl) StdoutLine: {'line': b'running install_lib\n'}
+[27.829017] (yahboomcar_ctrl) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages/yahboomcar_ctrl\n'}
+[27.830063] (yahboomcar_ctrl) StdoutLine: {'line': b'copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl/__init__.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages/yahboomcar_ctrl\n'}
+[27.830894] (yahboomcar_ctrl) StdoutLine: {'line': b'copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl/yahboom_keyboard.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages/yahboomcar_ctrl\n'}
+[27.831773] (yahboomcar_ctrl) StdoutLine: {'line': b'copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl/yahboom_joy_X3.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages/yahboomcar_ctrl\n'}
+[27.834222] (yahboomcar_ctrl) StdoutLine: {'line': b'byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages/yahboomcar_ctrl/__init__.py to __init__.cpython-38.pyc\n'}
+[27.840135] (yahboomcar_ctrl) StdoutLine: {'line': b'byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages/yahboomcar_ctrl/yahboom_keyboard.py to yahboom_keyboard.cpython-38.pyc\n'}
+[27.856347] (yahboomcar_ctrl) StdoutLine: {'line': b'byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages/yahboomcar_ctrl/yahboom_joy_X3.py to yahboom_joy_X3.cpython-38.pyc\n'}
+[27.875746] (yahboomcar_ctrl) StdoutLine: {'line': b'running install_data\n'}
+[27.885274] (yahboomcar_ctrl) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/share/ament_index\n'}
+[27.886353] (yahboomcar_ctrl) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/share/ament_index/resource_index\n'}
+[27.887764] (yahboomcar_ctrl) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/share/ament_index/resource_index/packages\n'}
+[27.888573] (yahboomcar_ctrl) StdoutLine: {'line': b'copying resource/yahboomcar_ctrl -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/share/ament_index/resource_index/packages\n'}
+[27.889076] (yahboomcar_ctrl) StdoutLine: {'line': b'copying package.xml -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/share/yahboomcar_ctrl\n'}
+[27.889513] (yahboomcar_ctrl) StdoutLine: {'line': b'creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/share/yahboomcar_ctrl/launch\n'}
+[27.889917] (yahboomcar_ctrl) StdoutLine: {'line': b'copying launch/yahboomcar_joy_launch.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/share/yahboomcar_ctrl/launch\n'}
+[27.892506] (yahboomcar_ctrl) StdoutLine: {'line': b'running install_egg_info\n'}
+[27.898402] (-) TimerEvent: {}
+[27.906157] (yahboomcar_ctrl) StdoutLine: {'line': b'Copying ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.8/site-packages/yahboomcar_ctrl-0.0.0-py3.8.egg-info\n'}
+[27.932973] (yahboomcar_ctrl) StdoutLine: {'line': b'running install_scripts\n'}
+[27.998686] (-) TimerEvent: {}
+[28.102598] (-) TimerEvent: {}
+[28.131250] (yahboomcar_ctrl) StdoutLine: {'line': b'Installing yahboom_joy_X3 script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/yahboomcar_ctrl\n'}
+[28.142763] (yahboomcar_ctrl) StdoutLine: {'line': b'Installing yahboom_keyboard script to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl/lib/yahboomcar_ctrl\n'}
+[28.144564] (yahboomcar_ctrl) StdoutLine: {'line': b"writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_ctrl/install.log'\n"}
+[28.202798] (-) TimerEvent: {}
+[28.306169] (-) TimerEvent: {}
+[28.383842] (yahboomcar_ctrl) CommandEnded: {'returncode': 0}
+[28.406363] (-) TimerEvent: {}
+[28.502946] (yahboomcar_ctrl) JobEnded: {'identifier': 'yahboomcar_ctrl', 'rc': 0}
+[28.509822] (-) TimerEvent: {}
+[28.513270] (yahboomcar_description) JobStarted: {'identifier': 'yahboomcar_description'}
+[28.618454] (-) TimerEvent: {}
+[28.624063] (yahboomcar_base_node) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[28.639061] (yahboomcar_base_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[28.639879] (yahboomcar_base_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[28.640282] (yahboomcar_base_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[28.642288] (yahboomcar_base_node) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[28.642766] (yahboomcar_base_node) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[28.652977] (yahboomcar_base_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[28.680551] (yahboomcar_base_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[28.682446] (yahboomcar_base_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[28.683656] (yahboomcar_base_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[28.720141] (-) TimerEvent: {}
+[28.735049] (yahboomcar_base_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[28.752939] (yahboomcar_base_node) StderrLine: {'line': b'CMake Error at CMakeLists.txt:40 (add_executable):\n'}
+[28.753879] (yahboomcar_base_node) StderrLine: {'line': b'  Cannot find source file:\n'}
+[28.754348] (yahboomcar_base_node) StderrLine: {'line': b'\n'}
+[28.754736] (yahboomcar_base_node) StderrLine: {'line': b'    src/base_node.cpp\n'}
+[28.755111] (yahboomcar_base_node) StderrLine: {'line': b'\n'}
+[28.755566] (yahboomcar_base_node) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[28.755963] (yahboomcar_base_node) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[28.756338] (yahboomcar_base_node) StderrLine: {'line': b'\n'}
+[28.756637] (yahboomcar_base_node) StderrLine: {'line': b'\n'}
+[28.772652] (yahboomcar_base_node) StderrLine: {'line': b'CMake Error at CMakeLists.txt:40 (add_executable):\n'}
+[28.776340] (yahboomcar_base_node) StderrLine: {'line': b'  No SOURCES given to target: base_node\n'}
+[28.777006] (yahboomcar_base_node) StderrLine: {'line': b'\n'}
+[28.777384] (yahboomcar_base_node) StderrLine: {'line': b'\n'}
+[28.777721] (yahboomcar_base_node) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[28.819746] (-) TimerEvent: {}
+[28.921733] (-) TimerEvent: {}
+[29.023088] (-) TimerEvent: {}
+[29.124013] (-) TimerEvent: {}
+[29.224914] (-) TimerEvent: {}
+[29.326021] (-) TimerEvent: {}
+[29.428238] (-) TimerEvent: {}
+[29.529318] (-) TimerEvent: {}
+[29.630326] (-) TimerEvent: {}
+[29.731620] (-) TimerEvent: {}
+[29.833435] (-) TimerEvent: {}
+[29.935399] (-) TimerEvent: {}
+[30.037382] (-) TimerEvent: {}
+[30.139305] (-) TimerEvent: {}
+[30.241024] (-) TimerEvent: {}
+[30.346093] (-) TimerEvent: {}
+[30.451952] (-) TimerEvent: {}
+[30.553222] (-) TimerEvent: {}
+[30.654552] (-) TimerEvent: {}
+[30.755662] (-) TimerEvent: {}
+[30.856802] (-) TimerEvent: {}
+[30.958328] (-) TimerEvent: {}
+[31.061328] (-) TimerEvent: {}
+[31.105276] (yahboomcar_msgs) StdoutLine: {'line': b'[  1%] Built target yahboomcar_msgs__cpp\n'}
+[31.166754] (-) TimerEvent: {}
+[31.247093] (yahboomcar_base_node) CommandEnded: {'returncode': 1}
+[31.268090] (-) TimerEvent: {}
+[31.332309] (yahboomcar_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[31.368232] (-) TimerEvent: {}
+[31.474063] (-) TimerEvent: {}
+[31.579863] (-) TimerEvent: {}
+[31.596524] (yahboomcar_base_node) JobEnded: {'identifier': 'yahboomcar_base_node', 'rc': 1}
+[31.680062] (-) TimerEvent: {}
+[31.781020] (-) TimerEvent: {}
+[31.884078] (-) TimerEvent: {}
+[31.985303] (-) TimerEvent: {}
+[32.086332] (-) TimerEvent: {}
+[32.187330] (-) TimerEvent: {}
+[32.288434] (-) TimerEvent: {}
+[32.389962] (-) TimerEvent: {}
+[32.492524] (-) TimerEvent: {}
+[32.595774] (-) TimerEvent: {}
+[32.699618] (-) TimerEvent: {}
+[32.803154] (-) TimerEvent: {}
+[32.908142] (-) TimerEvent: {}
+[33.012025] (-) TimerEvent: {}
+[33.116043] (-) TimerEvent: {}
+[33.220957] (-) TimerEvent: {}
+[33.324316] (-) TimerEvent: {}
+[33.427610] (-) TimerEvent: {}
+[33.531144] (-) TimerEvent: {}
+[33.634935] (-) TimerEvent: {}
+[33.740943] (-) TimerEvent: {}
+[33.844966] (-) TimerEvent: {}
+[33.948799] (-) TimerEvent: {}
+[34.051081] (-) TimerEvent: {}
+[34.154450] (-) TimerEvent: {}
+[34.255459] (-) TimerEvent: {}
+[34.358940] (-) TimerEvent: {}
+[34.465334] (-) TimerEvent: {}
+[34.568856] (-) TimerEvent: {}
+[34.673335] (-) TimerEvent: {}
+[34.776773] (-) TimerEvent: {}
+[34.880259] (-) TimerEvent: {}
+[34.884057] (yahboomcar_description) JobEnded: {'identifier': 'yahboomcar_description', 'rc': 'SIGINT'}
+[34.980875] (-) TimerEvent: {}
+[35.083636] (-) TimerEvent: {}
+[35.188530] (-) TimerEvent: {}
+[35.292672] (-) TimerEvent: {}
+[35.397935] (-) TimerEvent: {}
+[35.501944] (-) TimerEvent: {}
+[35.607545] (-) TimerEvent: {}
+[35.711407] (-) TimerEvent: {}
+[35.815226] (-) TimerEvent: {}
+[35.919111] (-) TimerEvent: {}
+[36.022769] (-) TimerEvent: {}
+[36.126329] (-) TimerEvent: {}
+[36.229324] (-) TimerEvent: {}
+[36.331056] (-) TimerEvent: {}
+[36.432376] (-) TimerEvent: {}
+[36.533411] (-) TimerEvent: {}
+[36.634598] (-) TimerEvent: {}
+[36.736690] (-) TimerEvent: {}
+[36.837892] (-) TimerEvent: {}
+[36.936436] (yahboomcar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yahboomcar_msgs__rosidl_generator_c\x1b[0m\n'}
+[36.938013] (-) TimerEvent: {}
+[37.038939] (-) TimerEvent: {}
+[37.111322] (yahboomcar_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/image_msg__functions.c.o\x1b[0m\n'}
+[37.139212] (-) TimerEvent: {}
+[37.240375] (-) TimerEvent: {}
+[37.341432] (-) TimerEvent: {}
+[37.443277] (-) TimerEvent: {}
+[37.518296] (yahboomcar_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/point_array__functions.c.o\x1b[0m\n'}
+[37.543578] (-) TimerEvent: {}
+[37.647335] (-) TimerEvent: {}
+[37.751777] (-) TimerEvent: {}
+[37.855740] (yahboomcar_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/position__functions.c.o\x1b[0m\n'}
+[37.856839] (-) TimerEvent: {}
+[37.960454] (-) TimerEvent: {}
+[38.064347] (-) TimerEvent: {}
+[38.168161] (-) TimerEvent: {}
+[38.236103] (yahboomcar_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/target__functions.c.o\x1b[0m\n'}
+[38.268419] (-) TimerEvent: {}
+[38.372006] (-) TimerEvent: {}
+[38.476769] (-) TimerEvent: {}
+[38.580088] (-) TimerEvent: {}
+[38.683730] (-) TimerEvent: {}
+[38.742033] (yahboomcar_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboomcar_msgs/msg/detail/target_array__functions.c.o\x1b[0m\n'}
+[38.783958] (-) TimerEvent: {}
+[38.887500] (-) TimerEvent: {}
+[38.991749] (-) TimerEvent: {}
+[39.096041] (-) TimerEvent: {}
+[39.199327] (-) TimerEvent: {}
+[39.275956] (yahboomcar_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libyahboomcar_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[39.299632] (-) TimerEvent: {}
+[39.403142] (-) TimerEvent: {}
+[39.508041] (-) TimerEvent: {}
+[39.577231] (yahboomcar_msgs) StdoutLine: {'line': b'[ 12%] Built target yahboomcar_msgs__rosidl_generator_c\n'}
+[39.609360] (-) TimerEvent: {}
+[39.705670] (yahboomcar_msgs) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[39.709571] (-) TimerEvent: {}
+[39.814263] (-) TimerEvent: {}
+[39.919229] (-) TimerEvent: {}
+[40.022980] (-) TimerEvent: {}
+[40.127394] (-) TimerEvent: {}
+[40.233031] (-) TimerEvent: {}
+[40.336499] (-) TimerEvent: {}
+[40.440416] (-) TimerEvent: {}
+[40.541311] (-) TimerEvent: {}
+[40.642345] (-) TimerEvent: {}
+[40.743350] (-) TimerEvent: {}
+[40.844562] (-) TimerEvent: {}
+[40.945607] (-) TimerEvent: {}
+[41.046674] (-) TimerEvent: {}
+[41.148947] (-) TimerEvent: {}
+[41.250100] (-) TimerEvent: {}
+[41.348807] (yahboomcar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yahboomcar_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[41.350441] (-) TimerEvent: {}
+[41.448874] (yahboomcar_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/image_msg__type_support.cpp.o\x1b[0m\n'}
+[41.450610] (-) TimerEvent: {}
+[41.552572] (-) TimerEvent: {}
+[41.655122] (-) TimerEvent: {}
+[41.759208] (-) TimerEvent: {}
+[41.863171] (-) TimerEvent: {}
+[41.966738] (-) TimerEvent: {}
+[42.068736] (-) TimerEvent: {}
+[42.170162] (-) TimerEvent: {}
+[42.271938] (-) TimerEvent: {}
+[42.374983] (-) TimerEvent: {}
+[42.477497] (-) TimerEvent: {}
+[42.579111] (-) TimerEvent: {}
+[42.680641] (-) TimerEvent: {}
+[42.781879] (-) TimerEvent: {}
+[42.799283] (yahboomcar_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/point_array__type_support.cpp.o\x1b[0m\n'}
+[42.882150] (-) TimerEvent: {}
+[42.985683] (-) TimerEvent: {}
+[43.088887] (-) TimerEvent: {}
+[43.190176] (-) TimerEvent: {}
+[43.291849] (-) TimerEvent: {}
+[43.393425] (-) TimerEvent: {}
+[43.495581] (-) TimerEvent: {}
+[43.596712] (-) TimerEvent: {}
+[43.697845] (-) TimerEvent: {}
+[43.798951] (-) TimerEvent: {}
+[43.903382] (-) TimerEvent: {}
+[44.007239] (-) TimerEvent: {}
+[44.100485] (yahboomcar_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/position__type_support.cpp.o\x1b[0m\n'}
+[44.107672] (-) TimerEvent: {}
+[44.211183] (-) TimerEvent: {}
+[44.314869] (-) TimerEvent: {}
+[44.419064] (-) TimerEvent: {}
+[44.520916] (-) TimerEvent: {}
+[44.623008] (-) TimerEvent: {}
+[44.726569] (-) TimerEvent: {}
+[44.829250] (-) TimerEvent: {}
+[44.930850] (-) TimerEvent: {}
+[45.033658] (-) TimerEvent: {}
+[45.134561] (-) TimerEvent: {}
+[45.237771] (-) TimerEvent: {}
+[45.340279] (-) TimerEvent: {}
+[45.443110] (-) TimerEvent: {}
+[45.460441] (yahboomcar_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/target__type_support.cpp.o\x1b[0m\n'}
+[45.543372] (-) TimerEvent: {}
+[45.645869] (-) TimerEvent: {}
+[45.748859] (-) TimerEvent: {}
+[45.852411] (-) TimerEvent: {}
+[45.955182] (-) TimerEvent: {}
+[46.056403] (-) TimerEvent: {}
+[46.159220] (-) TimerEvent: {}
+[46.260977] (-) TimerEvent: {}
+[46.363336] (-) TimerEvent: {}
+[46.466493] (-) TimerEvent: {}
+[46.568644] (-) TimerEvent: {}
+[46.671097] (-) TimerEvent: {}
+[46.772337] (-) TimerEvent: {}
+[46.809056] (yahboomcar_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboomcar_msgs/msg/target_array__type_support.cpp.o\x1b[0m\n'}
+[46.872660] (-) TimerEvent: {}
+[46.973790] (-) TimerEvent: {}
+[47.078243] (-) TimerEvent: {}
+[47.182844] (-) TimerEvent: {}
+[47.286855] (-) TimerEvent: {}
+[47.391966] (-) TimerEvent: {}
+[47.493051] (-) TimerEvent: {}
+[47.594125] (-) TimerEvent: {}
+[47.695869] (-) TimerEvent: {}
+[47.796946] (-) TimerEvent: {}
+[47.898889] (-) TimerEvent: {}
+[48.000040] (-) TimerEvent: {}
+[48.101109] (-) TimerEvent: {}
+[48.202210] (-) TimerEvent: {}
+[48.277260] (yahboomcar_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[48.302427] (-) TimerEvent: {}
+[48.405022] (-) TimerEvent: {}
+[48.506776] (-) TimerEvent: {}
+[48.539994] (yahboomcar_msgs) StdoutLine: {'line': b'[ 23%] Built target yahboomcar_msgs__rosidl_typesupport_cpp\n'}
+[48.607021] (-) TimerEvent: {}
+[48.616549] (yahboomcar_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[48.707210] (-) TimerEvent: {}
+[48.811624] (-) TimerEvent: {}
+[48.914665] (-) TimerEvent: {}
+[49.017317] (-) TimerEvent: {}
+[49.119889] (-) TimerEvent: {}
+[49.223658] (-) TimerEvent: {}
+[49.325488] (-) TimerEvent: {}
+[49.428025] (-) TimerEvent: {}
+[49.531752] (-) TimerEvent: {}
+[49.632656] (-) TimerEvent: {}
+[49.733633] (-) TimerEvent: {}
+[49.834596] (-) TimerEvent: {}
+[49.935586] (-) TimerEvent: {}
+[50.036565] (-) TimerEvent: {}
+[50.137692] (-) TimerEvent: {}
+[50.240880] (-) TimerEvent: {}
+[50.343734] (-) TimerEvent: {}
+[50.446629] (-) TimerEvent: {}
+[50.513950] (yahboomcar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yahboomcar_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[50.546888] (-) TimerEvent: {}
+[50.625183] (yahboomcar_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/image_msg__type_support.c.o\x1b[0m\n'}
+[50.647246] (-) TimerEvent: {}
+[50.748409] (-) TimerEvent: {}
+[50.849980] (-) TimerEvent: {}
+[50.876622] (yahboomcar_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/point_array__type_support.c.o\x1b[0m\n'}
+[50.951171] (-) TimerEvent: {}
+[51.053072] (-) TimerEvent: {}
+[51.127396] (yahboomcar_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/position__type_support.c.o\x1b[0m\n'}
+[51.153252] (-) TimerEvent: {}
+[51.257668] (-) TimerEvent: {}
+[51.352825] (yahboomcar_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/target__type_support.c.o\x1b[0m\n'}
+[51.357921] (-) TimerEvent: {}
+[51.461416] (-) TimerEvent: {}
+[51.562975] (-) TimerEvent: {}
+[51.601669] (yahboomcar_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboomcar_msgs/msg/detail/target_array__type_support.c.o\x1b[0m\n'}
+[51.663249] (-) TimerEvent: {}
+[51.767828] (-) TimerEvent: {}
+[51.840315] (yahboomcar_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking C shared library libyahboomcar_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[51.868068] (-) TimerEvent: {}
+[51.972337] (-) TimerEvent: {}
+[52.071422] (yahboomcar_msgs) StdoutLine: {'line': b'[ 34%] Built target yahboomcar_msgs__rosidl_typesupport_introspection_c\n'}
+[52.072451] (-) TimerEvent: {}
+[52.145174] (yahboomcar_msgs) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[52.172716] (-) TimerEvent: {}
+[52.273991] (-) TimerEvent: {}
+[52.378251] (-) TimerEvent: {}
+[52.479976] (-) TimerEvent: {}
+[52.581614] (-) TimerEvent: {}
+[52.683262] (-) TimerEvent: {}
+[52.784881] (-) TimerEvent: {}
+[52.886313] (-) TimerEvent: {}
+[52.989159] (-) TimerEvent: {}
+[53.090622] (-) TimerEvent: {}
+[53.193815] (-) TimerEvent: {}
+[53.296656] (-) TimerEvent: {}
+[53.397727] (-) TimerEvent: {}
+[53.498677] (-) TimerEvent: {}
+[53.529641] (yahboomcar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yahboomcar_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[53.598938] (-) TimerEvent: {}
+[53.623075] (yahboomcar_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/image_msg__type_support.cpp.o\x1b[0m\n'}
+[53.699159] (-) TimerEvent: {}
+[53.803303] (-) TimerEvent: {}
+[53.827743] (yahboomcar_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/point_array__type_support.cpp.o\x1b[0m\n'}
+[53.903705] (-) TimerEvent: {}
+[54.008141] (-) TimerEvent: {}
+[54.030520] (yahboomcar_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/position__type_support.cpp.o\x1b[0m\n'}
+[54.108419] (-) TimerEvent: {}
+[54.210453] (-) TimerEvent: {}
+[54.235235] (yahboomcar_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/target__type_support.cpp.o\x1b[0m\n'}
+[54.310707] (-) TimerEvent: {}
+[54.411883] (-) TimerEvent: {}
+[54.466441] (yahboomcar_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboomcar_msgs/msg/target_array__type_support.cpp.o\x1b[0m\n'}
+[54.512227] (-) TimerEvent: {}
+[54.614084] (-) TimerEvent: {}
+[54.715239] (-) TimerEvent: {}
+[54.816677] (-) TimerEvent: {}
+[54.847432] (yahboomcar_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[54.917120] (-) TimerEvent: {}
+[55.019066] (-) TimerEvent: {}
+[55.114423] (yahboomcar_msgs) StdoutLine: {'line': b'[ 46%] Built target yahboomcar_msgs__rosidl_typesupport_c\n'}
+[55.119269] (-) TimerEvent: {}
+[55.194438] (yahboomcar_msgs) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[55.219612] (-) TimerEvent: {}
+[55.320592] (-) TimerEvent: {}
+[55.422358] (-) TimerEvent: {}
+[55.523741] (-) TimerEvent: {}
+[55.625497] (-) TimerEvent: {}
+[55.728989] (-) TimerEvent: {}
+[55.831699] (-) TimerEvent: {}
+[55.932780] (-) TimerEvent: {}
+[56.035760] (-) TimerEvent: {}
+[56.136802] (-) TimerEvent: {}
+[56.238495] (-) TimerEvent: {}
+[56.341765] (-) TimerEvent: {}
+[56.445363] (-) TimerEvent: {}
+[56.548360] (-) TimerEvent: {}
+[56.650123] (-) TimerEvent: {}
+[56.751686] (-) TimerEvent: {}
+[56.853138] (-) TimerEvent: {}
+[56.954834] (-) TimerEvent: {}
+[57.056382] (-) TimerEvent: {}
+[57.158993] (-) TimerEvent: {}
+[57.260912] (-) TimerEvent: {}
+[57.362950] (-) TimerEvent: {}
+[57.459011] (yahboomcar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[57.462985] (-) TimerEvent: {}
+[57.563987] (-) TimerEvent: {}
+[57.593772] (yahboomcar_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/image_msg__type_support.cpp.o\x1b[0m\n'}
+[57.664220] (-) TimerEvent: {}
+[57.765709] (-) TimerEvent: {}
+[57.868231] (-) TimerEvent: {}
+[57.970659] (-) TimerEvent: {}
+[58.072963] (-) TimerEvent: {}
+[58.176806] (-) TimerEvent: {}
+[58.280050] (-) TimerEvent: {}
+[58.383361] (-) TimerEvent: {}
+[58.487837] (-) TimerEvent: {}
+[58.592152] (-) TimerEvent: {}
+[58.695222] (-) TimerEvent: {}
+[58.797288] (-) TimerEvent: {}
+[58.900773] (-) TimerEvent: {}
+[59.002547] (-) TimerEvent: {}
+[59.104751] (-) TimerEvent: {}
+[59.208295] (-) TimerEvent: {}
+[59.312701] (-) TimerEvent: {}
+[59.416828] (-) TimerEvent: {}
+[59.519502] (-) TimerEvent: {}
+[59.621785] (-) TimerEvent: {}
+[59.724200] (-) TimerEvent: {}
+[59.809122] (yahboomcar_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/position__type_support.cpp.o\x1b[0m\n'}
+[59.824426] (-) TimerEvent: {}
+[59.926527] (-) TimerEvent: {}
+[60.029723] (-) TimerEvent: {}
+[60.133284] (-) TimerEvent: {}
+[60.237057] (-) TimerEvent: {}
+[60.341580] (-) TimerEvent: {}
+[60.443769] (-) TimerEvent: {}
+[60.544881] (-) TimerEvent: {}
+[60.645876] (-) TimerEvent: {}
+[60.747960] (-) TimerEvent: {}
+[60.849251] (-) TimerEvent: {}
+[60.952010] (-) TimerEvent: {}
+[61.055476] (-) TimerEvent: {}
+[61.161899] (-) TimerEvent: {}
+[61.263976] (-) TimerEvent: {}
+[61.365887] (-) TimerEvent: {}
+[61.467125] (-) TimerEvent: {}
+[61.568228] (-) TimerEvent: {}
+[61.669524] (-) TimerEvent: {}
+[61.773231] (-) TimerEvent: {}
+[61.877686] (-) TimerEvent: {}
+[61.885797] (yahboomcar_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/target__type_support.cpp.o\x1b[0m\n'}
+[61.977942] (-) TimerEvent: {}
+[62.080498] (-) TimerEvent: {}
+[62.182476] (-) TimerEvent: {}
+[62.283769] (-) TimerEvent: {}
+[62.385616] (-) TimerEvent: {}
+[62.487696] (-) TimerEvent: {}
+[62.589128] (-) TimerEvent: {}
+[62.690431] (-) TimerEvent: {}
+[62.791869] (-) TimerEvent: {}
+[62.893398] (-) TimerEvent: {}
+[62.994906] (-) TimerEvent: {}
+[63.098027] (-) TimerEvent: {}
+[63.202588] (-) TimerEvent: {}
+[63.303735] (-) TimerEvent: {}
+[63.404867] (-) TimerEvent: {}
+[63.506953] (-) TimerEvent: {}
+[63.607952] (-) TimerEvent: {}
+[63.709021] (-) TimerEvent: {}
+[63.810204] (-) TimerEvent: {}
+[63.912342] (-) TimerEvent: {}
+[63.952072] (yahboomcar_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/target_array__type_support.cpp.o\x1b[0m\n'}
+[63.981397] (yahboomcar_KCFTracker) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/KCF_Tracker_Node.dir/include/yahboomcar_KCFTracker/fhog.cpp.o\x1b[0m\n'}
+[64.012602] (-) TimerEvent: {}
+[64.115315] (-) TimerEvent: {}
+[64.218101] (-) TimerEvent: {}
+[64.321107] (-) TimerEvent: {}
+[64.423997] (-) TimerEvent: {}
+[64.526842] (-) TimerEvent: {}
+[64.629647] (-) TimerEvent: {}
+[64.732600] (-) TimerEvent: {}
+[64.835771] (-) TimerEvent: {}
+[64.938739] (-) TimerEvent: {}
+[65.042076] (-) TimerEvent: {}
+[65.144299] (-) TimerEvent: {}
+[65.245328] (-) TimerEvent: {}
+[65.346513] (-) TimerEvent: {}
+[65.448948] (-) TimerEvent: {}
+[65.549975] (-) TimerEvent: {}
+[65.651456] (-) TimerEvent: {}
+[65.752546] (-) TimerEvent: {}
+[65.853934] (-) TimerEvent: {}
+[65.956060] (-) TimerEvent: {}
+[66.058528] (-) TimerEvent: {}
+[66.160058] (-) TimerEvent: {}
+[66.197674] (yahboomcar_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboomcar_msgs/msg/detail/dds_fastrtps/point_array__type_support.cpp.o\x1b[0m\n'}
+[66.259828] (-) TimerEvent: {}
+[66.360904] (-) TimerEvent: {}
+[66.461978] (-) TimerEvent: {}
+[66.563561] (-) TimerEvent: {}
+[66.664579] (-) TimerEvent: {}
+[66.765650] (-) TimerEvent: {}
+[66.866656] (-) TimerEvent: {}
+[66.967798] (-) TimerEvent: {}
+[67.068939] (-) TimerEvent: {}
+[67.169998] (-) TimerEvent: {}
+[67.271462] (-) TimerEvent: {}
+[67.372489] (-) TimerEvent: {}
+[67.473568] (-) TimerEvent: {}
+[67.577035] (-) TimerEvent: {}
+[67.678058] (-) TimerEvent: {}
+[67.781762] (-) TimerEvent: {}
+[67.885905] (-) TimerEvent: {}
+[67.887849] (yahboomcar_KCFTracker) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/KCF_Tracker_Node.dir/include/yahboomcar_KCFTracker/PID.cpp.o\x1b[0m\n'}
+[67.986387] (-) TimerEvent: {}
+[68.089835] (-) TimerEvent: {}
+[68.195081] (-) TimerEvent: {}
+[68.289830] (yahboomcar_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[68.294920] (-) TimerEvent: {}
+[68.399772] (-) TimerEvent: {}
+[68.500768] (-) TimerEvent: {}
+[68.604133] (-) TimerEvent: {}
+[68.705055] (-) TimerEvent: {}
+[68.761630] (yahboomcar_msgs) StdoutLine: {'line': b'[ 57%] Built target yahboomcar_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[68.805423] (-) TimerEvent: {}
+[68.841615] (yahboomcar_msgs) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[68.905907] (-) TimerEvent: {}
+[69.010201] (-) TimerEvent: {}
+[69.050152] (yahboomcar_KCFTracker) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/KCF_Tracker_Node.dir/include/yahboomcar_KCFTracker/kcftracker.cpp.o\x1b[0m\n'}
+[69.110402] (-) TimerEvent: {}
+[69.211754] (-) TimerEvent: {}
+[69.313088] (-) TimerEvent: {}
+[69.414769] (-) TimerEvent: {}
+[69.516439] (-) TimerEvent: {}
+[69.617948] (-) TimerEvent: {}
+[69.719698] (-) TimerEvent: {}
+[69.821115] (-) TimerEvent: {}
+[69.922452] (-) TimerEvent: {}
+[70.023920] (-) TimerEvent: {}
+[70.125327] (-) TimerEvent: {}
+[70.226994] (-) TimerEvent: {}
+[70.330261] (-) TimerEvent: {}
+[70.432099] (-) TimerEvent: {}
+[70.536687] (-) TimerEvent: {}
+[70.641193] (-) TimerEvent: {}
+[70.745230] (-) TimerEvent: {}
+[70.849561] (-) TimerEvent: {}
+[70.865843] (yahboomcar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yahboomcar_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[70.949827] (-) TimerEvent: {}
+[70.970090] (yahboomcar_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/image_msg__type_support.cpp.o\x1b[0m\n'}
+[71.050089] (-) TimerEvent: {}
+[71.154952] (-) TimerEvent: {}
+[71.257736] (-) TimerEvent: {}
+[71.360442] (-) TimerEvent: {}
+[71.463167] (-) TimerEvent: {}
+[71.564520] (-) TimerEvent: {}
+[71.665647] (-) TimerEvent: {}
+[71.766761] (-) TimerEvent: {}
+[71.868452] (-) TimerEvent: {}
+[71.970307] (-) TimerEvent: {}
+[72.071810] (-) TimerEvent: {}
+[72.173859] (-) TimerEvent: {}
+[72.275302] (-) TimerEvent: {}
+[72.376848] (-) TimerEvent: {}
+[72.477883] (-) TimerEvent: {}
+[72.582001] (-) TimerEvent: {}
+[72.684102] (-) TimerEvent: {}
+[72.786262] (-) TimerEvent: {}
+[72.892184] (-) TimerEvent: {}
+[72.965411] (yahboomcar_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/position__type_support.cpp.o\x1b[0m\n'}
+[72.992467] (-) TimerEvent: {}
+[73.095557] (-) TimerEvent: {}
+[73.199063] (-) TimerEvent: {}
+[73.302787] (-) TimerEvent: {}
+[73.407735] (-) TimerEvent: {}
+[73.511647] (-) TimerEvent: {}
+[73.616754] (-) TimerEvent: {}
+[73.720715] (-) TimerEvent: {}
+[73.824259] (-) TimerEvent: {}
+[73.928816] (-) TimerEvent: {}
+[74.032795] (-) TimerEvent: {}
+[74.138719] (-) TimerEvent: {}
+[74.239878] (-) TimerEvent: {}
+[74.340926] (-) TimerEvent: {}
+[74.445388] (-) TimerEvent: {}
+[74.548977] (-) TimerEvent: {}
+[74.654264] (-) TimerEvent: {}
+[74.772374] (-) TimerEvent: {}
+[74.827447] (yahboomcar_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/target__type_support.cpp.o\x1b[0m\n'}
+[74.872806] (-) TimerEvent: {}
+[74.974558] (-) TimerEvent: {}
+[75.075925] (-) TimerEvent: {}
+[75.177391] (-) TimerEvent: {}
+[75.279128] (-) TimerEvent: {}
+[75.380430] (-) TimerEvent: {}
+[75.481459] (-) TimerEvent: {}
+[75.583688] (-) TimerEvent: {}
+[75.685027] (-) TimerEvent: {}
+[75.786313] (-) TimerEvent: {}
+[75.888733] (-) TimerEvent: {}
+[75.991335] (-) TimerEvent: {}
+[76.094331] (-) TimerEvent: {}
+[76.197593] (-) TimerEvent: {}
+[76.302448] (-) TimerEvent: {}
+[76.407275] (-) TimerEvent: {}
+[76.509591] (-) TimerEvent: {}
+[76.612009] (-) TimerEvent: {}
+[76.713323] (-) TimerEvent: {}
+[76.753762] (yahboomcar_KCFTracker) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/include/yahboomcar_KCFTracker/kcftracker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat KCFTracker::getFeatures(const cv::Mat&, bool, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[76.754731] (yahboomcar_KCFTracker) StderrLine: {'line': b'\x1b[01m\x1b[K/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_KCFTracker/include/yahboomcar_KCFTracker/kcftracker.cpp:398:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcvIplImage\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KIplImage\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[76.755219] (yahboomcar_KCFTracker) StderrLine: {'line': b'  398 |         IplImage z_ipl = \x1b[01;31m\x1b[KcvIplImage\x1b[m\x1b[K(z);\n'}
+[76.755825] (yahboomcar_KCFTracker) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[76.756223] (yahboomcar_KCFTracker) StderrLine: {'line': b'      |                          \x1b[32m\x1b[KIplImage\x1b[m\x1b[K\n'}
+[76.765661] (yahboomcar_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/target_array__type_support.cpp.o\x1b[0m\n'}
+[76.813656] (-) TimerEvent: {}
+[76.916304] (-) TimerEvent: {}
+[77.018952] (-) TimerEvent: {}
+[77.121814] (-) TimerEvent: {}
+[77.224103] (-) TimerEvent: {}
+[77.326390] (-) TimerEvent: {}
+[77.428815] (-) TimerEvent: {}
+[77.531866] (-) TimerEvent: {}
+[77.634399] (-) TimerEvent: {}
+[77.736790] (-) TimerEvent: {}
+[77.841549] (-) TimerEvent: {}
+[77.944531] (-) TimerEvent: {}
+[78.047974] (-) TimerEvent: {}
+[78.151761] (-) TimerEvent: {}
+[78.254900] (-) TimerEvent: {}
+[78.358589] (-) TimerEvent: {}
+[78.461559] (-) TimerEvent: {}
+[78.563907] (-) TimerEvent: {}
+[78.666299] (-) TimerEvent: {}
+[78.772124] (-) TimerEvent: {}
+[78.874414] (-) TimerEvent: {}
+[78.976940] (-) TimerEvent: {}
+[79.079331] (-) TimerEvent: {}
+[79.143681] (yahboomcar_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboomcar_msgs/msg/detail/point_array__type_support.cpp.o\x1b[0m\n'}
+[79.179717] (-) TimerEvent: {}
+[79.197652] (yahboomcar_KCFTracker) StderrLine: {'line': b'make[2]: *** [CMakeFiles/KCF_Tracker_Node.dir/build.make:89: CMakeFiles/KCF_Tracker_Node.dir/include/yahboomcar_KCFTracker/kcftracker.cpp.o] Error 1\n'}
+[79.198670] (yahboomcar_KCFTracker) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/KCF_Tracker_Node.dir/all] Error 2\n'}
+[79.205574] (yahboomcar_KCFTracker) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[79.209153] (yahboomcar_KCFTracker) JobEnded: {'identifier': 'yahboomcar_KCFTracker', 'rc': 'SIGINT'}
+[79.280001] (-) TimerEvent: {}
+[79.380841] (-) TimerEvent: {}
+[79.481861] (-) TimerEvent: {}
+[79.582821] (-) TimerEvent: {}
+[79.683909] (-) TimerEvent: {}
+[79.784995] (-) TimerEvent: {}
+[79.886375] (-) TimerEvent: {}
+[79.987487] (-) TimerEvent: {}
+[80.088760] (-) TimerEvent: {}
+[80.192057] (-) TimerEvent: {}
+[80.294194] (-) TimerEvent: {}
+[80.395785] (-) TimerEvent: {}
+[80.497279] (-) TimerEvent: {}
+[80.598588] (-) TimerEvent: {}
+[80.699698] (-) TimerEvent: {}
+[80.800812] (-) TimerEvent: {}
+[80.901828] (-) TimerEvent: {}
+[80.926278] (yahboomcar_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[81.002104] (-) TimerEvent: {}
+[81.105196] (-) TimerEvent: {}
+[81.206324] (-) TimerEvent: {}
+[81.306393] (yahboomcar_msgs) StdoutLine: {'line': b'[ 68%] Built target yahboomcar_msgs__rosidl_typesupport_introspection_cpp\n'}
+[81.307130] (-) TimerEvent: {}
+[81.397839] (yahboomcar_msgs) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[81.407399] (-) TimerEvent: {}
+[81.510581] (-) TimerEvent: {}
+[81.612449] (-) TimerEvent: {}
+[81.713997] (-) TimerEvent: {}
+[81.815910] (-) TimerEvent: {}
+[81.916993] (-) TimerEvent: {}
+[82.020790] (-) TimerEvent: {}
+[82.123754] (-) TimerEvent: {}
+[82.226569] (-) TimerEvent: {}
+[82.329576] (-) TimerEvent: {}
+[82.433977] (-) TimerEvent: {}
+[82.536407] (-) TimerEvent: {}
+[82.637582] (-) TimerEvent: {}
+[82.739494] (-) TimerEvent: {}
+[82.841388] (-) TimerEvent: {}
+[82.942785] (-) TimerEvent: {}
+[83.043980] (-) TimerEvent: {}
+[83.145099] (-) TimerEvent: {}
+[83.246157] (-) TimerEvent: {}
+[83.347156] (-) TimerEvent: {}
+[83.371346] (yahboomcar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yahboomcar_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[83.447410] (-) TimerEvent: {}
+[83.521674] (yahboomcar_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/image_msg__type_support_c.cpp.o\x1b[0m\n'}
+[83.547725] (-) TimerEvent: {}
+[83.648707] (-) TimerEvent: {}
+[83.749774] (-) TimerEvent: {}
+[83.851242] (-) TimerEvent: {}
+[83.952771] (-) TimerEvent: {}
+[84.053808] (-) TimerEvent: {}
+[84.154838] (-) TimerEvent: {}
+[84.255975] (-) TimerEvent: {}
+[84.357361] (-) TimerEvent: {}
+[84.459220] (-) TimerEvent: {}
+[84.561110] (-) TimerEvent: {}
+[84.664157] (-) TimerEvent: {}
+[84.767571] (-) TimerEvent: {}
+[84.869769] (-) TimerEvent: {}
+[84.973420] (-) TimerEvent: {}
+[85.076170] (-) TimerEvent: {}
+[85.177183] (-) TimerEvent: {}
+[85.221825] (yahboomcar_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/target__type_support_c.cpp.o\x1b[0m\n'}
+[85.277415] (-) TimerEvent: {}
+[85.378401] (-) TimerEvent: {}
+[85.480426] (-) TimerEvent: {}
+[85.583184] (-) TimerEvent: {}
+[85.684223] (-) TimerEvent: {}
+[85.788461] (-) TimerEvent: {}
+[85.890583] (-) TimerEvent: {}
+[85.991809] (-) TimerEvent: {}
+[86.092985] (-) TimerEvent: {}
+[86.194167] (-) TimerEvent: {}
+[86.296111] (-) TimerEvent: {}
+[86.400224] (-) TimerEvent: {}
+[86.503637] (-) TimerEvent: {}
+[86.606827] (-) TimerEvent: {}
+[86.710283] (-) TimerEvent: {}
+[86.813684] (-) TimerEvent: {}
+[86.915925] (-) TimerEvent: {}
+[86.932660] (yahboomcar_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/target_array__type_support_c.cpp.o\x1b[0m\n'}
+[87.016190] (-) TimerEvent: {}
+[87.117390] (-) TimerEvent: {}
+[87.218313] (-) TimerEvent: {}
+[87.319296] (-) TimerEvent: {}
+[87.420742] (-) TimerEvent: {}
+[87.521773] (-) TimerEvent: {}
+[87.622922] (-) TimerEvent: {}
+[87.724170] (-) TimerEvent: {}
+[87.825297] (-) TimerEvent: {}
+[87.929369] (-) TimerEvent: {}
+[88.033156] (-) TimerEvent: {}
+[88.136830] (-) TimerEvent: {}
+[88.238678] (-) TimerEvent: {}
+[88.341042] (-) TimerEvent: {}
+[88.443296] (-) TimerEvent: {}
+[88.544994] (-) TimerEvent: {}
+[88.553463] (yahboomcar_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/position__type_support_c.cpp.o\x1b[0m\n'}
+[88.645233] (-) TimerEvent: {}
+[88.748245] (-) TimerEvent: {}
+[88.851163] (-) TimerEvent: {}
+[88.954784] (-) TimerEvent: {}
+[89.058177] (-) TimerEvent: {}
+[89.160660] (-) TimerEvent: {}
+[89.261510] (-) TimerEvent: {}
+[89.364247] (-) TimerEvent: {}
+[89.466807] (-) TimerEvent: {}
+[89.567906] (-) TimerEvent: {}
+[89.668794] (-) TimerEvent: {}
+[89.770133] (-) TimerEvent: {}
+[89.871140] (-) TimerEvent: {}
+[89.973485] (-) TimerEvent: {}
+[90.076168] (-) TimerEvent: {}
+[90.179157] (-) TimerEvent: {}
+[90.208035] (yahboomcar_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboomcar_msgs/msg/detail/point_array__type_support_c.cpp.o\x1b[0m\n'}
+[90.279460] (-) TimerEvent: {}
+[90.380610] (-) TimerEvent: {}
+[90.483165] (-) TimerEvent: {}
+[90.588181] (-) TimerEvent: {}
+[90.692226] (-) TimerEvent: {}
+[90.797157] (-) TimerEvent: {}
+[90.901377] (-) TimerEvent: {}
+[91.005260] (-) TimerEvent: {}
+[91.109372] (-) TimerEvent: {}
+[91.212908] (-) TimerEvent: {}
+[91.315213] (-) TimerEvent: {}
+[91.416265] (-) TimerEvent: {}
+[91.517354] (-) TimerEvent: {}
+[91.618231] (-) TimerEvent: {}
+[91.719906] (-) TimerEvent: {}
+[91.776236] (yahboomcar_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libyahboomcar_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[91.820159] (-) TimerEvent: {}
+[91.921842] (-) TimerEvent: {}
+[92.023129] (-) TimerEvent: {}
+[92.124295] (-) TimerEvent: {}
+[92.198892] (yahboomcar_msgs) StdoutLine: {'line': b'[ 79%] Built target yahboomcar_msgs__rosidl_typesupport_fastrtps_c\n'}
+[92.224473] (-) TimerEvent: {}
+[92.264014] (yahboomcar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yahboomcar_msgs\x1b[0m\n'}
+[92.324985] (-) TimerEvent: {}
+[92.340091] (yahboomcar_msgs) StdoutLine: {'line': b'[ 79%] Built target yahboomcar_msgs\n'}
+[92.403789] (yahboomcar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yahboomcar_msgs__py\x1b[0m\n'}
+[92.428407] (-) TimerEvent: {}
+[92.489999] (yahboomcar_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[92.525850] (-) TimerEvent: {}
+[92.626758] (-) TimerEvent: {}
+[92.728865] (-) TimerEvent: {}
+[92.833707] (-) TimerEvent: {}
+[92.938141] (-) TimerEvent: {}
+[93.042733] (-) TimerEvent: {}
+[93.147144] (-) TimerEvent: {}
+[93.251435] (-) TimerEvent: {}
+[93.356242] (-) TimerEvent: {}
+[93.458904] (-) TimerEvent: {}
+[93.562495] (-) TimerEvent: {}
+[93.664208] (-) TimerEvent: {}
+[93.766095] (-) TimerEvent: {}
+[93.870682] (-) TimerEvent: {}
+[93.974796] (-) TimerEvent: {}
+[94.079784] (-) TimerEvent: {}
+[94.182999] (-) TimerEvent: {}
+[94.284187] (-) TimerEvent: {}
+[94.386760] (-) TimerEvent: {}
+[94.488759] (-) TimerEvent: {}
+[94.591804] (-) TimerEvent: {}
+[94.694641] (-) TimerEvent: {}
+[94.797823] (-) TimerEvent: {}
+[94.901044] (-) TimerEvent: {}
+[95.005760] (-) TimerEvent: {}
+[95.108272] (-) TimerEvent: {}
+[95.209097] (-) TimerEvent: {}
+[95.309984] (-) TimerEvent: {}
+[95.412961] (-) TimerEvent: {}
+[95.515493] (-) TimerEvent: {}
+[95.618469] (-) TimerEvent: {}
+[95.720311] (-) TimerEvent: {}
+[95.822626] (-) TimerEvent: {}
+[95.924830] (-) TimerEvent: {}
+[96.028815] (-) TimerEvent: {}
+[96.131828] (-) TimerEvent: {}
+[96.233410] (-) TimerEvent: {}
+[96.334986] (-) TimerEvent: {}
+[96.437976] (-) TimerEvent: {}
+[96.539354] (-) TimerEvent: {}
+[96.640713] (-) TimerEvent: {}
+[96.742121] (-) TimerEvent: {}
+[96.845105] (-) TimerEvent: {}
+[96.948058] (-) TimerEvent: {}
+[97.051107] (-) TimerEvent: {}
+[97.154158] (-) TimerEvent: {}
+[97.257204] (-) TimerEvent: {}
+[97.360824] (-) TimerEvent: {}
+[97.464245] (-) TimerEvent: {}
+[97.567392] (-) TimerEvent: {}
+[97.671216] (-) TimerEvent: {}
+[97.720097] (yahboomcar_msgs) StdoutLine: {'line': b'[ 80%] Built target yahboomcar_msgs__py\n'}
+[97.771453] (-) TimerEvent: {}
+[97.791286] (yahboomcar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yahboomcar_msgs__python\x1b[0m\n'}
+[97.871744] (-) TimerEvent: {}
+[97.973572] (-) TimerEvent: {}
+[97.998693] (yahboomcar_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/yahboomcar_msgs__python.dir/rosidl_generator_py/yahboomcar_msgs/msg/_image_msg_s.c.o\x1b[0m\n'}
+[98.073834] (-) TimerEvent: {}
+[98.175889] (-) TimerEvent: {}
+[98.277564] (-) TimerEvent: {}
+[98.378601] (-) TimerEvent: {}
+[98.479761] (-) TimerEvent: {}
+[98.584123] (-) TimerEvent: {}
+[98.606126] (yahboomcar_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/yahboomcar_msgs__python.dir/rosidl_generator_py/yahboomcar_msgs/msg/_target_s.c.o\x1b[0m\n'}
+[98.687491] (-) TimerEvent: {}
+[98.793237] (-) TimerEvent: {}
+[98.894246] (-) TimerEvent: {}
+[98.995348] (-) TimerEvent: {}
+[99.096728] (-) TimerEvent: {}
+[99.203017] (-) TimerEvent: {}
+[99.304645] (-) TimerEvent: {}
+[99.352168] (yahboomcar_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/yahboomcar_msgs__python.dir/rosidl_generator_py/yahboomcar_msgs/msg/_target_array_s.c.o\x1b[0m\n'}
+[99.404911] (-) TimerEvent: {}
+[99.506347] (-) TimerEvent: {}
+[99.608265] (-) TimerEvent: {}
+[99.710745] (-) TimerEvent: {}
+[99.812669] (-) TimerEvent: {}
+[99.914273] (-) TimerEvent: {}
+[99.957848] (yahboomcar_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/yahboomcar_msgs__python.dir/rosidl_generator_py/yahboomcar_msgs/msg/_position_s.c.o\x1b[0m\n'}
+[100.014497] (-) TimerEvent: {}
+[100.115747] (-) TimerEvent: {}
+[100.217576] (-) TimerEvent: {}
+[100.318531] (-) TimerEvent: {}
+[100.419638] (-) TimerEvent: {}
+[100.473501] (yahboomcar_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/yahboomcar_msgs__python.dir/rosidl_generator_py/yahboomcar_msgs/msg/_point_array_s.c.o\x1b[0m\n'}
+[100.520159] (-) TimerEvent: {}
+[100.622214] (-) TimerEvent: {}
+[100.724349] (-) TimerEvent: {}
+[100.825900] (-) TimerEvent: {}
+[100.928204] (-) TimerEvent: {}
+[100.979420] (yahboomcar_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yahboomcar_msgs/libyahboomcar_msgs__python.so\x1b[0m\n'}
+[101.028421] (-) TimerEvent: {}
+[101.130360] (-) TimerEvent: {}
+[101.231915] (-) TimerEvent: {}
+[101.235235] (yahboomcar_msgs) StdoutLine: {'line': b'[ 90%] Built target yahboomcar_msgs__python\n'}
+[101.298495] (yahboomcar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yahboomcar_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[101.332217] (-) TimerEvent: {}
+[101.418119] (yahboomcar_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[101.432437] (-) TimerEvent: {}
+[101.533337] (-) TimerEvent: {}
+[101.634364] (-) TimerEvent: {}
+[101.735447] (-) TimerEvent: {}
+[101.836847] (-) TimerEvent: {}
+[101.935261] (yahboomcar_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[101.936988] (-) TimerEvent: {}
+[102.037806] (-) TimerEvent: {}
+[102.138809] (-) TimerEvent: {}
+[102.160714] (yahboomcar_msgs) StdoutLine: {'line': b'[ 93%] Built target yahboomcar_msgs__rosidl_typesupport_c__pyext\n'}
+[102.229533] (yahboomcar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yahboomcar_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[102.239003] (-) TimerEvent: {}
+[102.339943] (-) TimerEvent: {}
+[102.366756] (yahboomcar_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[102.440158] (-) TimerEvent: {}
+[102.541198] (-) TimerEvent: {}
+[102.644499] (-) TimerEvent: {}
+[102.747836] (-) TimerEvent: {}
+[102.850758] (-) TimerEvent: {}
+[102.887967] (yahboomcar_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[102.951020] (-) TimerEvent: {}
+[103.054256] (-) TimerEvent: {}
+[103.155257] (-) TimerEvent: {}
+[103.249325] (yahboomcar_msgs) StdoutLine: {'line': b'[ 96%] Built target yahboomcar_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[103.255655] (-) TimerEvent: {}
+[103.315683] (yahboomcar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yahboomcar_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[103.355866] (-) TimerEvent: {}
+[103.440050] (yahboomcar_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/yahboomcar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yahboomcar_msgs/_yahboomcar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[103.456086] (-) TimerEvent: {}
+[103.558522] (-) TimerEvent: {}
+[103.659470] (-) TimerEvent: {}
+[103.763332] (-) TimerEvent: {}
+[103.865056] (-) TimerEvent: {}
+[103.966326] (-) TimerEvent: {}
+[104.067258] (-) TimerEvent: {}
+[104.117976] (yahboomcar_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yahboomcar_msgs/yahboomcar_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[104.167481] (-) TimerEvent: {}
+[104.270275] (-) TimerEvent: {}
+[104.348997] (yahboomcar_msgs) StdoutLine: {'line': b'[100%] Built target yahboomcar_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[104.370496] (-) TimerEvent: {}
+[104.420319] (yahboomcar_msgs) JobEnded: {'identifier': 'yahboomcar_msgs', 'rc': 'SIGINT'}
+[104.433811] (yahboomcar_description_x1) JobSkipped: {'identifier': 'yahboomcar_description_x1'}
+[104.434138] (yahboomcar_laser) JobSkipped: {'identifier': 'yahboomcar_laser'}
+[104.434249] (yahboomcar_linefollow) JobSkipped: {'identifier': 'yahboomcar_linefollow'}
+[104.434354] (yahboomcar_mediapipe) JobSkipped: {'identifier': 'yahboomcar_mediapipe'}
+[104.434442] (yahboomcar_nav) JobSkipped: {'identifier': 'yahboomcar_nav'}
+[104.434694] (yahboomcar_slam) JobSkipped: {'identifier': 'yahboomcar_slam'}
+[104.435929] (yahboomcar_visual) JobSkipped: {'identifier': 'yahboomcar_visual'}
+[104.436031] (yahboomcar_voice_ctrl) JobSkipped: {'identifier': 'yahboomcar_voice_ctrl'}
+[104.436110] (yahboomcar_point) JobSkipped: {'identifier': 'yahboomcar_point'}
+[104.436189] (-) EventReactorShutdown: {}

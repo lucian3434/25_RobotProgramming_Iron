@@ -1,0 +1,24 @@
+[3.943s] Invoking command in '/root/codes/iron_yahboomcar_ws/src/yahboomcar_color': PYTHONPATH=/root/codes/iron_yahboomcar_ws/build/yahboomcar_color/prefix_override:/root/codes/iron_yahboomcar_ws/install/yahboomcar_color/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_color build --build-base /root/codes/iron_yahboomcar_ws/build/yahboomcar_color/build install --record /root/codes/iron_yahboomcar_ws/build/yahboomcar_color/install.log --install-scripts $base/lib/yahboomcar_color --single-version-externally-managed
+[5.297s] running egg_info
+[5.300s] writing ../../build/yahboomcar_color/yahboomcar_color.egg-info/PKG-INFO
+[5.301s] writing dependency_links to ../../build/yahboomcar_color/yahboomcar_color.egg-info/dependency_links.txt
+[5.301s] writing entry points to ../../build/yahboomcar_color/yahboomcar_color.egg-info/entry_points.txt
+[5.302s] writing requirements to ../../build/yahboomcar_color/yahboomcar_color.egg-info/requires.txt
+[5.302s] writing top-level names to ../../build/yahboomcar_color/yahboomcar_color.egg-info/top_level.txt
+[5.482s] reading manifest file '../../build/yahboomcar_color/yahboomcar_color.egg-info/SOURCES.txt'
+[5.486s] writing manifest file '../../build/yahboomcar_color/yahboomcar_color.egg-info/SOURCES.txt'
+[5.486s] running build
+[5.486s] running build_py
+[5.487s] copying yahboomcar_color/color_service.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_color/build/lib/yahboomcar_color
+[5.487s] running install
+[5.493s] running install_lib
+[5.500s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_color/lib/python3.8/site-packages/yahboomcar_color/color_service.py to color_service.cpython-38.pyc
+[5.507s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_color/lib/python3.8/site-packages/yahboomcar_color/__init__.py to __init__.cpython-38.pyc
+[5.507s] running install_data
+[5.510s] running install_egg_info
+[5.518s] removing '/root/codes/iron_yahboomcar_ws/install/yahboomcar_color/lib/python3.8/site-packages/yahboomcar_color-0.0.0-py3.8.egg-info' (and everything under it)
+[5.519s] Copying ../../build/yahboomcar_color/yahboomcar_color.egg-info to /root/codes/iron_yahboomcar_ws/install/yahboomcar_color/lib/python3.8/site-packages/yahboomcar_color-0.0.0-py3.8.egg-info
+[5.523s] running install_scripts
+[5.608s] Installing color_service script to /root/codes/iron_yahboomcar_ws/install/yahboomcar_color/lib/yahboomcar_color
+[5.610s] writing list of installed files to '/root/codes/iron_yahboomcar_ws/build/yahboomcar_color/install.log'
+[5.715s] Invoked command in '/root/codes/iron_yahboomcar_ws/src/yahboomcar_color' returned '0': PYTHONPATH=/root/codes/iron_yahboomcar_ws/build/yahboomcar_color/prefix_override:/root/codes/iron_yahboomcar_ws/install/yahboomcar_color/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_color build --build-base /root/codes/iron_yahboomcar_ws/build/yahboomcar_color/build install --record /root/codes/iron_yahboomcar_ws/build/yahboomcar_color/install.log --install-scripts $base/lib/yahboomcar_color --single-version-externally-managed

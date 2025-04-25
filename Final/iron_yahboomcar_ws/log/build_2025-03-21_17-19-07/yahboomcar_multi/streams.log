@@ -1,0 +1,62 @@
+[4.475s] Invoking command in '/root/codes/iron_yahboomcar_ws/src/yahboomcar_multi': PYTHONPATH=/root/codes/iron_yahboomcar_ws/build/yahboomcar_multi/prefix_override:/root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_multi build --build-base /root/codes/iron_yahboomcar_ws/build/yahboomcar_multi/build install --record /root/codes/iron_yahboomcar_ws/build/yahboomcar_multi/install.log --install-scripts $base/lib/yahboomcar_multi --single-version-externally-managed
+[5.857s] running egg_info
+[5.859s] creating ../../build/yahboomcar_multi/yahboomcar_multi.egg-info
+[5.860s] writing ../../build/yahboomcar_multi/yahboomcar_multi.egg-info/PKG-INFO
+[5.861s] writing dependency_links to ../../build/yahboomcar_multi/yahboomcar_multi.egg-info/dependency_links.txt
+[5.861s] writing entry points to ../../build/yahboomcar_multi/yahboomcar_multi.egg-info/entry_points.txt
+[5.862s] writing requirements to ../../build/yahboomcar_multi/yahboomcar_multi.egg-info/requires.txt
+[5.862s] writing top-level names to ../../build/yahboomcar_multi/yahboomcar_multi.egg-info/top_level.txt
+[5.869s] writing manifest file '../../build/yahboomcar_multi/yahboomcar_multi.egg-info/SOURCES.txt'
+[6.036s] reading manifest file '../../build/yahboomcar_multi/yahboomcar_multi.egg-info/SOURCES.txt'
+[6.041s] writing manifest file '../../build/yahboomcar_multi/yahboomcar_multi.egg-info/SOURCES.txt'
+[6.041s] running build
+[6.042s] running build_py
+[6.042s] creating /root/codes/iron_yahboomcar_ws/build/yahboomcar_multi/build
+[6.042s] creating /root/codes/iron_yahboomcar_ws/build/yahboomcar_multi/build/lib
+[6.043s] creating /root/codes/iron_yahboomcar_ws/build/yahboomcar_multi/build/lib/yahboomcar_multi
+[6.043s] copying yahboomcar_multi/__init__.py -> /root/codes/iron_yahboomcar_ws/build/yahboomcar_multi/build/lib/yahboomcar_multi
+[6.044s] running install
+[6.048s] running install_lib
+[6.052s] copying /root/codes/iron_yahboomcar_ws/build/yahboomcar_multi/build/lib/yahboomcar_multi/__init__.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/lib/python3.8/site-packages/yahboomcar_multi
+[6.056s] byte-compiling /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/lib/python3.8/site-packages/yahboomcar_multi/__init__.py to __init__.cpython-38.pyc
+[6.062s] running install_data
+[6.064s] copying resource/yahboomcar_multi -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/ament_index/resource_index/packages
+[6.065s] copying package.xml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi
+[6.065s] copying launch/R2_nav_robot2_launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.066s] copying launch/X3_bringup_multi.launch.xml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.066s] copying launch/X3_bringup_multi_ctrl.launch.xml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.067s] copying launch/X3_amcl_robot1_launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.067s] copying launch/X3_nav_robot1_launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.067s] copying launch/R2_bringup_multi_ctrl.launch.xml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.068s] copying launch/R2_A1_bringup_multi.launch.xml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.068s] copying launch/bringup_multi.launch.xml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.069s] copying launch/X3_nav_robot2_launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.069s] copying launch/X3_S2_bringup_multi.launch.xml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.070s] copying launch/S2_multi.launch.xml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.070s] copying launch/R2_bringup_multi.launch.xml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.071s] copying launch/R2_4ROS_bringup_multi.launch.xml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.071s] copying launch/R2_amcl_robot1_launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.072s] copying launch/4ROS_multi.launch.xml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.073s] copying launch/A1_multi.launch.xml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.073s] copying launch/R2_amcl_robot2_launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.073s] copying launch/X3_A1_bringup_multi.launch.xml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.074s] copying launch/R2_nav_robot1_launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.074s] copying launch/X3_amcl_robot2_launch.py -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/launch
+[6.075s] copying param/X3_amcl_robot1.yaml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/param
+[6.075s] copying param/R2_nav_robot2.yaml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/param
+[6.076s] copying param/R2_amcl_robot2.yaml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/param
+[6.076s] copying param/R2_ekf_robot1.yaml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/param
+[6.077s] copying param/R2_nav_robot1.yaml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/param
+[6.077s] copying param/X3_ekf_robot2.yaml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/param
+[6.078s] copying param/X3_nav_robot1.yaml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/param
+[6.078s] copying param/X3_amcl_robot2.yaml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/param
+[6.079s] copying param/X3_ekf_robot1.yaml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/param
+[6.079s] copying param/R2_amcl_robot1.yaml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/param
+[6.080s] copying param/R2_ekf_robot2.yaml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/param
+[6.080s] copying param/X3_nav_robot2.yaml -> /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi/param
+[6.081s] running install_egg_info
+[6.089s] removing '/root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/lib/python3.8/site-packages/yahboomcar_multi-0.0.0-py3.8.egg-info' (and everything under it)
+[6.090s] Copying ../../build/yahboomcar_multi/yahboomcar_multi.egg-info to /root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/lib/python3.8/site-packages/yahboomcar_multi-0.0.0-py3.8.egg-info
+[6.094s] running install_scripts
+[6.177s] writing list of installed files to '/root/codes/iron_yahboomcar_ws/build/yahboomcar_multi/install.log'
+[6.295s] Invoked command in '/root/codes/iron_yahboomcar_ws/src/yahboomcar_multi' returned '0': PYTHONPATH=/root/codes/iron_yahboomcar_ws/build/yahboomcar_multi/prefix_override:/root/codes/iron_yahboomcar_ws/install/yahboomcar_multi/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_multi build --build-base /root/codes/iron_yahboomcar_ws/build/yahboomcar_multi/build install --record /root/codes/iron_yahboomcar_ws/build/yahboomcar_multi/install.log --install-scripts $base/lib/yahboomcar_multi --single-version-externally-managed

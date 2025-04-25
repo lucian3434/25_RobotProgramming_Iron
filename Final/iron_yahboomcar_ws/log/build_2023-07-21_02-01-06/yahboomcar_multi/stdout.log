@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/yahboomcar_multi/yahboomcar_multi.egg-info
+writing ../../build/yahboomcar_multi/yahboomcar_multi.egg-info/PKG-INFO
+writing dependency_links to ../../build/yahboomcar_multi/yahboomcar_multi.egg-info/dependency_links.txt
+writing entry points to ../../build/yahboomcar_multi/yahboomcar_multi.egg-info/entry_points.txt
+writing requirements to ../../build/yahboomcar_multi/yahboomcar_multi.egg-info/requires.txt
+writing top-level names to ../../build/yahboomcar_multi/yahboomcar_multi.egg-info/top_level.txt
+writing manifest file '../../build/yahboomcar_multi/yahboomcar_multi.egg-info/SOURCES.txt'
+reading manifest file '../../build/yahboomcar_multi/yahboomcar_multi.egg-info/SOURCES.txt'
+writing manifest file '../../build/yahboomcar_multi/yahboomcar_multi.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_multi/build
+creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_multi/build/lib
+creating /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_multi/build/lib/yahboomcar_multi
+copying yahboomcar_multi/__init__.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_multi/build/lib/yahboomcar_multi
+running install
+running install_lib
+creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/lib/python3.8/site-packages/yahboomcar_multi
+copying /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_multi/build/lib/yahboomcar_multi/__init__.py -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/lib/python3.8/site-packages/yahboomcar_multi
+byte-compiling /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/lib/python3.8/site-packages/yahboomcar_multi/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/share/ament_index
+creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/share/ament_index/resource_index
+creating /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/share/ament_index/resource_index/packages
+copying resource/yahboomcar_multi -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/share/ament_index/resource_index/packages
+copying package.xml -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/share/yahboomcar_multi
+running install_egg_info
+Copying ../../build/yahboomcar_multi/yahboomcar_multi.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi/lib/python3.8/site-packages/yahboomcar_multi-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_multi/install.log'

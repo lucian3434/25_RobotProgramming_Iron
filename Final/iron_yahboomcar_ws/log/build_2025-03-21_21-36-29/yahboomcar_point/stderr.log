@@ -1,0 +1,4 @@
+CMake Error: The current CMakeCache.txt directory /root/codes/iron_yahboomcar_ws/build/yahboomcar_point/CMakeCache.txt is different than the directory /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_point where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled

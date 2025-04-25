@@ -1,0 +1,16 @@
+/root/codes/iron_yahboomcar_ws/install/yahboomcar_point/lib/yahboomcar_point/pub_point
+/root/codes/iron_yahboomcar_ws/install/yahboomcar_point/share/ament_index/resource_index/package_run_dependencies/yahboomcar_point
+/root/codes/iron_yahboomcar_ws/install/yahboomcar_point/share/ament_index/resource_index/parent_prefix_path/yahboomcar_point
+/root/codes/iron_yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/environment/ament_prefix_path.sh
+/root/codes/iron_yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/environment/ament_prefix_path.dsv
+/root/codes/iron_yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/environment/path.sh
+/root/codes/iron_yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/environment/path.dsv
+/root/codes/iron_yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/local_setup.bash
+/root/codes/iron_yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/local_setup.sh
+/root/codes/iron_yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/local_setup.zsh
+/root/codes/iron_yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/local_setup.dsv
+/root/codes/iron_yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/package.dsv
+/root/codes/iron_yahboomcar_ws/install/yahboomcar_point/share/ament_index/resource_index/packages/yahboomcar_point
+/root/codes/iron_yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/cmake/yahboomcar_pointConfig.cmake
+/root/codes/iron_yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/cmake/yahboomcar_pointConfig-version.cmake
+/root/codes/iron_yahboomcar_ws/install/yahboomcar_point/share/yahboomcar_point/package.xml

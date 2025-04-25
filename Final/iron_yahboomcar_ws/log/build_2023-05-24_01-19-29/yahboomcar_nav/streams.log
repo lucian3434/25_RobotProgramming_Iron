@@ -1,0 +1,21 @@
+[4.152s] Invoking command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_nav': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_nav/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_nav build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_nav/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_nav/install.log --install-scripts $base/lib/yahboomcar_nav --single-version-externally-managed
+[5.444s] running egg_info
+[5.448s] writing ../../build/yahboomcar_nav/yahboomcar_nav.egg-info/PKG-INFO
+[5.449s] writing dependency_links to ../../build/yahboomcar_nav/yahboomcar_nav.egg-info/dependency_links.txt
+[5.449s] writing entry points to ../../build/yahboomcar_nav/yahboomcar_nav.egg-info/entry_points.txt
+[5.450s] writing requirements to ../../build/yahboomcar_nav/yahboomcar_nav.egg-info/requires.txt
+[5.451s] writing top-level names to ../../build/yahboomcar_nav/yahboomcar_nav.egg-info/top_level.txt
+[5.636s] reading manifest file '../../build/yahboomcar_nav/yahboomcar_nav.egg-info/SOURCES.txt'
+[5.643s] writing manifest file '../../build/yahboomcar_nav/yahboomcar_nav.egg-info/SOURCES.txt'
+[5.644s] running build
+[5.645s] running build_py
+[5.645s] running install
+[5.650s] running install_lib
+[5.658s] running install_data
+[5.663s] copying params/teb_nav_params.yaml -> /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/share/yahboomcar_nav/params
+[5.667s] running install_egg_info
+[5.675s] removing '/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages/yahboomcar_nav-0.0.0-py3.8.egg-info' (and everything under it)
+[5.678s] Copying ../../build/yahboomcar_nav/yahboomcar_nav.egg-info to /root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages/yahboomcar_nav-0.0.0-py3.8.egg-info
+[5.686s] running install_scripts
+[5.769s] writing list of installed files to '/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_nav/install.log'
+[5.873s] Invoked command in '/root/yahboomcar_ros2_ws/yahboomcar_ws/src/yahboomcar_nav' returned '0': PYTHONPATH=/root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_nav/prefix_override:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yahboomcar_nav build --build-base /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_nav/build install --record /root/yahboomcar_ros2_ws/yahboomcar_ws/build/yahboomcar_nav/install.log --install-scripts $base/lib/yahboomcar_nav --single-version-externally-managed

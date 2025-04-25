@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target base_node_X3[0m
+[ 66%] Built target base_node_x1
+[ 66%] Built target base_node_R2
+[ 83%] [32mBuilding CXX object CMakeFiles/base_node_X3.dir/src/base_node_X3.cpp.o[0m
